@@ -7,7 +7,9 @@ blockquote:before,blockquote:after,q:before,q:after{content:""}
 blockquote,q{quotes:"" ""}
 input[data-ime-mode-disabled]{ime-mode:disabled !important}
 input[type=file]{ime-mode:disabled !important}
-
+h1,h2,h3,h4,h5,h6{
+	font-size: 46px !important;
+}
 
 /* lib/yui/2.8.1/container/assets/container-core-min.css */
 
