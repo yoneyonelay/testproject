@@ -1,0 +1,304 @@
+
+
+/* scss/modules/ajaxloader.css */
+
+.ajax-content .progress-indicator,.ajax-content .content,.ajax-content .error-msg{display:none}
+.ajax-content.loading .progress-indicator{display:block}
+.ajax-content.error .error-msg{display:block}
+.ajax-content.error .content{display:none}
+.ajax-content.loaded .content{display:block}
+
+
+
+/* scss/apps/profile/my_profile.css */
+
+#main .alert.attention{zoom:1;background:#fff5cc url('../images/pics2/img/icon/icon_status_info_16x16_v2.png') no-repeat 8px 6px;padding:6px 6px 6px 30px;margin-top:6px;clear:both}
+#main .alert.attention p{padding:0;margin:0}
+.edit-my-profile a:hover{text-decoration:underline}
+.edit-my-profile #overview .none{color:#666}
+.edit-my-profile #overview .tip{color:#666;margin-top:6px}
+.es #companyIndustry-positionCompany-position-editPositionForm{width:260px}
+.edit-my-profile .add{background:url('../images/pics2/img/sprite/sprite_profile_v9.png') 0 -571px no-repeat;font-size:12px;font-weight:bold;padding:2px 0 2px 15px;white-space:nowrap}
+.edit-my-profile .header .add{position:absolute;right:0;_right:35px;top:2px;display:block}
+.edit-my-profile .overview-recommendations .add{*display:block}
+.edit-my-profile .edit{font-weight:normal;color:#000;font-size:11px;white-space:nowrap}
+.edit-my-profile a.add,.edit-my-profile .edit a{color:#069 !important}
+.edit-my-profile .profile-header .caption{text-align:center;padding-top:5px}
+.resume .header{position:relative}
+.edit-my-profile #overview{margin:15px 0 0;_zoom:1}
+.edit-my-profile #overview ul.current span.edit{font-weight:normal;white-space:nowrap}
+.edit-my-profile #public-profile-promo p.url{font-size:110%;color:#000}
+.edit-my-profile .profile #extra h2{margin:0 0 0;padding:0 0 5px;color:#000;font-size:180%;font-weight:normal;border-bottom:1px solid #ddd}
+.edit-my-profile .resume .content{clear:both}
+.edit-my-profile .resume h3.position-title{margin-bottom:4px}
+.edit-my-profile p.recommendations{color:#060;font-size:110%}
+.edit-my-profile .installed-apps{display:block}
+.edit-my-profile .featured-applications{background-color:#f5f5f5;margin-top:10px;padding:10px}
+.edit-my-profile .featured-applications .header{margin:0 0 10px;padding:0}
+.edit-my-profile .featured-applications h3{margin:0;padding:0}
+.edit-my-profile .featured-applications .app{visibility:hidden;display:none;min-height:120px;background-color:#fff;padding:15px;border:1px solid #ddd;border-width:0 1px 2px 0;overflow:hidden;position:relative;padding-left:140px}
+.edit-my-profile .featured-applications .current{display:block}
+.edit-my-profile .featured-applications .app .thumbnail{position:absolute;left:10px;top:15px;_left:-130px}
+.edit-my-profile .featured-applications h4{margin:0}
+.edit-my-profile .featured-applications p.author{margin-bottom:5px;color:#666;font-size:110%}
+.edit-my-profile .featured-applications p.install-link{margin-top:10px;font-size:110%;font-weight:bold}
+.edit-my-profile .featured-applications p.more{margin:10px 0 0;text-align:right;font-size:110%}
+#ctrl{display:none;position:absolute;right:0;_right:10px;top:0}
+#ctrl span,#ctrl a{float:left;text-indent:-12345px;height:19px;width:22px}
+a#ctrl-back{background:url('../images/pics1/img/sprite/sprite_carousel_v1.png') no-repeat 0 0;cursor:pointer;margin-left:4px}
+a#ctrl-forward{background:url('../images/pics1/img/sprite/sprite_carousel_v1.png') no-repeat -22px 0;width:23px;cursor:pointer}
+#ctrl-back:hover{background-position:0 -39px}
+#ctrl-forward:hover{background-position:-22px -39px}
+#ctrl-back.disabled{background-position:0 -78px}
+#ctrl-forward.disabled{background-position:-22px -78px}
+#ctrl .counter{width:8px;background:url('../images/pics1/img/sprite/sprite_carousel_v1.png') no-repeat -18px -162px;margin:7px 6px 0 0}
+#ctrl .counter.current{background-position:-18px -123px}
+.drag-proxy #ctrl{right:9px;top:98px}
+.edit-my-profile .processing{position:relative;font-size:130%}
+.edit-my-profile .processing p{margin-bottom:10px}
+dd#pubgroups p{margin-bottom:1.2em}
+.mwp{width:570px;background:url('../images/pics1/img/bg/bg_trans_top_570x7.png') no-repeat #baddee;margin:0 auto}
+.mwp-in{background:url('../images/pics1/img/bg/bg_trans_bot_570x7.png') 0 100% no-repeat;padding:10px}
+.mwp-in h2{background:url('../images/pics2/img/icon/icon_webprofile_bluebg_44x32.png') 0 2px no-repeat;color:#069;font-size:216%;padding:3px 0 0 47px;position:relative}
+.mwp-in .ppdesc{padding-left:50px;margin:5px 0 11px}
+.mwp-inner{width:485px;background:url('../images/pics2/img/bg/bg_blue_top_485x7.png') no-repeat #daeff6;margin:0 0 15px 50px}
+.mwp-inner-in{background:url('../images/pics2/img/bg/bg_blue_bot_485x7.png') 0 100% no-repeat;padding:10px;*padding:1px 10px}
+.mwp-inner-in #options{width:204px;margin-right:15px;float:left}
+.mwp p{font-size:13px;margin-bottom:5px}
+.mwp ul{margin:0;padding:0}
+.mwp ul li{list-style:none;padding-bottom:8px;font-size:13px}
+.mwp ul li ul{margin-top:8px}
+.mwp ul li ul li{padding:0 0 8px 18px}
+.mwp ul li ul li ul{margin-top:3px}
+.mwp ul li ul li ul li{padding:0 0 0 25px;font-size:95%}
+.mwp .ppdesc ul{margin-left:.8em;padding-left:.8em}
+.mwp .ppdesc ul li{list-style:disc;padding-bottom:0}
+.mwp .sumry{margin:0 0 0 25px;font-size:85%}
+.mwp .pppreview{width:225px;float:right}
+.mwp .pppreview h3{color:#069;font-size:139%;font-weight:normal;margin:3px 0 0 12px}
+.mwp #ppp{background:url('../images/pics2/img/bg/bg_webpro_225x455.png') no-repeat;width:225px;height:455px;padding:20px 0 0 20px;position:relative}
+.mwp #ppp img{display:none}
+.mwp #ppp #image_none{color:#666;font-size:139%;font-weight:bold;margin:15px 18px 15px;text-align:center;width:150px}
+.mwp #ppp img#image_default_basictop{padding-bottom:5px}
+.mwp #ppp img#image_default_basicbox{position:absolute;left:155px;top:53px}
+.mwp #ppp img#image_32768{position:absolute;left:116px;top:26px}
+.mwp #ppp img#image_1{position:absolute;left:28px;top:34px}
+.mwp .morelinks{font-size:95%;margin:20px 0 10px}
+.mwp .ppaddress{width:255px;float:left;margin:0 15px 0 10px}
+.mwp .ppaddress h4{margin:0;font-size:110%;color:#069}
+.mwp .ppaddress p{margin:0 0 0 25px}
+.mwp .view-public a{background:url('../images/pics2/img/icon/icon_webpreview_19x19.png') no-repeat;font-weight:bold;padding:2px 0 2px 25px}
+.mvu{margin-top:10px;width:550px;background:url('../images/pics1/img/bg/bg_blue_top_550x7.png') no-repeat #daeff6}
+.mvu-in{background:url('../images/pics1/img/bg/bg_blue_bot_550x7.png') 0 100% no-repeat;padding:8px}
+.mwp #showhide{width:100px;float:right;text-align:right;display:none;font-size:13px}
+.mwp #showhide a{font-weight:bold}
+.mwp h3.url{background:url('../images/pics2/img/icon/icon_vanityurl_16x16.png') 0 2px no-repeat;padding-left:22px;margin:0;color:#069;font-size:15px;zoom:1}
+.mwp span#ppwhat{font-weight:normal;font-size:11px;display:inline;font-size:11px}
+.mwp span#ppurl{font-weight:normal;font-size:11px;line-height:15px;display:none}
+.mwp #editform{display:block;margin-left:0}
+.mwp #editbtn{display:none;font-size:12px}
+.mwp .newurl{margin:5px 0 5px 60px;font-size:13px}
+.fr .mwp .newurl{margin-left:25px}
+.mwp .newurl .btn-primary{vertical-align:middle}
+.mwp p.helps{margin:8px 0 0;font-size:11px}
+.webpromo{font-size:13px;width:675px;margin:0 auto}
+.webpromo h1{border:0;color:#C60;font-size:231%;margin:10px 0 3px;padding:0}
+.webpromo h2{font-size:100%;font-weight:normal;margin:0 0 20px 0}
+.webpromo .promoset{margin-bottom:7px;border-bottom:1px solid #CCC;padding-bottom:7px;overflow:hidden;zoom:1}
+.webpromo .promoset span{float:left;width:225px;margin-top:10px;text-align:center;font-size:85%;color:#666}
+.webpromo .promoset span.hdr{margin-top:0;font-size:100%;color:#000}
+.webpromo .promoset span img{margin-bottom:5px}
+.webpromo .promoset span img.withtext{vertical-align:middle}
+.webpromo .promoset div{float:right;width:425px}
+.webpromo .promoset textarea{width:420px;height:65px;font-size:12px}
+.webpromo .typepad span,.webpromo span.promo-example{color:#069}
+.webpromo .typepad div p{margin:10px 0}
+.webpromo .typepad div form{margin:0 0 10px}
+#main .mypro-del{background:url('../images/pics1/img/bg/bg_trans_top_440x7.png') no-repeat #ffa8ad;margin:20px 0 20px 150px;width:440px;font-size:130%}
+#main .mypro-del-in{background:url('../images/pics1/img/bg/bg_trans_bot_440x7.png') 0 100% no-repeat;padding:15px}
+#main .mypro-del-in p{text-align:center;color:#B20000;font-size:124%}
+#main .mypro-del-in p.endorse{font-size:95%}
+#main .mypro-del-in p.btn{font-size:100%;margin-top:10px}
+#pagekey-my_profile_position #section-header{display:block}
+.mypos .elemset{width:100%;margin-bottom:5px;clear:both;zoom:1}
+.mypos .elemset:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
+.mypos label{width:120px;padding:3px 6px 0 0;*padding-top:0;float:left;display:block;color:#333;font-size:108%;text-align:right}
+.mypos .elem{width:420px;float:left}
+.mypos .elem.text{padding-top:7px;_padding-top:3px}
+.mypos .elem.single{padding-left:130px}
+.mypos .elem label{float:none;display:inline;font-weight:normal}
+.mypos .inpt{width:260px;margin-bottom:0}
+.mypos input#title-position-editPositionForm{margin-bottom:0}
+.mypos .slct{width:85px;margin-bottom:0}
+.mypos .txtarea{width:415px;margin-bottom:0}
+.mypos .elem.checkbox{margin-bottom:0}
+.mypos #compy-name-text{margin-top:5px}
+.mypos #compy-ac-container li{font-size:130%;margin-bottom:0}
+.mypos #compy-ac-src{width:308px;*width:306px}
+.mypos h4{margin:0;padding:0;font-size:115%}
+.mypos h4 span{font-weight:normal;font-size:11px}
+.mypos .more{color:#555}
+.mypos .more span{font-size:11px}
+.mypos #time-period .workdates{margin-top:5px;padding-left:0;overflow:hidden}
+#time-period label{padding-bottom:6px}
+.mypos .workdates .lbl{display:none}
+.mypos .workdates .dateinpute{width:84px;margin-left:5px;_margin-left:0}
+.mypos .workdates .slct{width:100px;margin-right:5px;_margin-right:0}
+.mypos .workdates #date-present{display:none;text-align:left;font-size:130%}
+.mypos #newcompany{margin-left:126px}
+.mypos div#newcompany h3{margin:0;padding:0;font-size:130%}
+.mypos #newcompany p{padding:4px 0 0 20px;margin:0;font-size:120%}
+.mypos #newcompany li{margin-top:10px;list-style:none;text-align:left;overflow:hidden;width:100%}
+.mypos #newcompany label{width:65px;font-size:130%}
+.mypos #newcompany .elem{width:200px}
+.mypos .month-label{position:absolute;left:-12345px}
+.mypos #headline{margin:5px 0}
+.mypos .actions{margin-left:130px}
+.status-edit.plain{background:0;position:static;padding-bottom:0;top:0}
+.status-edit.plain .status-edit-in{background:0;padding:0}
+.status-edit.plain label{display:block;margin:6px 5px 0 0}
+.status-edit.plain .status-wrapper{position:relative}
+.status-edit.plain .status-wrapper label{display:none;float:none;width:100%}
+.status-edit.plain .status-input{width:220px}
+.status-edit.plain .buttons{margin:3px 0 0 0;padding:0}
+.installed-apps p.none{display:none}
+ul.action-links{position:absolute;top:0;right:0;list-style-type:none;width:100%}
+ul.action-links ul{display:none;position:absolute;padding:0;right:0;top:1.8em;border:4px solid #ccc;border-bottom-width:3px;background-color:#fff;z-index:1;width:15.5em}
+ul.action-links li{font-size:110%;float:left;position:static;margin:0;padding:0 0 2px 0;background-image:none;list-style-type:none}
+ul.action-links li:hover ul,ul.action-links li.hover ul{display:block}
+ul.action-links li ul li{border-bottom:1px solid #ccc;clear:both;white-space:nowrap;width:100%}
+ul.action-links li ul li a{text-decoration:none;display:block;padding:4px 8px}
+ul.action-links li ul li a:hover{text-decoration:underline}
+.edit-my-profile .dragged{background:#D6D6D6;color:#D6D6D6}
+.edit-my-profile .dragged div{visibility:hidden !important}
+.edit-my-profile .drag-proxy{background-color:#FFF;filter:alpha(opacity=80);opacity:0.8}
+.edit-my-profile .drag-handle{background:url('../images/pics2/img/sprite/sprite_profile_v9.png') 0 -1030px no-repeat;cursor:move;text-indent:20px;width:100%;_width:auto}
+.edit-my-profile .drag-handle .add{text-indent:0;right:0}
+.edit-my-profile .drag-handle-hover{background-position:0 -1080px}
+.edit-my-profile .draggable .progress-indicator{filter:alpha(opacity=60);opacity:0.6;z-index:2;zoom:1;position:absolute;top:0;right:0;width:100%;height:100%;background-color:white;display:none;text-align:center}
+.edit-my-profile .saving .drag-handle{background:url('../images/pics1/img/anim/anim_loading_16x16.gif') left top no-repeat;cursor:progress;text-indent:20px;width:100%;_width:auto}
+.edit-my-profile .draggable.saving{position:relative;overflow:hidden;width:100%}
+.edit-my-profile .draggable.saving .progress-indicator{display:block}
+.profile-edit .li-editor fieldset{margin:0;padding:0;background:0}
+#body .li-editor{zoom:1;_width:380px;_margin-left:-10px;overflow:hidden}
+#body .li-editor .yui-toolbar-container{background:0}
+#body .li-editor .yui-toolbar-container .yui-toolbar-subcont{padding:0 0 5px 1px;border:0}
+#body .li-editor .yui-editor-container{border:0}
+#body .li-editor .yui-editor-container .yui-editor-editable-container{border:1px solid #666}
+#body .li-editor .yui-toolbar-container .yui-toolbar-createalink span.yui-toolbar-icon{background-position:0 -792px;left:5px}
+#body .li-editor .yui-toolbar-container .yui-toolbar-titlebar,#body .li-editor .yui-toolbar-container .collapse,#body .li-editor .yui-toolbar-container .yui-button,#body .li-editor .yui-editor-panel .hd h3,#body .li-editor .yui-editor-panel .hd span.close{background-image:url('../images/pics1/lib/yui/2.8.1/assets/skins/sam/sprite.png')}
+#body .li-editor .yui-toolbar-container .yui-push-button span.yui-toolbar-icon,#body .li-editor .yui-toolbar-container .yui-color-button span.yui-toolbar-icon,#body .li-editor .yui-toolbar-container .yui-menu-button span.yui-toolbar-icon{background-image:url('../images/pics2/lib/yui/2.8.1/assets/skins/sam/editor-sprite.gif')}
+#body .li-editor .yui-toolbar-container .yui-button-selected span.yui-toolbar-icon,#body .li-editor .yui-toolbar-container .yui-button-hover span.yui-toolbar-icon{background-image:url('../images/pics1/lib/yui/2.8.1/assets/skins/sam/editor-sprite-active.gif')}
+#pagekey-my_profile_additional_info .profile-edit .li-editor fieldset legend,#pagekey-nprofile-edit-additional-info .profile-edit .li-editor fieldset legend,.li-editor fieldset legend{display:none}
+.profile-edit #content{float:left;width:72.5%}
+.profile-edit #extra{float:right;width:26%;margin-top:25px}
+.v1 #main.profile-edit{font-size:100%}
+.v1 .profile-edit p{font-size:130%;margin:0;padding:0}
+.v1 span.error{font-size:130%}
+#body div.rich-text{margin-bottom:1em}
+#body div.rich-text *{font-size:100%;margin:0;padding:0}
+#body div.rich-text ul,#body div.rich-text ol{margin:0 0 1em 15px}
+#body div.rich-text ul li{list-style-type:disc;list-style-position:outside}
+#body div.rich-text ol li{list-style-type:decimal;list-style-position:outside}
+#body div.rich-text strong{font-weight:bold;color:#555}
+#body div.rich-text em{font-style:italic}
+.profile-edit h1{font-weight:bold}
+#main.profile-edit h1{font-size:180%;border-bottom:1px solid #ccc;margin:0 0 12px;padding:0 0 6px}
+.profile-edit form{margin:0 0 0 10px}
+.profile-edit fieldset{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') 0 100% repeat-x;padding-bottom:10px;margin-bottom:10px;border:none}
+.profile-edit fieldset fieldset{background:none;margin:0;padding:0}
+.profile-edit legend{position:relative;font-size:180%;color:#069;background-color:transparent;padding-right:6px;display:none}
+.profile-edit ul{margin:10px 0;list-style-type:none}
+.profile-edit .fieldgroup{margin:0 0 0 166px}
+.profile-edit ul ul{margin:0 0 0 166px}
+.profile-edit fieldset .fieldgroup ul,.profile-edit fieldset .fieldgroup p{margin-left:0}
+.profile-edit li{margin-bottom:10px;overflow:hidden;zoom:1}
+.profile-edit li .error{font-size:120%}
+.profile-edit li li{margin-bottom:0}
+.profile-edit label,.profile-edit fieldset fieldset legend{font-size:130%;line-height:1.5;color:#333;font-weight:bold}
+.profile-edit .checkbox label{font-weight:normal;padding:0;width:auto;margin-left:166px;*margin-left:169px}
+.profile-edit li label,.profile-edit fieldset fieldset legend{display:block;float:left;text-align:right;width:160px;margin-right:6px}
+.profile-edit fieldset fieldset legend{float:none;width:auto;text-align:left}
+.profile-edit li li label{font-weight:normal;float:none;text-align:left;line-height:1}
+.profile-edit input,.profile-edit select,.profile-edit textarea{font-size:130%}
+.profile-edit textarea{width:380px;*width:374px}
+.profile-edit form p{margin-left:166px;*margin-left:169px;color:#333}
+.profile-edit li .alert,.profile-edit fieldset .alert{margin-left:166px;*margin-left:169px}
+.profile-edit li li .alert{margin-left:0}
+.profile-edit p.check-textarea-error{margin-left:166px !important}
+.profile-edit .elem p.check-textarea-error,.profile-edit .fieldgroup p.check-textarea-error{margin-left:0 !important}
+button.btn-primary{font-size:13px}
+.visibility{font-size:13px}
+.visibility .intro{font-size:13px;margin:0 0 0 10px;padding:0}
+.visibility ul{margin:10px 0 10px 10px}
+.visibility li label{line-height:1.2;font-weight:bold;color:#333}
+.visibility li input{position:relative;top:2px}
+.visibility li p{font-size:12px;padding-left:23px;margin:4px 0 0}
+.visibility .actions{font-size:13px;margin:15px 0 10px 10px;padding:0}
+.visibility .actions .btn-primary{vertical-align:middle}
+.visibility-settings{display:inline-block;text-indent:-12345px;height:10px;width:10px;background:url('../images/pics2/img/icon/icon_lock_10x30_v2.png') 0 0 no-repeat}
+.visibility-settings:hover{background-position:0 -20px}
+.profile-edit .primary-profile-content{font-size:130%;line-height:1.25em;min-height:1.2em;_height:1.2em;background-color:#ebf6fb;position:relative;padding:3px 3px 3px 17px;clear:both;margin-left:165px;margin-right:7px}
+.profile-edit .elem .primary-profile-content{margin-left:0;padding:3px 3px 3px 17px}
+.profile-edit .primary-profile-content .control{position:absolute;left:5px;top:0;display:block;height:15px;width:9px;background:url('../images/pics1/img/icon/icon_arrow_dwn_9x9.png') no-repeat 0 6px;cursor:pointer}
+.profile-edit .primary-profile-content.collapse-close{height:1.2em;overflow:hidden}
+.profile-edit .primary-profile-content.collapse-close .control{background-image:url('../images/pics2/img/icon/icon_arrow_rt_9x9.png')}
+#headline .checkbox label{margin-left:0}
+.profile-edit a.helper{font-size:110%}
+.profile-edit p.note{font-size:110%;margin-top:4px;color:#555}
+.profile-edit p.actions{padding-top:12px;margin-top:12px}
+.v1 .profile-edit p.actions{margin:12px 0 12px 126px;padding:0}
+.profile-edit p.actions.remove{padding:12px 0 0 0 !important;font-size:110%;background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') 0 0 repeat-x}
+.profile-edit p.actions.remove a{text-decoration:none}
+.profile-edit p.actions.remove a:hover{text-decoration:underline}
+.profile-edit .cancel{vertical-align:middle;font-size:13px;line-height:2;zoom:1}
+.profile-edit p.actions a{text-decoration:underline}
+.profile-edit .time-period{display:none;clear:right;line-height:2;*line-height:1.6}
+.profile-edit .read-only .time-period{display:inline}
+.js .profile-edit .read-only #position-dates{display:none}
+.profile-edit #position-dates .checkbox{*padding-top:3px}
+.profile-edit .display-name legend span{width:160px}
+.profile-edit .display-name li{margin-bottom:5px}
+.profile-edit #extra #nav-profile-lang{margin-top:0}
+.profile-edit #extra .nav-profile-lang h2,.profile-edit #extra .nav-profile-lang p,.profile-edit #extra .nav-profile-lang li{font-size:130%}
+.profile-edit #extra .nav-profile-lang h2{font-weight:bold}
+.profile-edit #extra .nav-profile-lang p{margin:0 0 5px 0;padding:0}
+.profile-edit #extra .mod-util p{margin:0 0 5px 5px}
+.profile-edit #extra .nav-profile-lang ul{margin:0 0 5px 0;padding:0;list-style-type:none}
+.profile-edit #extra .nav-profile-lang li{margin:0;padding:0;zoom:1}
+.profile-edit #extra .nav-profile-lang li a{margin:0;padding:3px;display:block;text-decoration:none;white-space:normal !important}
+.profile-edit #extra .nav-profile-lang li a:hover span.link{text-decoration:underline}
+.profile-edit #extra .nav-profile-lang li a.selected{background-color:#DBEFFB}
+.profile-edit #extra .nav-profile-lang li a span.primary{color:#666;font-size:90%}
+.profile-edit form #unsupported{display:none}
+.profile-edit form #urleditor{background:none;margin-bottom:0;padding-bottom:0;margin-top:-10px}
+.additional-info p.actions{padding:24px 0 0 0;background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') 0 0 repeat-x}
+#pagekey-my_profile_additional_info .profile-edit fieldset legend{font-size:130%;line-height:1.5;color:#333;font-weight:bold;display:block;padding-left:90px;*padding-left:80px}
+#pagekey-my_profile_additional_info.en .profile-edit fieldset legend{padding-left:100px;*padding-left:90px}
+#pagekey-my_profile_additional_info .profile-edit fieldset legend span{position:relative;top:20px;left:0}
+#pagekey-my_profile_additional_info .profile-edit li li{margin-bottom:5px}
+#pagekey-my_profile_additional_info .profile-edit li .yui-toolbar-group li{margin-bottom:0}
+#row-school-typeahead .selected-school{display:none;font-size:11px}
+#row-school-typeahead .selected-school strong{padding-right:5px;font-weight:bold;font-size:11.5px}
+#row-school-typeahead .selected-school .change-school-cntl{white-space:nowrap}
+#row-school-typeahead .selected input{display:none}
+#row-school-typeahead .selected .selected-school{display:block}
+#row-school select{width:350px}
+.status-dialog{width:359px;border:0 !important;display:none;background-color:transparent !important}
+.status-dialog input,.status-dialog form{margin:0;padding:0}
+.status-dialog .status-head:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.status-dialog .status-head{background-repeat:no-repeat;padding:0 9px 0 12px;_height:0}
+.status-dialog .status-foot{background-position:0 100%;background-repeat:no-repeat;width:359px;height:23px;margin:0;padding:0}
+.yui-overlay .status-head,.yui-overlay .status-foot{background-image:url('../images/pics1/img/bg/bg_quote_359x260.png')}
+.status-dialog .status-wrapper textarea{overflow:hidden !important}
+.status-dialog .status-wrapper{margin:0 0 5px 0;padding:0;overflow:hidden !important}
+.status-dialog .status-close{width:17px;height:14px;display:block;text-indent:-123456px;float:right;cursor:pointer;margin-top:7px;background:url('../images/pics1/img/sprite/sprite_global_v6.png') right -1300px no-repeat}
+.status-dialog label{display:block;padding:8px 0 2px 0;*padding-top:6px;margin:0;font-size:1.3em;width:90%}
+.status-dialog .status-input{width:320px;padding:1px;font-size:1.2em}
+.status-dialog .status-buttons{margin:6px 0 3px 0;padding:0}
+.status-dialog .status-buttons .btn-primary{vertical-align:-2px;*vertical-align:bottom;padding:3px 5px 2px;*padding:5px 5px 3px;outline:0}
+.status-dialog .status-buttons .btn-secondary{vertical-align:-2px;background:0;border:0;margin:0;padding:4px 0 0 0;font-weight:normal;color:#039 !important;cursor:pointer}
+.status-dialog .status-settings{color:#666;margin:0;padding:4px 0;*padding:0;_padding:4px 0;font-size:1.1em}
+.js .status-edit{display:none}
+.js .status-close{display:block !important}
+

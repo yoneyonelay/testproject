@@ -1,0 +1,288 @@
+
+
+/* scss/apps/biz/companies.css */
+
+.companies-home #main h2{font-size:160%;margin-bottom:5px}
+#industry-search-form{background-color:#e6f2f8;border-top:1px solid #ccc;margin:0 0 30px;padding:20px 21px;_zoom:1}
+#industry-search-form ul{overflow:hidden;zoom:1}
+#industry-search-form h3{color:#333;font-size:130%;font-weight:bold}
+#industry-search-form label{color:#333;display:block;font-size:130%;margin-bottom:3px;padding-right:5px}
+#industry-search-form .company-size label,#industry-search-form .connections-limit label,#industry-search-form .hiring label,#industry-search-form .hq-only label{display:inline}
+#industry-search-form .name-keyword{float:left}
+#industry-search-form .name-keyword input{width:220px}
+#industry-search-form .industry{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x;padding:10px 0 12px}
+#industry-search-form .connections-limit{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x;padding:10px 0}
+#industry-search-form .connections-limit input{margin-left:0}
+#industry-search-form .location{float:left;margin-left:40px}
+#industry-search-form .location-details{display:block}
+#industry-search-form .location-details legend{display:none}
+#industry-search-form .location-details li{padding-top:10px}
+#industry-search-form .location-details li.hq-only{padding-top:5px}
+.js #industry-search-form .anywhere-search .location-details{display:none}
+#industry-search-form li.zip input{width:88px}
+#industry-search-form li.zip span.error{font-size:120%}
+#postal-code-lookup{color:#039;font-size:110%;padding-left:5px;white-space:nowrap}
+#postal-code-lookup a{color:#039}
+#industry-search-form li.company-size{padding-bottom:10px;overflow:hidden;width:100%}
+#industry-search-form li.company-size ul{_display:inline;float:left;_margin-left:0;padding-right:0;width:110px;_width:120px}
+#industry-search-form #search-options{color:#069;font-size:110%;padding:10px 0 6px}
+#industry-search-form #search-options span{cursor:pointer}
+#industry-search-form #advanced-options{padding-top:10px}
+.js #industry-search-form #advanced-options{display:none}
+.js #industry-search-form #advanced-options.expanded{display:block}
+#industry-search-form .search-action{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x;padding-top:10px}
+#industry-search-form .search-action input{text-align:center;vertical-align:middle}
+#industry-search-form .browse-all{font-size:130%;padding-left:3px}
+#nextgen-company-search-form{-moz-border-radius:6px;box-radius:6px;background:url('../images/pics1/img/bg/bg_search_box_1x136.png') repeat-x bottom;border:1px solid #DDD;margin-bottom:20px;overflow:hidden;padding:12px 10px 14px 10px}
+#nextgen-company-search-form h1{font-size:16px;font-weight:bold;padding-bottom:10px;color:#333}
+#nextgen-company-search-form .keywords{float:left;margin-bottom:0;width:81%}
+.fr #nextgen-company-search-form .keywords,.pt #nextgen-company-search-form .keywords{width:75%}
+#nextgen-company-search-form .keywords input{font-size:15px;padding:3px;width:95%}
+#nextgen-company-search-form .keywords .helper{color:#666;font-size:11px;line-height:1.5}
+#nextgen-company-search-form .searchbtn{float:right;text-align:center;margin:0 10px 0 0}
+#nextgen-company-search-form .searchbtn .btn-primary{font-size:14px;letter-spacing:1px;padding:5px 15px;*padding:3px 15px}
+.company-typeahead .yui-ac-content{width:423px}
+.company-typeahead .yui-ac-content li h4{padding-left:0}
+.typeahead-noresults{width:423px;text-align:left;padding-right:0}
+.nus-feed{border-top:1px solid #ccc;margin:10px 0 15px;padding-top:15px}
+.nus-feed .no-updates{color:#666;font-size:150%}
+.nus-feed .feed-item{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x 0 100%;margin-bottom:10px;min-height:55px;_height:55px;padding-bottom:10px}
+.nus-feed .feed-item .photo{background:#fff;float:left;margin:2px 10px 0 0}
+.nus-feed .feed-item .feed-content{font-size:13px}
+.nus-feed .feed-item .nus-timestamp{color:#666;font-size:11px;white-space:nowrap}
+.company-activity .nus-feed{border-top:none}
+.industry-browse h2{border-bottom:1px solid #CCC;margin-bottom:8px;padding-bottom:8px}
+.industry-browse h3{color:#333;font-size:130%;font-weight:bold;line-height:1.3;padding-bottom:3px}
+.industry-browse li{line-height:1.7;font-size:130%}
+.industry-browse div.related-industries{float:left;margin-right:20px;width:257px}
+.industry-browse div.service-providers{float:left;width:177px}
+.industry-browse div.browse-all{clear:both;font-size:110%;padding-right:19px;padding-top:20px;text-align:right}
+.no-industry div.service-providers{float:none;width:auto}
+.no-industry div.browse-all{text-align:left}
+.companies-module h3{font-size:130%;font-weight:bold}
+.companies-module .more{font-size:110%;margin-top:5px;text-align:right}
+.companies-to-follow{overflow:hidden}
+.companies-to-follow li{float:left;height:60px;line-height:60px;margin:10px 0 10px 40px;text-align:center;width:100px}
+.companies-to-follow .row{margin-left:10px}
+.companies-to-follow img{vertical-align:middle}
+.companies-module .content{overflow:hidden}
+.companies-module .companies-to-follow li{margin-left:20px}
+.companies-module .companies-to-follow .row{margin-left:10px}
+.companies-module .util-links{font-size:11px;float:right;padding:0 0 5px}
+.companies-in-network li{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x;overflow:hidden;padding:10px 0;_height:1%}
+.companies-in-network .first{background:none;padding-top:7px}
+.companies-in-network h4{float:left;font-size:130%;font-weight:bold;height:60px;line-height:60px;margin-right:5px;text-align:center;width:100px}
+.companies-in-network h4 img{vertical-align:middle}
+.companies-in-network .company-employees li{background:none;float:left;margin:10px 0 0 9px;padding:0;width:40px}
+.companies-in-network .company-employees .employees-more{font-weight:bold;margin-top:13px;text-align:center;width:auto}
+.companies-in-network .employees-more a{color:#7FB2CC;font-size:110%}
+.companies-in-network .employees-more strong{display:block;font-size:170%}
+.companies-module .companies-in-network-more{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x;margin-top:0;padding:10px 0 3px}
+#add_company .header h4{font-size:180%;font-weight:normal;line-height:1.15;margin:0;padding:10px 14px 0 15px}
+#add_company .content p{font-size:130%;line-height:1.5;margin:5px 0 10px}
+#add_company a.action{border-radius:4px;line-height:1.2;_margin-right:0}
+#add_company a.action span{_height:16px}
+.coprof-completeness{background:#ddf0f8;border:1px solid #99cce6;border-width:1px 0;margin-bottom:10px;padding:10px}
+.coprof-completeness .progress{color:#069;font-size:130%}
+.coprof-completeness .meter{float:left;margin-bottom:10px}
+.coprof-completeness .meter img{display:block}
+.coprof-completeness .tips{background:#fff;border:1px solid #c8e4f1;border-width:0 1px 2px 0;clear:both;padding:10px;zoom:1}
+.coprof-completeness .tips .ft{font-size:110%;padding-top:7px;text-align:right}
+.coprof-completeness h3{color:#069;font-size:130%;font-weight:bold;margin-bottom:5px}
+.coprof-completeness h4{color:#4b911c;font-size:150%}
+.coprof-completeness h4 img{padding-right:5px;vertical-align:middle}
+.companies-home .coprof-completeness h4{color:#000;font-size:170%;margin-bottom:5px}
+.companies-home .coprof-completeness h4 a{color:#000}
+.companies-home .coprof-completeness h4 a:hover{text-decoration:underline}
+.coprof-completeness ul{clear:both;margin-top:0}
+.coprof-completeness li{background:url('../images/pics2/img/sprite/sprite_profile_v9.png') no-repeat 0 -571px;color:#666;font-size:130%;line-height:1.2;margin-top:4px;padding-left:20px}
+.coprof-completeness li a{color:#069}
+.coprof-stats{margin-bottom:10px}
+.coprof-stats h4{font-size:150%}
+.coprof-stats img{padding-right:5px;vertical-align:middle}
+.coprof-stats .header h3{font-size:125%;font-weight:bold}
+.coprof-stats .content{padding-top:8px}
+.coprof-stats .description{font-size:120%;padding-top:10px}
+.coprof-stats .description a{font-size:91.667%}
+.coprof-stats .data-table{padding:12px 0 0}
+.coprof-stats table{margin-bottom:5px;width:100%}
+.coprof-stats tr{margin-bottom:2px}
+.coprof-stats th{background-color:#ddf0f8;border-bottom:1px solid #fff;color:#333;font-size:120%;font-weight:bold;padding:3px 4px 2px 10px;text-align:right;vertical-align:top;width:81px}
+.coprof-stats td{font-size:120%;padding:3px 0 2px 6px;vertical-align:middle}
+.coprof-stats td.data{text-align:right;white-space:nowrap;width:4em}
+.coprof-stats .ft{color:#039;font-size:110%;padding-top:3px;text-align:right}
+.companies-home #main h2.results-summary{display:block;font-size:135%;font-weight:normal;padding:0 0 8px}
+div.no-results{border-bottom:1px dotted #999;margin-bottom:12px;padding:0 8px}
+div.no-results-suggestion{float:left;padding:0 8px;font-size:135%}
+div.no-results-suggestion h3{font-size:120%;font-weight:bold;padding-bottom:4px}
+div.no-results-suggestion ul{list-style-type:square;list-style-position:inside}
+ul.degrees-note{margin:0;padding:0}
+ul.degrees-note li{color:#666;float:left;font-size:110%;_height:15px;line-height:1.18;padding:0 10px 10px 0}
+ul.degrees-note li img{float:left;padding-right:5px}
+p.no-industry-match{margin-bottom:8px;padding:12px 10px 12px 44px;font-size:140%;background:#b6e0ee url('../images/pics2/img/icon/icon_status_info_blue_26x26.png') no-repeat 8px 8px}
+table.company-results{clear:both;font-size:130%;width:100%;float:left;border-collapse:collapse}
+table.company-results th,table.company-results td{vertical-align:middle}
+table.company-results thead{background:url('../images/pics2/img/bg/bg_inboxhdr_1x50.png') repeat top left}
+table.company-results thead th{font-size:85%;height:24px;border:1px solid #CCC;border-left-width:0;padding:0 10px}
+table.company-results thead th.comp{width:44%}
+table.company-results thead th.loc{width:30%}
+table.company-results thead th.emp{width:20%;border-right-width:0}
+table.company-results tbody{line-height:1.2em}
+table.company-results tbody td{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') 0 100% repeat-x;height:35px;color:#333;padding-left:10px}
+table.company-results tbody td.degree-icon{width:6%;text-align:right;padding:0 6px 0 0}
+table.company-results tbody td a{font-weight:bold;font-size:110%}
+table.company-results tbody td .jobs-count,table.company-results tbody td .jobs-count a{color:#c60;font-size:100%;padding-left:4px}
+table.company-results tbody td .jobs-count a{padding-left:0}
+#body table.company-results tbody td .jobs-count a:visited{color:#c60}
+table.company-results tfoot td{padding-top:10px}
+.modify-industry-search{float:right;margin-left:0;width:200px;_width:210px}
+.modify-industry-search h3{color:#333;font-size:125%;font-weight:bold}
+.modify-industry-search .yui-ac-content{width:220px}
+.modify-industry-search .content{padding-top:0}
+.modify-industry-search .content ul li.field-group{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x bottom left;list-style-type:none;padding-bottom:8px}
+.modify-industry-search .content ul li.field-group label{padding:8px 0 4px}
+.modify-industry-search .content ul li.keywords label{padding-top:0;_padding-top:8px}
+.modify-industry-search .content ul.firstcol{float:left;width:67px;padding-right:7px}
+.modify-industry-search .content ul li.last-field-group{background:#fff;clear:both;padding-top:10px}
+.modify-industry-search .content ul li label,.modify-industry-search .content ul li fieldset legend{font-size:120%;font-weight:bold;color:#333;padding-top:4px;display:block}
+.modify-industry-search .content ul li label.radio{display:inline;font-weight:normal;font-size:110%;vertical-align:bottom}
+.modify-industry-search .content ul li label.box{display:inline;font-weight:normal;font-size:110%;vertical-align:super;background:none}
+.modify-industry-search input.keyword{width:170px}
+.modify-industry-search select.industry-search-ac{width:180px}
+.modify-industry-search .zip .error{display:block;clear:left}
+.modify-industry-search .zip br{display:none}
+.modify-industry-search .zip input{width:95px}
+.modify-industry-search .country{padding:6px 0}
+.modify-industry-search .country select{width:180px}
+.modify-industry-search .content ul li .country label,.modify-industry-search .content ul li .zip label{font-weight:bold;padding:4px 4px 0 0}
+.modify-industry-search .content ul li.anywhere-search div label{color:#999}
+.modify-industry-search .location-type{width:180px}
+.modify-industry-search .content ul li fieldset{margin-top:8px;_padding-bottom:4px}
+.modify-industry-search .content ul li fieldset legend{margin:4px 0 -4px;*margin-left:-6px}
+.modify-industry-search .content ul li fieldset label{font-weight:normal;padding-bottom:0;text-indent:0;display:block;margin-left:20px}
+.modify-industry-search .content ul li.field-group fieldset label{padding:4px 0 0}
+.modify-industry-search .content ul li fieldset input{width:auto;float:none;vertical-align:middle;margin-left:-17px}
+.modify-industry-search .content ul li fieldset ul{margin-left:-4px;font-size:92%}
+.modify-industry-search .content ul li fieldset ul li{list-style-type:none;*float:left;*clear:left;*width:180px;margin:0}
+.modify-industry-search #postal-code-lookup{font-size:110%;padding-left:5px}
+.modify-industry-search .content ul li.is-hiring{overflow:hidden;padding-top:10px;width:100%}
+.modify-industry-search .content ul li.is-hiring label{_display:inline;float:left;font-size:110%;font-weight:normal;margin-top:-15px;margin-left:22px;padding-top:0;vertical-align:middle;width:155px;_width:150px}
+.modify-industry-search .content div.hq-only{padding-top:5px}
+.modify-industry-search .content div.hq-only label{display:inline;font-size:110%;font-weight:normal}
+.modify-industry-search .content ul li.anywhere-search div.hq-only label{color:#333}
+.modify-industry-search .content .company-size{overflow:hidden;width:100%}
+.modify-industry-search .content .company-size ul{float:left;width:87px}
+.es .modify-industry-search .content .company-size ul.col1,.fr .modify-industry-search .content .company-size ul.col1{width:84px}
+.es .modify-industry-search .content .company-size ul.col2,.fr .modify-industry-search .content .company-size ul.col2{width:90px}
+.pt .modify-industry-search .content .company-size ul.col1{width:76px}
+.pt .modify-industry-search .content .company-size ul.col2{width:98px}
+#related-industries-list{border:1px solid #999;height:150px;margin-bottom:2px;margin-left:0;*margin-top:6px;overflow:auto;*overflow-x:hidden}
+#related-industries-list li{overflow:hidden;padding:0;width:100%}
+#related-industries-list label{float:left;font-size:120%;line-height:1.2;margin-left:0;padding:5px 0 0;width:135px}
+#related-industries-list input{float:left;margin-left:2px}
+.browse-companies-list{line-height:1.5}
+.browse-companies-list .industries{float:left;width:235px;padding-left:15px}
+.browse-companies-list .first{padding-left:0}
+.browse-companies-list h2{font-size:160%;padding-bottom:5px;margin-bottom:10px;border-bottom:1px solid #CCC}
+.browse-companies-list h3{font-size:125%;font-weight:bold;color:#333}
+.browse-companies-list ul{font-size:125%;margin-bottom:10px}
+.companies-lists{margin-bottom:20px}
+.companies-lists,.hdrbox-secondary .content{*height:1%}
+.followed,.no-followed{border-top:1px solid #ccc;margin:5px 0 15px}
+.followed li{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') 0 100% repeat-x;overflow:hidden;padding:10px 0 10px 125px;zoom:1}
+.followed .logo{float:left;margin-left:-125px;width:120px}
+.followed .logo img{display:block;margin:0 auto}
+.followed h2{font-size:150%;font-weight:bold}
+.followed p{color:#666;font-size:130%}
+.followed .actions{font-size:110%;margin-top:2px}
+.followed .actions li{background:none;float:left;padding:0;margin-left:5px;padding-left:5px}
+.followed .actions .follow{border:0;margin:0;padding:0}
+.followed .actions strong{font-weight:normal}
+.followed .stop-following a{color:#007C00 !important}
+.followed .actions.stopped .settings{display:none}
+.no-followed h2,.no-followed h3{color:#666;font-size:160%;margin:10px 0}
+.no-followed p,.no-followed li,.no-followed h4{font-size:130%;margin-top:20px}
+.no-followed .why-follow li{list-style:disc;margin-top:5px;margin-left:1.5em}
+.no-followed legend{display:none}
+.no-followed label{display:block;font-weight:bold;margin-bottom:5px}
+.no-followed .search-term{font-size:100%;width:290px}
+.no-followed .yui-ac-bd{width:350px}
+.no-followed .yui-ac-content{font-size:75%;margin-top:-5px;*margin-top:-10px}
+.no-followed .yui-ac-content li{margin-top:0}
+.no-followed .btn-primary{font-size:100%}
+.no-followed .companies-to-follow-hdr{border-bottom:1px solid #ccc;color:#000;margin:20px 0 0;padding-bottom:5px}
+.paginate{font-size:130%}
+.actions li.settings{*background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') no-repeat 0 7px;padding-left:1px;*padding-left:6px;*padding-right:6px}
+.actions li.settings:before{content:'\00B7';font-weight:bold;padding-right:3px}
+.adblock{margin:0 auto 20px;width:380px;text-align:center}
+.feed-item .feed-body .feed-content{font-size:13px;overflow:hidden}
+.feed-item-meta{color:#666;font-size:11px;white-space:nowrap}
+.feed-item .share-object{margin-top:5px}
+.feed-item .share-object img{float:left;margin:2px 10px 0 0}
+.feed-body{margin-left:56px;overflow:hidden}
+.feed-body ul{margin-top:0;float:left}
+.feed-item .feed-item-meta{margin-top:6px;overflow:hidden}
+.feed-item .feed-item-meta .nus-timestamp{float:left;white-space:nowrap}
+.feed-item .feed-item-meta .feed-actions{overflow:hidden}
+.feed-item .feed-body .feed-item-meta .feed-actions li{background:url('../images/pics2/img/sprite/sprite_sharing_v4.png') no-repeat scroll -550px -775px;display:inline-block;margin-left:5px;padding-left:10px;float:left}
+.feed-item .feed-body .cncttest .feed-actions li{background-image:url('../images/pics2/img/icon/icon_bullet_grey2_4x4.png');background-position:100% 4px;margin:0 5px 0 0;padding:0 10px 0 0}
+.feed-item .feed-content .share-object.has-photo .share-desc{padding-left:90px}
+.feed-item .like,.feed-item .show-like .unlike,.feed-item .unlike .like-count{display:none}
+.feed-item .show-like .like{display:inline}
+.feed-item .feed-actions .loading{width:16px}
+.feed-item .loading{background:url('../images/pics1/img/anim/anim_loading_16x16.gif') no-repeat center center !important;display:block;height:16px !important;padding:0 !important;text-indent:-12345px !important}
+.feed-item .loading *{display:none}
+.feed-item .share-meta{display:block;color:#666;font-size:11px;text-decoration:none}
+.feed-item .member-position{margin-top:10px;overflow:hidden;width:auto}
+.feed-item .job-post{margin-top:10px;margin-bottom:10px;overflow:hidden;width:auto}
+.feed-item .member-position p,.feed-item .job-post{padding-left:0;margin-bottom:0 !important;color:#333}
+.feed-item .member-position.has-photo p{padding-left:80px}
+.feed-item .feed-body .comments ul{width:100%}
+.feed-item .comments{background-color:#ebf5fb;font-size:12px;line-height:1.4;margin:7px 40px 7px 0;overflow:hidden;padding:5px;text-shadow:0 1px 0 #fff;zoom:1}
+.feed-item .comments .likers p,.feed-item .comments .likers .show-less,.feed-item .comments ul p,.feed-item .comments q,.feed-item .comments li.seemore p,.feed-item .comments li.deleted p,.feed-item .commenter,.feed-item .show-all-comments{font-size:100%}
+.feed-item .comments.hide{display:none}
+.feed-item .comments .likers p{background:url('../images/pics2/img/sprite/sprite_sharing_v6.png') -638px -630px no-repeat;font-size:13px;_height:16px;min-height:16px;padding-left:20px}
+.feed-item .comments .likers .show-less{font-size:11px;white-space:nowrap}
+.feed-item .feed-item-meta{overflow:hidden}
+.feed-item .comments li{background:transparent;border-top:1px solid #fff;border-bottom:1px solid #d6eaf4;_height:1%;min-height:0;margin:0 5px;overflow:hidden;padding:5px 0;position:relative;zoom:1}
+.feed-item .comments li:first-child{border-top:0;padding-top:0}
+.feed-item .comments li.last{background:0;margin:0}
+.feed-item .comments li.injected{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') 0 0 repeat-x}
+.feed-item .comments ul p{font-size:13px;margin:0;padding-right:14px}
+.feed-item .comments q{font-size:13px}
+.feed-item .comments .feed-item-photo{margin:0 10px 0 0}
+.feed-item .comments .photo:hover{border-color:#eaeaea}
+.feed-item .comments li .delete{background:url('../images/pics2/img/sprite/sprite_sharing_v6.png') no-repeat 100% -375px;display:none;_display:block;position:absolute;right:0;text-indent:-12345px;top:6px;width:9px;zoom:1}
+.feed-item .comments li:hover .delete{display:block}
+.feed-item .comments li .delete:hover{background-position:100% -300px}
+.feed-item .comments li.seemore{padding:0 3px 8px 3px}
+.feed-item .comments li.seemore{background:url('../images/pics2/img/sprite/sprite_sharing_v6.png') no-repeat -550px -920px;padding:5px 0 5px 21px}
+.feed-item .comments li.seemore:first-child{background-position:-550px -925px;padding-top:0}
+.feed-item .comments li.seemore p{font-size:100%}
+.feed-item .comments li.comments-loading p{background:url('../images/pics1/img/anim/anim_loading_16x16.gif') no-repeat center center;height:16px;text-indent:-12345px}
+.feed-item .comments li.comments-loading{background:url('../images/pics1/img/anim/anim_loading_16x16.gif') no-repeat left center}
+.feed-item .comments li.comments-loading:first-child{background-position:left center}
+.feed-item .comments li.comments-loading p{background:transparent;height:auto;text-indent:0}
+.feed-item .comments li.deleted{_height:0;min-height:0;display:block}
+.feed-item .comments li.deleted p{color:#666;font-size:11px;font-style:italic}
+.feed-item .comments p{overflow:hidden;*zoom:1}
+.feed-item .commenter{font-size:13px;font-weight:bold}
+.feed-item .comments .commenter{font-weight:normal}
+.feed-item .comments .nus-timestamp{color:#888;display:block;float:none;font-size:11px;margin:0;white-space:nowrap}
+.feed-item .comments .form{background:transparent;border-top:1px solid #fff;padding:5px 3px 0 3px;overflow:hidden}
+.feed-item .comments .form:first-child{border:0;padding:0}
+.feed-item .share-meta{display:block;color:#666;font-size:11px;text-decoration:none}
+.feed-item .comments textarea{height:16px;width:95%;padding:3px;font-size:12px}
+.feed-item .comments .actions{font-size:12px;padding-left:0;padding-top:3px}
+.js .feed-item .comments .mini .actions{display:none}
+.feed-item .comments .btn-primary{font-size:12px;vertical-align:middle}
+.video-container{margin-top:10px;display:none}
+.feedbox .video-container,.feed-anet .video-container{clear:both}
+.video-container .video-head{height:20px;background:url('../images/pics2/img/sprite/sprite_global_v5.png') 0 -2748px repeat-x;border:1px solid #DDD;border-bottom-width:0}
+.video-container .video-body{overflow:hidden}
+.video-container .video-head .video-close{float:right;display:block;width:16px;height:16px;margin:2px;text-indent:-9999em;background:url('../images/pics2/img/sprite/sprite_global_v5.png') 0 -1349px repeat-x}
+.video-container .video-head .video-close:hover{background:url('../images/pics2/img/sprite/sprite_global_v5.png') 0 -1299px repeat-x}
+.video-share .image{position:relative;left:0px;top:0px}
+.video-share .image .play-icon{position:absolute;display:block;left:-70px;top:21px;width:42px;height:42px;text-indent:-9999em;cursor:pointer;background:url('../images/pics1/img/icon/icon_nus_play_video_42x42.png') 0 0 no-repeat;_background:none}
+.user-groups .video-share .image .play-icon{display:none}
+

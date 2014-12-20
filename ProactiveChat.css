@@ -1,0 +1,28 @@
+/* Apply the border to the right side */.rn_SyndicatedChatLogoImageDiv{    clear:right;    float: left;    vertical-align:top;    height: 40px;    margin-right: 10px;}
+.rn_SyndicatedChatHeaderLabelDiv{    height: 20px;}
+.rn_SyndicatedChatHeaderLabel{    color: #036;    font-size:.875em;    font-weight:bold;    font-family:Verdana, Geneva, sans-serif;}
+.rn_SyndicatedChatQuestionDiv{    clear:right;    float: left;    width:180px;    height:100px;    padding-top:5px;}
+.rn_SyndicatedChatQuestionLabel{    font-size:13px;    color: #333;    font-family:Verdana, Geneva, sans-serif;}
+.rn_SyndicatedChatAvatarDiv{    float: right;    height:100px;    width:100px;    padding-top:5px;}
+.rn_RefuseDiv{    margin:10px 0 0 0;}
+.rn_SyndicatedCheckbox{    margin: 5px 0px 5px 2px;    vertical-align:bottom;}
+.rn_SyndicatedLabel{    font-size:9px;    margin: 5px 0 0 7px;    * margin :-20px 0 0 27px;}
+.yui-panel{    top:0pt;    position:relative;    border:2px solid #888;    overflow:hidden;}
+.rn_Dialog  .ft .yui-button button{   background-color: #fff;}
+.yui-panel.rn_Dialog{    width:300px;    height:220px;}
+.yui-skin-sam .yui-panel .bd, .yui-skin-sam .yui-panel .ft{    background-color:#FFF;}
+.yui-skin-sam .yui-dialog .ft{    padding:5px 5px 5px 5px;    font-size:.75em;    font-family:Verdana, Geneva, sans-serif;}
+.yui-overlay, .yui-panel-container{    position: relative;}
+.yui-panel-container.yui-dialog.yui-simple-dialog{    /*position:absolute;*/  /*needed if dialog is modal*/}
+.yui-skin-sam .yui-panel .hd{    font-family: Arial;    font-size: 12px;    width: 290px;    background-image: url("/euf/assets/images/premium-icon.png");    background-position: 2px 5px !important;    background-color:#eee;    background-repeat: no-repeat !important;    padding: 2px 26px !important;    }
+.yui-skin-sam .yui-panel-container.shadow .underlay{    width:305px;    zIndex: 9998;    filter: alpha(opacity=20);}
+.yui-skin-sam .mask{    background-color:#000000;    opacity:0.25;    filter: alpha(opacity=20);}
+/* button skinning */.yui-skin-sam .yui-button {  border-color: #fff !important;  border-width: 0 !important;}
+.yui-skin-sam .yui-button .first-child {    border-color: none;  border-style: none !important;  border-width: 0 !important;}
+.yui-skin-sam .yui-button .first-child #rn_DialogButton_rn_Dialog_0_1-button {  border: 0 !important;  text-decoration: underline;}
+.yui-skin-sam .yui-button .first-child #rn_DialogButton_rn_Dialog_0_0-button {  background-repeat: repeat-x;  border: 1px solid #045A8B;  background-color: #0571A6 !important;   color: #fff;}
+/* container styling */.yui-skin-sam .yui-panel .bd {  padding: 0;}
+.yui-module.yui-overlay.yui-panel.rn_Dialog {  border-width:0px;    position:absolute;}
+#chat-dialog .dialog-submit, #chat-dialog .dialog-close { font-size:13px !important; }
+#chat-dialog .yui-dialog{  width:300px;}
+#chat-dialog {  height:220px;}

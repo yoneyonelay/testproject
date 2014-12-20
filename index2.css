@@ -1,0 +1,481 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+This is a cssr reset code for different browser in order to wirte one simple code */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+}
+
+h2{font-size: 25px;}
+
+button{cursor: pointer;}
+
+/* CSS for index start here */
+
+@font-face{
+	font-family: 'zawgyi';
+	src: url('zawgyi.ttf');
+}
+
+/* For nav/title bar */
+
+#nav_title{
+	width: 100%;
+	background-color: #222;
+	height: 60px;
+}
+
+#nav_title_inner{
+	width: 1366px;
+	font-size: 17px;
+	background-color: #222;
+	height: 60px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+#bghlogo{
+	float: left;
+	margin: 5px 0 0 15px;
+}
+
+.header_logo{
+	vertical-align: middle;
+	float: left;
+}
+
+.header_title{
+	margin: 10px 0 0 25px;
+	float: left;
+}
+
+#login{
+	float: right;
+	margin: 19px 10px 0 0;
+}
+
+.fill{
+	width: 150px;
+	height: 20px;
+}
+
+#login input{
+	background-color: #e8e9eb;
+	border: 1.5px solid #cecece;
+	border-radius: 4px;
+}
+
+#btn_login{
+	width: 60px;
+}
+
+#content_area{
+	width: 100%;
+	height: auto;	
+	z-index: 11111;
+}
+
+.cont_log{
+	background: url('../images/bgbanbg.png') repeat scroll;
+}
+
+.cont1{
+	background: #e7e7e7;
+}
+
+.cont{
+	background: #fff;
+}
+
+#content_area_inner{
+	width: 1366px;
+	min-height: 350px;
+	margin: 0 auto;
+	position: relative;	
+}
+
+#line1{
+	border-bottom: 3px solid #000;
+}
+
+#line2{
+	border-bottom: 3px solid #e7e7e7;
+}
+
+.join{
+	padding-top: 5px;
+}
+
+.mid{
+	text-align: center;
+	width: 25.06%;
+}
+
+.mid img{
+	width: 100%;
+}
+
+.half{
+	float: left;
+	width: 50%;
+}
+
+.half img{
+	float: right;
+}
+
+#joinbh{
+	float:left;
+	width: 50%;
+}
+
+.lineicon{
+	height: 72px;
+	margin-top: 10px;
+	color: #000;
+	font-size: 17px;
+}
+
+.lineicon p{
+	padding-top: 30px;
+}
+
+.nazi, .nazi2{
+	height: 300px;
+}
+
+.nazi{
+	text-align: right;
+	float:left;
+}
+
+.nazi2{
+	text-align: left;
+	float:right;
+}
+
+.loginwith{
+	width: 220px;
+	height: 30px;
+	margin: 2.5px 9.259259259259259% 2.5px 9.259259259259259%;
+}
+
+
+.login_area{
+	background: url("../images/BaganBanner2.jpg") no-repeat scroll center center;
+}
+
+.typpo{
+	display: inline-block;
+}
+
+.sign_upbox{
+	width: 270px;
+	min-height: 265px;
+	line-height: 25px;
+	font-size: 13px;
+	background: #424242;
+	color: #fff;
+	border-radius: 6px;
+	float: right;
+	margin: 20px 5.124450951683748% 0 0;
+}
+
+.sign_title{
+	text-align: center;
+	height: 25px;
+	margin-top: 10px;
+}
+
+.underline{
+	width: 95%;
+	border-bottom: 1px solid #555;
+	margin: 0 2.5%;
+}
+
+#message{
+	width: 220px;
+	min-height: 20px;
+	float: left;
+	margin: 0 25px;
+	line-height: 16px;
+}
+
+.form{
+	height: 25px;
+}
+
+.form1,.form2{
+	height: 25px;
+	width: 39.740741%;
+}
+
+.form1{
+	float: left;
+	margin: 0 0 10px 9.259259259259259%;
+}
+
+.form2{
+	float: right;
+	margin: 0 9.259259259259259% 10px 0;
+}
+
+.form, .sign_upform span, .signup{
+	width: 81.48148148148148%;
+	margin: 0 9.259259259259259% 10px 9.259259259259259%;
+}
+
+.signup{
+	text-align: center;
+}
+
+.signup input{
+	width: 53.2962962962963%;
+	border-radius: 3px;
+	height: 35px;
+	border: 1px solid  #ffbb02;
+	background: #ffc906;
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.signup input:hover{
+	font-weight: bolder;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.btitle{
+	text-align: center;
+	font-size: 2.667em;
+	color: #404040;
+	line-height: 1em;
+	padding: 15px 0;
+	font-weight: normal;
+}
+
+.b2b{
+	font-weight: bold;
+}
+
+.pre_desc{
+	margin-left: 6.076134699853587%;
+	margin-right: 6.076134699853587%;
+	height: auto;
+	width: 87.84773060029283%;
+	display: inline-block;
+}
+
+.desc_box{
+	float: left;
+	text-align: center;
+	width: 33.33333333333333%;
+}
+
+.desc_box p{
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: #4c4c4c;
+	line-height: 25px;
+	font-family: 'zawgyi';
+}
+
+.desc_img{
+	width: 110px;
+	height: 97px;
+}
+
+.desc_title{	
+	color: #fd8e1a;
+	font-size: 16px;
+	margin: 5px;
+	font-weight: bold;
+}
+
+#footer{
+	width: 100%;
+	min-height: 110px;
+	background: url('../images/footer.png') repeat scroll 0% 0% transparent;
+}
+
+#inner_footer{
+	width: 1366px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
+
+.footer_menu_bar{
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.footer_menu_bar li{
+	padding: 0 1em;
+	display: inline-block;
+}
+
+.site_copyright{
+	margin: 51px 0 16px 0;
+	width: 100%;
+	float: left;
+}
+
+#footer a, #footer a:hover, #footer a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+
+body{
+	min-height: 500px;
+	font: 62.5%/1.2 Arial,Helvetica,"Nimbus Sans L",sans-serif;
+	background: url("../images/body-bg.jpg") repeat scroll 0% 0% transparent;
+	margin-top: -12px;
+}
+
+.reslogin{
+	display: none;
+}
+
+/* nav/title end here */
+
+@media screen and (max-width: 1366px){
+	
+	#nav_title, #nav_title_inner, #content_area, #content_area_inner, #footer, #inner_footer{
+		width: 100%;
+	}
+	
+	#login{
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 849px){
+
+	#login{
+		display: none;
+		position: absolute;
+		margin: 0;
+		top: 60;
+		z-index: 20;
+		background: none repeat scroll 0% 0% rgba(34, 34, 34, 0.9);
+		width: 100%;
+		min-height: 30px;
+	}
+	
+	.reslogin{
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		color: #fff;
+		background: #666666;
+		padding: 20px;
+		cursor: pointer;
+	}
+	
+	.forrespon{
+		margin: 0 10px 10px 0;
+		text-align: right;
+	}
+	
+	.block{
+		display: inline-block;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+}
+
+@media screen and (max-width: 650px){
+
+	.desc_box{
+		width: 98%;
+	}
+	
+	#login{
+		text-align: center;
+	}
+	
+	.forrespon{
+		margin: 0 auto;
+		width: 310px;
+		text-align: center;
+	}
+	
+	.typpo{
+		width: 85px;
+		text-align: left;
+	}
+
+}
+
+@media screen and (max-width: 350px){
+	
+	#nav_title, #nav_title_inner, #content_area, #content_area_inner, #footer, #inner_footer{
+		width: 350px;
+	}
+	
+	#login{
+		width: 350px;
+	}
+	
+	.sign_upbox{
+		margin: 20px 40px 0 0;
+	}
+	
+}
+
+.clear{
+	clear: both;
+}

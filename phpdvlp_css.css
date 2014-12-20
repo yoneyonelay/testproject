@@ -1,0 +1,80 @@
+
+
+/* scss/apps/inbox/inbox_overlay.css */
+
+#inbox-overlay{font-weight:normal;line-height:1.2;width:460px}
+#inbox-overlay span{display:inline;padding:0}
+#inbox-overlay a{color:#069 !important;display:inline;padding:0;white-space:normal;_width:auto}
+#header #nav-primary-inbox #inbox-overlay a:hover{background-color:transparent;text-decoration:underline}
+#inbox-overlay .btn-primary,#inbox-overlay .btn-quaternary{padding:3px 10px 2px;*padding:3px 10px;text-decoration:none}
+#inbox-overlay .btn-primary,#inbox-overlay .split-btn.btn-primary:hover{color:#fff !important}
+#inbox-overlay .btn-quaternary{color:#585858 !important}
+#inbox-overlay .split-btn{_height:19px;_overflow:hidden}
+#inbox-overlay li{line-height:1.2;margin:0;_width:auto}
+#inbox-overlay li a{_width:auto}
+#inbox-overlay .menu-btn{background:#fff !important;padding:5px !important;border:1px solid #016799 !important}
+#inbox-overlay .menu-btn li{display:block !important;float:none !important;*float:left !important;margin:0 !important;padding:0 !important;*zoom:1}
+#inbox-overlay .menu-btn a{display:block !important;_zoom:1;padding:5px !important}
+#inbox-overlay .menu-btn a:hover{background-color:#016799 !important;color:#fff !important}
+#header #nav-primary-inbox #inbox-overlay{padding:0}
+#header #nav-primary-inbox #inbox-overlay #inbox-overlay-messages .participants a{color:#000 !important}
+#inbox-overlay .participants,#inbox-overlay .date{font-size:13px}
+#inbox-overlay .headline,#inbox-overlay .subject,#inbox-overlay .relationship,#inbox-overlay .item-status,#inbox-overlay .preview{font-size:12px}
+#inbox-overlay .headline,#inbox-overlay .subject,#inbox-overlay .relationship,#inbox-overlay .preview,#inbox-overlay .participants{display:block;overflow:hidden}
+#inbox-overlay .headline{color:#333}
+#inbox-overlay .relationship{color:#585858}
+#nav-primary-inbox #inbox-overlay .inbox-item{background-color:#fff;margin:0;padding:10px;position:relative;_position:static;-moz-transition:background 0.3s;-o-transition:background 0.3s;-webkit-transition:background 0.3s;transition:background 0.3s;*zoom:1}
+#nav-primary-inbox #inbox-overlay .inbox-item:hover{background-color:#ddf0f8;z-index:1}
+#inbox-overlay-messages .inbox-item{cursor:pointer}
+#nav-primary-inbox #inbox-overlay .inbox-item:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#inbox-overlay li.inbox-overlay-message,#inbox-overlay ul{list-type:none}
+#inbox-overlay strong{font-weight:normal}
+#inbox-overlay #inbox-overlay-invitations strong,#inbox-overlay-messages .inbox-list .unread strong{font-weight:bold}
+#inbox-overlay-messages .inbox-list .unread .subject{font-weight:bold}
+#inbox-overlay .inbox-item .item-content{margin-left:55px;*zoom:1}
+#inbox-overlay .inbox-item .response{background:url('../images/pics1/img/sprite/sprite_inbox_v3_icon.png') no-repeat;_color:#fff;display:inline-block;*font-size:0;height:12px;text-indent:-12345px;*text-indent:0;width:15px}
+#inbox-overlay .inbox-item .forwarded{background-position:0 -51px}
+#inbox-overlay .inbox-item .replied{background-position:0 -76px}
+#inbox-overlay .inbox-item .photo{float:left;font-size:10px;overflow:hidden}
+#inbox-overlay .inbox-item .partner-photo{border:0;padding:0}
+#inbox-overlay .inbox-actions,#inbox-overlay .inbox-item:hover .headline,#inbox-overlay .inbox-item:hover .meta{opacity:0;visibility:hidden;_visibility:visible}
+#inbox-overlay .inbox-item:hover .inbox-actions,#inbox-overlay .headline,#inbox-overlay .meta{opacity:1;visibility:visible}
+#inbox-overlay .inbox-actions,#inbox-overlay .headline,#inbox-overlay .meta{-moz-transition:opacity 0.3s;-o-transition:opacity 0.3s;-webkit-transition:opacity 0.3s;transition:opacity 0.3s;*zoom:1}
+#inbox-overlay .inbox-item .date{color:#808080;float:right;text-align:right;width:45px}
+.ja #inbox-overlay .inbox-item .date,.fr #inbox-overlay .inbox-item .date,.ko #inbox-overlay .inbox-item .date,.fr #inbox-overlay .inbox-item .date{width:55px}
+.es #inbox-overlay .inbox-item .date,.pt #inbox-overlay .inbox-item .date{width:65px}
+#inbox-overlay .inbox-list{margin:0;padding:0}
+#inbox-overlay-messages .inbox-list .subject{font-weight:normal;margin:0 55px 5px 0}
+.fr #inbox-overlay-messages .inbox-list .subject{margin-right:65px}
+.es #inbox-overlay-messages .inbox-list .subject,.pt #inbox-overlay-messages .inbox-list .subject{margin-right:75px}
+#inbox-overlay .preview{margin-bottom:5px}
+#inbox-overlay-messages .inbox-actions{font-size:11px;margin-left:55px;overflow:hidden;*zoom:1}
+#header #nav-primary-inbox #messages-container .inbox-actions a{color:#666 !important}
+#nav-primary-inbox #inbox-overlay-messages .inbox-actions li:first-child{background:transparent;margin:0;padding:0}
+#nav-primary-inbox #inbox-overlay-messages .inbox-actions li{float:left;font-size:11px;margin-left:6px;padding-left:11px;background:url('../images/pics1/img/sprite/sprite_inbox_v3_icon.png') no-repeat -22px 4px}
+#inbox-overlay-invitations-header,#inbox-overlay-messages-header{border-style:solid;border-color:#DDD;overflow:auto;zoom:1;background-image:url('../images/pics2/img/bg/bg_inbox_category_gradient_1x25.png');background-repeat:repeat-x;height:25px}
+#inbox-overlay-invitations-header{border-width:0 0 1px}
+#inbox-overlay-messages-header{border-width:1px 0}
+#inbox-overlay .header-left,#inbox-overlay .header-right{color:#069}
+#inbox-overlay-invitations-header .header-left,#inbox-overlay-messages-header .header-left{float:left;padding-left:12px;font-size:13px;margin-top:5px}
+#inbox-overlay-invitations-header .header-right,#inbox-overlay-messages-header .header-right{float:right;padding-right:12px;font-size:11px;margin-top:6px}
+#inbox-overlay #inbox-overlay-invitations-anchor span,#inbox-overlay #inbox-overlay-messages-anchor span{display:inline;padding:0}
+#inbox-overlay-invitations .headline{display:block}
+#inbox-overlay-invitations .participants{white-space:nowrap}
+#nav-primary-inbox #invitations-container .item-confirmation:first-child{background:#f4f4f4}
+#nav-primary-inbox #invitations-container .item-confirmation{background-color:#f4f4f4;font-size:12px;padding:0}
+#nav-primary-inbox #invitations-container .item-confirmation .confirmation{background:url('../images/pics1/img/sprite/sprite_inbox_v3_icon.png') no-repeat 10px -225px;min-height:25px;overflow:hidden;padding:8px 10px 8px 35px;position:relative;*zoom:1}
+#nav-primary-inbox #invitations-container .item-confirmation h4{color:#060;font-weight:bold;padding-right:25px}
+#nav-primary-inbox #invitations-container .item-confirmation ul{font-size:11px}
+#nav-primary-inbox #invitations-container .ignore-confirmation{padding:8px 30px 8px 8px;position:relative}
+#nav-primary-inbox #invitations-container .close-confirmation{background:url('../images/pics1/img/sprite/sprite_inbox_v3_icon.png') no-repeat 0 -202px;cursor:pointer;height:10px;position:absolute;right:10px;text-indent:-12345px;top:12px;width:14px}
+#nav-primary-inbox #invitations-container .item-confirmation li{background:url('../images/pics1/img/sprite/sprite_inbox_v3_icon.png') no-repeat -22px 5px;float:left;margin-left:6px;padding-left:11px;zoom:1;*display:inline}
+#nav-primary-inbox #invitations-container .item-confirmation li:first-child{background:transparent;margin:0;padding:0}
+#nav-primary-inbox #inbox-overlay-invitations .inbox-actions{position:absolute;top:30px;left:65px;_position:static;_zoom:1}
+#nav-primary-inbox #inbox-overlay-invitations .inbox-actions li{float:left;margin-right:10px;vertical-align:bottom;zoom:1;*display:inline}
+#nav-primary-inbox #inbox-overlay-invitations .primary-actions{display:inline-block;*display:inline;*zoom:1}
+#inbox-overlay .inbox-item .submitting{background:url('../images/pics1/img/anim/anim_loading_16x16.gif') no-repeat center center;height:100%;text-indent:-12345px}
+#messages-container .flag-link,#messages-container .unflag-link,#messages-container .chk,#messages-container .spam-icon-link,#invitations-container .invitation-report-abuse{display:none}
+#inbox-overlay .btn-primary{background-color:#0571A6}
+#inbox-overlay li{white-space:normal}
+

@@ -1,0 +1,2626 @@
+
+
+/* scss/base/reset.css */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;-webkit-text-size-adjust:100%}
+ol,ul{list-style:none}
+table{border-collapse:separate;border-spacing:0}
+caption,th,td{text-align:left;font-weight:normal}
+blockquote:before,blockquote:after,q:before,q:after{content:""}
+blockquote,q{quotes:"" ""}
+input[data-ime-mode-disabled]{ime-mode:disabled !important}
+input[type=file]{ime-mode:disabled !important}
+
+
+
+/* lib/yui/2.8.1/container/assets/container-core-min.css */
+
+.yui-overlay,.yui-panel-container{visibility:hidden;position:absolute;z-index:2;}
+.yui-panel{position:relative;}
+.yui-panel-container form{margin:0;}
+.mask{z-index:1;display:none;position:absolute;top:0;left:0;right:0;bottom:0;}
+.mask.block-scrollbars{overflow:auto;}
+.masked select,.drag select,.hide-select select{_visibility:hidden;}
+.yui-panel-container select{_visibility:inherit;}
+.hide-scrollbars,.hide-scrollbars *{overflow:hidden;}
+.hide-scrollbars select{display:none;}
+.show-scrollbars{overflow:auto;}
+.yui-panel-container.show-scrollbars,.yui-tt.show-scrollbars{overflow:visible;}
+.yui-panel-container.show-scrollbars .underlay,.yui-tt.show-scrollbars .yui-tt-shadow{overflow:auto;}
+.yui-panel-container.shadow .underlay.yui-force-redraw{padding-bottom:1px;}
+.yui-effect-fade .underlay,.yui-effect-fade .yui-tt-shadow{display:none;}
+.yui-tt-shadow{position:absolute;}
+.yui-override-padding{padding:0!important;}
+.yui-panel-container .container-close{overflow:hidden;text-indent:-10000em;text-decoration:none;}
+.yui-overlay.yui-force-redraw,.yui-panel-container.yui-force-redraw{margin-bottom:1px;}
+
+
+/* scss/base/base.css */
+
+html{overflow-y:scroll;margin:0;padding:0;border:0;outline:0}
+body{font:62.5%/1.2 Arial,Helvetica,"Nimbus Sans L",sans-serif;color:#000;margin:0;padding:0;border:0;outline:0}
+body.ko{font-family:"Malgun Gothic"}
+body.ja{font-family:"MS PGothic", Osaka, arial, helvetica, sans-serif}
+hr{display:none}
+strong{font-weight:bold}
+abbr,acronym{border:none}
+img{border:none}
+a{text-decoration:none;color:#069;outline:none}
+a:hover{text-decoration:underline}
+a:visited,#footer a:visited{color:#069}
+#body .more a:visited,#body .action a:visited,#body .actions a:visited,#body .cancel:visited,#body .more:visited,.nav-link:visited,.nav-links a:visited{color:#069}
+p.intro{font-size:13px;margin-bottom:1em}
+input,select,textarea,button{font-family:Arial, Helvetica, "Nimbus Sans L", sans-serif}
+.ko input,.ko select,.ko textarea,.ko button{font-family:"Malgun Gothic"}
+
+
+
+/* scss/modules/ghost_label.css */
+
+input.hint,textarea.hint{color:#999}
+.js label.ghost{display:none}
+
+
+
+/* scss/base/images.css */
+
+img.photo,span.photo{display:block;padding:2px;border:1px solid #e6e6e6}
+.gallery{overflow:hidden;clear:both;height:1%}
+.gallery img.photo{float:left;margin:5px 10px 0 0}
+.none-provided{color:#999}
+
+
+
+/* scss/modules/alerts.css */
+
+span.error{font-weight:bold;color:#900}
+div.alert{color:#333;background-color:#fff;margin:0 0 15px;padding:6px 7px 6px 35px;*padding-top:14px;overflow:hidden;min-height:28px;position:relative}
+div.alert img{display:none}
+div.alert p,div.alert h3{font-size:13px;margin:7px 21px 5px 7px}
+div.alert ul{font-size:13px;margin:0 21px 5px 7px}
+div.alert h3{font-weight:bold}
+div.alert .dismiss{background:url('../images/pics1/img/sprite/sprite_global_v6.png') right -1294px no-repeat;display:block;padding:7px 0 2px;position:absolute;text-indent:-12345px;top:3px;right:14px;width:18px;cursor:pointer;height:12px}
+div.alert a:visited{color:#039}
+div.alert.attention{background:#fff5cc url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 7px -723px}
+div.alert.warning{background:#fff5cc url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 7px -723px}
+div.alert.error{background:#fee url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 7px -643px}
+div.alert.success{background:#e6f8dd url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 7px -883px}
+div.alert.notice{background:#ddf0f8 url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 7px -803px}
+div.alert.error.alert-details,div.errorbox.alert-details{background-image:url('../images/pics2/img/icon/icon_status_fail_26x26.gif');background-position:7px 7px}
+div.alert.success.alert-details{background-image:url('../images/pics1/img/icon/icon_status_success_26x26.gif');background-position:7px 7px}
+div.alert.warning.alert-details{background-image:url('../images/pics2/img/icon/icon_status_info_26x26.gif');background-position:7px 7px}
+div.alert.notice.alert-details,div.alert.attention.alert-details{background-image:url('../images/pics1/img/icon/icon_status_info_blue_26x26.gif');background-position:7px 7px}
+
+
+
+/* scss/modules/legal_notice.css */
+
+#notice-privacy{position:relative;_height:1%}
+#notice-privacy p{padding-right:15px}
+#notice-close{background:url('../images/pics1/img/sprite/sprite_global_v6.png') right -1294px no-repeat;display:block;padding:7px 0 2px;position:absolute;text-indent:-1000em;top:3px;right:14px;width:18px;height:18px}
+
+
+
+/* scss/modules/tabs.css */
+
+.tabs{height:26px;background:url('../images/pics2/img/bg/bg_sprites_tabs.png') 0 3px repeat-x;margin-bottom:10px}
+.tabs ul{font-size:85%;height:26px;margin:0 0 0 17px;padding:0;list-style:none;white-space:nowrap;overflow:hidden}
+.tabs li,.tabs li a,.tabs li strong{display:block;float:left}
+.tabs li{background:url('../images/pics2/img/bg/bg_sprites_tabs.png') 0 -47px no-repeat;margin:0;padding:0}
+.tabs li.selected{background:#fff url('../images/pics2/img/bg/bg_sprites_tabs.png') 0 -100px no-repeat;border-top:1px solid #CCC}
+.tabs li a{color:#777;text-align:center;text-decoration:none;cursor:pointer}
+.tabs li.selected a,.tabs li.selected strong{color:#C60;background:url('../images/pics2/img/bg/bg_sprites_tabs.png') 100% -100px no-repeat}
+.tabs li.disabled a,.tabs li.disabled a:hover *,.tabs li.disabled strong{color:#ccc;cursor:text}
+.tabs li strong{color:#777;background:url('../images/pics2/img/bg/bg_sprites_tabs.png') 100% -47px no-repeat;font-weight:bold;padding:8px 14px 6px 14px}
+.tabs li em{color:#777;font-weight:normal;font-style:normal}
+.tabs li.selected strong{color:#C60;padding:7px 14px 6px 14px}
+.tabs li .beta{text-transform:uppercase;font-style:italic}
+.tabs li a:hover,.tabs li a:hover *{color:#39C;text-decoration:none !important}
+.tabs li.selected a:hover,.tabs li.selected a:hover *{color:#C60}
+.tabs p{text-align:right;margin:-18px 9px 0 0;padding:0;font-size:85%}
+.tabs p a{color:#777}
+
+
+
+/* scss/modules/check_textarea.css */
+
+p.check-textarea-message{display:block;margin:2px 0 !important;font-size:11px !important;color:#666 !important}
+p.check-textarea-message.error{background:url('../images/pics1/img/sprite/sprite_global_v6.png') 0 -968px no-repeat;padding:2px 0 2px 15px !important;color:#900 !important}
+
+
+
+/* scss/modules/show_more.css */
+
+.js .toggle-show-more,.js .toggle-show-less{color:#069;font-size:11px;cursor:pointer;white-space:nowrap;padding-left:3px}
+
+
+
+/* scss/themes/consumer/chrome.css */
+
+body{background-color:#fff}
+.global-nav ul,.global-nav li,.global-nav p,.global-nav fieldset,#section-header ul,#section-header li,#section-header p,#section-header,.global-search fieldset,.global-search select,.global-search input,#footer ul,#footer li,#footer p{margin:0;padding:0;list-style-type:none;border:0;outline:0;background:none;vertical-align:middle}
+.global-nav,#body,#footer{clear:both;width:980px;margin-left:auto;margin-right:auto}
+.global-nav:after,#body:after,#main:after,#footer:after,.primary:after,.wrapper:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.global-nav,#body,#main,#footer{zoom:1}
+#body .wrapper{padding:0 10px}
+.global-nav{font-size:13px;margin-bottom:15px}
+.global-nav a,.global-nav a:hover,.global-nav a:visited{text-decoration:none !important;color:#069}
+.global-nav .logo{margin:6px 10px 0 3px;float:left;width:92px;display:block}
+.global-nav .logo a{background:url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat;display:block;height:22px;text-indent:-12345px}
+.global-nav.guest .logo{padding-bottom:5px}
+.global-nav .account{float:left;font-size:11px;margin-top:15px}
+.global-nav .util{color:#666;margin:30px 3px 5px 8px;float:right}
+.global-nav .util li{font-size:11px;display:inline;padding:0 2px 0 10px;*padding-right:6px}
+.global-nav .util .nav-rule{display:none}
+.global-nav .util .add-conx{color:#060}
+.ko .global-nav .util .add-conx{line-height:1.5}
+.global-nav .util .jump{position:absolute;left:-9999px}
+.global-nav .util .username{color:#FFFFFF;background: url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 0 -1763px;*background-position:0 -1762px;padding-left:12px}
+.js .global-nav .util .signout{display:none}
+.global-nav .bar{width:100%}
+.global-nav .bar .wrapper{padding:0 5px;background:url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 0 -510px;height:39px}
+.global-nav .bar .nav{margin-left:5px}
+.global-nav .bar .tab{float:left;margin:1px 0 0 0;line-height:35px;font-size:13px;_clear:none;_line-height:1.2}
+.global-nav .bar .tab span{display:block;padding:1px 9px}
+.global-nav .bar .tab:hover,.global-nav .bar .tab.hover{background:#000 !important;border:1px solid #016799;-moz-box-shadow:0 3px 10px #888;-webkit-box-shadow:0 3px 10px #888;box-shadow:0 3px 10px #888}
+.global-nav .bar .tab:hover span,.global-nav .bar .tab.hover span{padding:0 8px}
+.global-nav .bar .hover span,.global-nav .bar li:hover span{background-color:#000;position:relative;z-index:10}
+.global-nav .bar .hover .menu span,.global-nav .bar li:hover .menu span{background-color:transparent;position:static}
+.global-nav .bar .hover .menu .title,.global-nav .bar li:hover .menu .title{padding:0 5px 5px}
+.global-nav .selected a{color:#2C2C2C !important}
+.global-nav .hover,.global-nav li:hover{position:relative;z-index:9}
+.global-nav .hover .menu,.global-nav li:hover .menu{display:block}
+.global-nav .menu{display:none;position:absolute;top:34px;left:-1px;z-index:4;background:#000;border:1px solid #016799;padding:5px 0;-moz-box-shadow:0 6px 10px #888;-webkit-box-shadow:0 6px 10px #888;box-shadow:0 6px 10px #888}
+.global-nav .menu li{line-height:1;_width:175px;margin:0 5px;font-size:13px;white-space:nowrap}
+.global-nav .menu li a{color:#fff;white-space:nowrap;display:block;padding:5px;_width:100%;_overflow:hidden;_text-overflow:ellipsis}
+.global-nav .menu li a:hover{color:#fff !important;background-color:#016799;text-decoration:none}
+.global-nav .menu li a:hover sup{color:#fff}
+.global-nav .menu li#nav-my-apps{color:#666;padding-top:10px}
+.global-nav .menu li.separator{margin-top:4px;padding-top:4px;border-top:1px solid #ccc}
+.global-nav .menu ul{margin:0;padding:0}
+.global-nav .menu ul li{margin:0;padding:0}
+.global-nav .menu ul li a{padding:5px 10px}
+.global-nav .util .menu{top:-10px;background-color:0 -2172px;left:-1px;padding-left:4px;padding-right:5px;z-index:2}
+.global-nav .util .menu .username{margin-bottom:5px;*margin-top:7px;_margin-top:0px;background-position:6px -1759px;_background-position:6px -1757px;padding-left:18px;display:block}
+.global-nav .util .menu a:hover.username{background-color:#fff;color:#069 !important}
+.global-nav .util .menu li{display:block;padding:0;margin:0;font-size:11px}
+.global-nav .nav-rule{line-height:1px;height:1px;border-top:1px solid #fff;position:absolute;top:34px;left:0;display:block;z-index:3;padding:0 !important}
+.nav-primary-shim{visibility:hidden;position:absolute;left:-9999px;z-index:1;background-color:#fff;width:1px;height:1px;border:none;overflow:hidden}
+#nav-primary-inbox-item-total{background:#f90;border:1px solid #c60;color:#fff;display:inline-block;_display:inline;font-size:11px;line-height:1;margin-left:3px;padding:1px 3px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px}
+#inbox-received-unread-total{display:inline;padding:0}
+#global-search{float:right;margin:8px 4px 0 0;padding:0}
+#global-search fieldset{float:left;white-space:nowrap}
+#global-search legend,#global-search legend span,#global-search label{position:absolute;left:-12345px}
+#global-search select{font-size:11px;font-weight:bold;color:#666;padding:2px;text-align:right; background-color:#FFFFFF;}
+#global-search .search-go{cursor:pointer;border:1px solid #06598B;color:#0076A8;background:#0076a8 url('../images/pics1/img/sprite/sprite_global_v6.png') -9px -1170px no-repeat;height:22px;width:20px;*width:22px;_width:24px;*margin-left:4px;*font-size:.01em;text-indent:-1234px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+#global-search .search-go:hover{background-position:-9px -1200px}
+#main-search-box{background:#fff;border:1px solid #7c7c7c;border-color:#7c7c7c #c3c3c3 #ddd;height:19px;width:211px;*float:left;_float:none;line-height:16px;padding:1px 2px 0;font-size:12px}
+.tr #main-search-box,.fr #main-search-box,.pt #main-search-box{width:185px;*width:165px}
+.ja #main-search-box,.in #main-search-box,.nl #main-search-box{width:155px;*width:135px}
+.pl #main-search-box,.ru #main-search-box,.cs #main-search-box{width:110px;*width:100px}
+#search-link{font-size:11px;line-height:22px;margin:0 6px 0 7px;display:inline}
+.cs #search-link,.ru #search-link{float:left;line-height:11px;text-align:center}
+.basic-search #main-search-box{width:265px}
+.in .basic-search #main-search-box,.ja .basic-search #main-search-box,.tr .basic-search #main-search-box,.nl .basic-search #main-search-box,.pt .basic-search #main-search-box,.fr .basic-search #main-search-box{width:185px;*width:170px}
+.cs .basic-search #main-search-box,.pl .basic-search #main-search-box,.ru .basic-search #main-search-box{width:175px;*width:160px}
+.basic-search #search-link{display:none}
+.search-scope{font-size:11px;float:left;z-index:7}
+.search-scope label{position:static;left:0}
+.search-scope .suggestion-toggle{display:none}
+.search-scope ul{background:#fff;border:1px solid #016799;padding:5px;box-shadow:0 6px 10px #888;-moz-box-shadow:0 6px 10px #888;-webkit-box-shadow:0 6px 10px #888;color:#069;display:none;float:left;min-width:100px}
+.search-scope ul li{display:block;padding:0;margin:0;line-height:1;cursor:pointer;text-align:right;font-size:12px}
+.search-scope ul li a,.search-scope ul li div{color:#069;padding:5px}
+.search-scope ul li.option.first{margin-top:3px}
+.search-scope ul li.separator{margin-top:4px;padding-top:4px;border-top:1px solid #ccc}
+.search-scope ul li.highlighted div,.search-scope ul li.suggestion-toggle.highlighted span{color:#fff;background-color:#016799}
+.search-scope ul li.selected div{background:none;color:#000;font-weight:bold}
+.search-scope span.label{float:left;background:#dcdcdc url('../images/pics1/img/sprite/sprite_global_v6.png') 0 -1130px repeat-x;margin:0;border:1px solid #7c7c7c;border-width:1px 0 1px 1px;border-color:#7c7c7c #999 #c3c3c3;-moz-border-radius:2px 0 0 2px;-webkit-border-top-left-radius:2px;-webkit-border-bottom-left-radius:2px;border-radius:2px 0 0 2px}
+.search-scope span.label span{float:left;background:url('../images/pics1/img/sprite/sprite_global_v6.png') 101% -2072px no-repeat;color:#666;font-weight:bold;padding:4px 19px 3px 8px;cursor:pointer}
+.search-scope .suggestion-toggle{display:block;cursor:pointer}
+.search-scope .state-on .on-toggle,.search-scope .state-off .off-toggle{display:none}
+.search-scope .state-on .off-toggle,.search-scope .state-off .on-toggle{display:block}
+#section-header,#page-title{margin:0 10px 15px 10px;zoom:1}
+.wrapper #section-header,.wrapper #page-title{margin:0 0 15px}
+#section-header:after,#page-title:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#section-header,.wrapper #page-title{background:url('../images/pics2/img/bg/bg_border_3x1.png') repeat-x 0 100%}
+#section-header h1,#page-title h1{color:#333;font-size:180%;margin-bottom:0;padding-bottom:7px;font-weight:normal}
+#section-header h1 a,#page-title h1 a{color:#333 !important}
+#section-header h1 img,#page-title h1 img{vertical-align:middle}
+#page-title.sub{margin-top:15px}
+#section-header h1{display:none}
+#section-header h1 strong{font-weight:normal}
+#section-header.sub h1{display:block;float:left}
+#nav-secondary{float:left;clear:both}
+.inlined #nav-secondary{clear:none}
+#nav-secondary li{float:left;font-size:130%;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+#nav-secondary a,#nav-secondary a:visited{color:#069;float:left;padding:6px 12px 4px}
+#nav-secondary .selected,#nav-secondary .active{background:#fff;border:1px solid #ccc;border-width:1px 1px 0}
+#nav-secondary .selected a,#nav-secondary .active a{border:1px solid #fff;padding-top:4px;color:#000 !important;font-weight:bold;padding:5px 8px 2px}
+.related-links{float:right}
+.related-links li{float:left;font-size:13px}
+.related-links a,.related-links a:visited{color:#069;float:left;padding:6px 8px 4px}
+.related-links strong{font-weight:normal;color:#069}
+.related-links .go-back{_display:none}
+.related-links .go-back strong{padding:6px 8px 4px 0;float:left}
+.related-links .go-back a{float:none;padding:0}
+#nav-secondary li.droplist{position:relative}
+#nav-secondary li.droplist ul{background:#fff;border:1px solid #016799;display:none;overflow:hidden;padding:5px;position:absolute;top:2em;*top:20px;-moz-box-shadow:0 6px 10px #888;-webkit-box-shadow:0 6px 10px #888;box-shadow:0 6px 10px #888}
+#nav-secondary li.droplist.open ul{display:block;z-index:1888;position:absolute}
+.en #nav-secondary li.droplist.open ul{width:100px}
+#nav-secondary li.droplist ul li{margin:0;padding:0;float:none;clear:both;border:0;zoom:1;line-height:normal}
+#nav-secondary li.droplist ul li a{outline:none;color:#069;font-size:12px;display:block;float:none;margin:0;padding:5px}
+#nav-secondary li.droplist ul li a:hover{background:#016799;color:#fff;text-decoration:none}
+#nav-secondary li.droplist ul li a span{margin:0;padding:0;background:0;font-weight:normal !important}
+#main h1{font-weight:normal;font-size:160%}
+#footer{border-top:1px solid #ccc;margin:20px auto;padding:10px 0;color:#666;clear:both}
+#footer .wrapper{clear:both;margin:0 auto;width:984px}
+#footer p{font-size:110%}
+#footer .nav-footer{margin:0 0 8px -8px;clear:both;zoom:1}
+#footer .nav-footer:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#footer .nav-footer li{font-size:120%;float:left;padding:0 8px}
+ul#nav-legal{margin:0 0 2px}
+ul#nav-legal li{font-size:110%;display:inline;padding:0 8px 0 0;margin-right:4px}
+#footer .nav-footer li,ul#nav-legal li{border-right:1px solid #ccc}
+p#copyright{float:left;border-right:1px solid #ccc;padding:0 8px 0 0;margin-right:8px}
+p#copyright.plain{border-right:0}
+p#feedback-request{clear:both}
+p#terms-of-use{margin-bottom:8px}
+#footer li.first{margin:0;padding:0}
+#footer li.last{border:0}
+#directory{margin:10px 0 20px;padding-bottom:15px;white-space:nowrap;text-align:center;border-bottom:1px solid #ccc}
+#directory .browse-by-country{display:inline;padding:0 0 0 8px;*padding-right:8px}
+#directory h3{display:inline;margin:0;color:#666;font-weight:normal;font-size:11px}
+#directory p,#directory ol{margin:0;padding:0 4px 0 0;display:inline;font-size:11px;border-right:1px solid #ccc}
+#directory ol.secondary{border-right:0}
+#directory ol li{display:inline}
+#directory ol li a{padding:0;text-decoration:none}
+#directory ol li a:hover{text-decoration:underline}
+#directory .browse-by-country{padding:0 0 0 8px;*padding-right:8px}
+#directory .browse-by-country h3{padding:0}
+li#nav-utility-lang{visibility:hidden}
+.js #nav-utility-lang{visibility:visible}
+li#nav-utility-lang.hover{position:relative}
+li#nav-utility-lang a{border:none}
+li#nav-utility-lang ul{display:none;padding:5px;background:#fff;position:absolute;left:3;bottom:1.2em;border:1px solid #069;overflow:hidden;min-width:75px;*width:75px;box-shadow:0 6px 10px #888;-moz-box-shadow:0 6px 10px #888;-webkit-box-shadow:0 6px 10px #888}
+li#nav-utility-lang.hover ul{display:block;z-index:201}
+#footer li#nav-utility-lang li{display:block;border:0;float:none;font-size:12px;padding:0;margin:0}
+li#nav-utility-lang li a{background:none;display:block;padding:4px 5px;text-decoration:none !important}
+li#nav-utility-lang li a:hover{background-color:#069;color:#fff !important}
+li#nav-utility-lang li.selected a:hover{background:none;cursor:text}
+li#nav-utility-lang li.selected strong{color:#000}
+li#nav-utility-lang form{padding:0;margin:0}
+.header-notifications{_display:inline;float:left;font-size:11px;margin-left:15px;padding-top:3px;text-shadow:0px 1px 0px #fff}
+.header-notifications .btn-primary,.header-notifications .btn-quaternary{text-shadow:none}
+.header-notifications ol,.header-notifications ul,.header-notifications li,.header-notifications h3{font-weight:normal;margin:0;padding:0}
+.header-notifications .activity-tab{float:left;margin-right:4px;padding:1px;position:relative;z-index:10;_clear:none}
+.header-notifications .activity-tab.open{background:#fff !important;border:1px solid #016799;box-shadow:0 3px 10px #888;-moz-box-shadow:0 3px 10px #888;-webkit-box-shadow:0 3px 10px #888;padding:0;z-index:11}
+.header-notifications .gem{background:#fff;border:1px solid #5da0ca;color:#5da0ca;font-size:11px;line-height:1.2;margin-left:3px;padding:0 3px;position:absolute;right:-2px;text-indent:0;top:-2px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px}
+.header-notifications .gem-unseen{background:#f90;border-color:#c60;color:#fff;text-shadow:0px -1px 0px rgba(0,0,0,0.2)}
+.header-notifications .gem.null-count{display:none}
+.header-notifications .activity-toggle{background:url('../images/pics1/img/sprite/sprite_notifications_v1.png') no-repeat 5px 0;display:block;height:22px;padding:5px;position:relative;text-indent:-12345px;width:22px}
+.header-notifications .activity-tab.open .activity-toggle{background-color:#fff;z-index:2}
+.header-notifications .messages-tab.open .activity-toggle{background-position:-22px 0}
+.header-notifications .invitations-tab .activity-toggle{background-position:-49px 0}
+.header-notifications .notifications-tab .activity-toggle{background-position:-76px 0}
+.header-notifications.katy-icons .activity-toggle{background-image:url('../images/pics2/img/sprite/sprite_notifications_v2.png')}
+.header-notifications.katy-icons .gem{font:10px/normal Arial;text-shadow:0px -1px 0px rgba(255,255,255,0.2);padding:1px 3px;border-width:0;color:#8a8a8a;background-color:#eee;right:2px;top:0}
+.header-notifications.katy-icons .gem-unseen{background-color:#f69d00;color:#fff}
+.header-notifications.katy-icons .messages-tab .activity-toggle{background-position:8px 8px}
+.header-notifications.katy-icons .invitations-tab .activity-toggle{background-position:-30px 8px}
+.header-notifications.katy-icons .notifications-tab .activity-toggle{background-position:-69px 8px}
+.header-notifications.katy-icons .messages-tab:hover .activity-toggle{background-position:8px -22px}
+.header-notifications.katy-icons .invitations-tab:hover .activity-toggle{background-position:-30px -22px}
+.header-notifications.katy-icons .notifications-tab:hover .activity-toggle{background-position:-69px -22px}
+.header-notifications .activity-content,.header-notifications .activity-drop-footer{cursor:pointer;-moz-transition:all 0.3s;-o-transition:all 0.3s;-webkit-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s}
+.header-notifications .activity-content:hover,.header-notifications .activity-drop-footer:hover{background-color:#ddf0f8}
+.header-notifications .activity-drop{background:#fff;border:1px solid #016799;-moz-box-shadow:0 6px 10px #888;-webkit-box-shadow:0 6px 10px #888;box-shadow:0 6px 10px #888;display:none;left:-1px;overflow:hidden;position:absolute;top:31px;width:260px;z-index:1}
+.header-notifications .activity-drop-loading{background:#fff url('../images/pics1/img/anim/anim_loading_16x16.gif') no-repeat center center;height:26px}
+.header-notifications .open .activity-drop{display:block}
+.header-notifications .activity-drop-header{border-bottom:1px solid #e1e1e1;padding:5px}
+.header-notifications .activity-drop-header h3 a{color:#555;font-size:13px}
+.header-notifications .activity-drop-header a:hover{text-decoration:underline !important}
+.header-notifications .activity-drop-footer{background-color:#edf2f5;border-top:1px dotted #b1b1b1;padding:4px;text-align:center}
+.header-notifications .activity-item{border-top:1px solid #e1e1e1}
+.header-notifications .last-item + .activity-item{border-top:1px solid #9f9b90}
+.header-notifications .activity-item:first-child{border:0}
+.header-notifications .activity-item .unviewed{background-color:#fcedd7}
+.header-notifications .activity-content{background-color:#fff;border:1px solid #fff;border-width:1px 1px 0;padding:5px;-moz-transition:background-color 0.3s;-o-transition:background-color 0.3s;-webkit-transition:background-color 0.3s;transition:background-color 0.3s}
+.header-notifications .activity-item.unseen .activity-content,.header-notifications .activity-content.unseen{background-color:#fef5cc}
+.header-notifications .activity-content,.header-notifications .activity-content .body{overflow:hidden;_overflow:visible;*zoom:1}
+.header-notifications .activity-content .image{float:left;margin-right:5px}
+.header-notifications .activity-content .image img{display:block}
+.header-notifications .activity-null{padding:5px;text-align:center}
+.header-notifications .inbox-item .body{position:relative}
+.header-notifications .inbox-item .date{color:#999;float:right}
+.header-notifications .inbox-item:hover .date{visibility:hidden}
+.header-notifications .inbox-item .participants{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.header-notifications .inbox-item .headline{color:#777}
+.header-notifications .inbox-item .submitting{background:url('../images/pics1/img/anim/anim_loading_16x16.gif') no-repeat center center;height:100%;text-indent:-12345px}
+.header-notifications .inbox-item .delete a,.header-notifications .inbox-item .close-confirmation{background:url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 3px -1447px;cursor:pointer;height:14px;position:absolute;right:0;text-indent:-12345px;top:0;width:14px}
+.header-notifications .inbox-item .delete a:hover,.header-notifications .inbox-item .close-confirmation:hover{background-position:0 -1350px}
+.header-notifications .inbox-item .participants,.header-notifications .inbox-item .date,.header-notifications .inbox-item .subject,.header-notifications .inbox-item .headline{font-size:11px}
+.header-notifications .messages-tab .activity-drop-header{overflow:hidden;*zoom:1}
+.header-notifications .messages-tab .activity-drop-header h3{float:left}
+.header-notifications .messages-tab .activity-drop-header .compose{color:#777;float:right;margin-top:2px}
+.header-notifications .messages-tab .inbox-item .participants a{color:#333}
+.header-notifications .messages-tab .inbox-item:hover .participants a{color:#069}
+.header-notifications .messages-tab .inbox-item .delete a{display:none}
+.header-notifications .messages-tab .inbox-item:hover .delete a{display:block}
+.header-notifications .messages-tab .unread .participants,.header-notifications .messages-tab .unread .subject{font-weight:bold}
+.header-notifications .invitations-tab .inbox-item .body{position:relative;min-height:40px}
+.header-notifications .invitations-tab .inbox-actions,.header-notifications .invitations-tab .inbox-item:hover .headline,.header-notifications .invitations-tab .inbox-item:hover .meta{opacity:0;visibility:hidden;_visibility:visible}
+.header-notifications .invitations-tab .inbox-item:hover .inbox-actions,.header-notifications .invitations-tab .headline,.header-notifications .invitations-tab .meta{opacity:1;visibility:visible}
+.header-notifications .invitations-tab .inbox-actions,.header-notifications .invitations-tab .headline,.header-notifications .invitations-tab .meta{-moz-transition:opacity 0.3s;-o-transition:opacity 0.3s;-webkit-transition:opacity 0.3s;transition:opacity 0.3s;*zoom:1}
+.header-notifications .invitations-tab .inbox-actions{left:0;position:absolute;_position:static;top:17px;_zoom:1}
+.header-notifications .invitations-tab .inbox-actions li{float:left;margin-right:5px;*zoom:1}
+.header-notifications .invitations-tab .item-confirmation{padding:5px;background-color:#fef5cc;font-size:100%}
+.header-notifications .invitations-tab .item-confirmation.activity-item .confirmation.new{overflow:hidden;padding:5px 20px 5px 5px;background:none;font-size:100%;color:inherit}
+.header-notifications .invitations-tab .confirmation.new .inviter-pic-lnk{float:left;margin-right:5px}
+.header-notifications .invitations-tab .confirmation.new .connection-pic{display:block}
+.header-notifications .invitations-tab .confirmation.new .item-content{float:left}
+.header-notifications .invitations-tab .confirmation.new .item-content-msg{display:block;padding:2px 0}
+.header-notifications .invitations-tab .ignore-confirmation,.header-notifications .invitations-tab .confirmation{position:relative;padding-right:20px}
+.header-notifications .notification .timestamp{color:#a1a1a1}
+
+
+
+/* scss/modules/typeahead2.css */
+
+#search-autocomplete-container{position:relative;zoom:1;display:inline;float:left;padding-right:3px;_padding-right:0;_float:none}
+#search-autocomplete-container .typeahead-loading-icon{display:none;position:absolute;top:3px;right:7px}
+#search-autocomplete-container .typeahead-loading-icon.loading{display:block}
+.typeahead-results-container .yui-ac{position:relative}
+.typeahead-results-container .yui-ac-input{position:absolute}
+.typeahead-results-container .yui-ac-container{position:absolute;top:1.6em;z-index:1}
+.typeahead-results-container .yui-ac-content{position:absolute;background:#fff;overflow:hidden;z-index:100}
+.typeahead-results-container .yui-ac-content ul{margin:0;padding:0;border:1px solid #BADDEE;border-bottom:0;list-style:none;min-width:310px;*width:310px}
+.typeahead-results-container .yui-ac-content li{border-bottom:1px solid #BADDEE;padding:5px;background:#fff;cursor:pointer}
+.typeahead-results-container .yui-ac-content li h4{font-size:12px;margin:0 1px 0 0;font-weight:normal}
+.typeahead-results-container .yui-ac-content li div,.typeahead-results-container .yui-ac-content li p{color:#666;overflow:hidden;height:1.2em;font-size:11px;margin:0}
+.typeahead-results-container .yui-ac-content li.yui-ac-prehighlight{background-color:#DDF0F8}
+.typeahead-results-container .yui-ac-content li.yui-ac-highlight{background-color:#DDF0F8}
+.typeahead-results-container .yui-ac-content li .related{padding-left:10px}
+.typeahead-results-container .yui-ac-content ul.hasImage li{position:relative;min-height:35px;padding-left:40px;*height:35px;*overflow:visible}
+.typeahead-results-container .yui-ac-content ul.hasImage li.poll{*height:auto}
+.typeahead-results-container .yui-ac-content ul.hasImage li img{position:absolute;top:4px;left:6px;height:30px;width:30px}
+.typeahead-noresults{width:200px;display:none;position:absolute;text-align:right;padding:5px;background:#fff;border:1px solid #baddee;font-size:120%}
+.typeahead-results-container .yui-ac-content ul.hasCategory{background-color:#E7E7E7;border:1px solid #999}
+.typeahead-results-container .yui-ac-content ul.hasCategory li{border:none}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.category{cursor:default;width:100px;background:#e7e7e7 url('../images/pics2/img/bg/bg_separator_typeahead_2x1.png') 0 0 repeat-x;padding:5px 5px 0 0;*height:25px;min-height:25px}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.category h3{color:#909090;min-height:10px;height:10px;font-size:11px;font-weight:bold;text-align:right}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.category.top,.typeahead-results-container .yui-ac-content ul.hasCategory li.item.top{background-image:none}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.first{margin-top:-30px;background:#fff url('../images/pics2/img/bg/bg_separator_typeahead_2x1.png') 0 0 repeat-x}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.text-only{width:247px;padding:5px 5px 2px 5px;min-height:15px;height:15px}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.item{position:relative;min-height:25px;padding:7px 5px 4px 42px;_height:25px;width:225px;margin-left:105px;border-left:1px solid #DFDFDF}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.item div,#universal-typeahead-results li.item p{height:auto;max-height:2.3em;overflow:hidden}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.item img{position:absolute;top:5px;left:6px;height:30px;width:30px}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.item.secondary{background-color:#F4F4F4}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.sitefeature,.typeahead-results-container .yui-ac-content ul.hasCategory li.skill{padding:2px 0 3px 0;width:272px;line-height:25px;max-height:25px;min-height:25px;*height:25px}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.sitefeature h4,.typeahead-results-container .yui-ac-content ul.hasCategory li.skill h4{line-height:16px;background-image:url('../images/pics2/img/icon/icon_in_blue_15x15.png');background-position:13px 5px;background-repeat:no-repeat;padding:5px 5px 5px 40px;max-height:16px;min-height:16px;*height:16px}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.poll h4{background:url('../images/pics1/img/bg/bg_search_comment.png') left bottom;padding-bottom:8px}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.poll h4 strong{display:block;padding:8px 8px 0 19px;background:url('../images/pics1/img/bg/bg_search_comment.png');min-height:20px;font-style:italic}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.poll .item-subline{margin:6px 0 6px 25px}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.item.yui-ac-prehighlight{background-color:#DDF0F8}
+.typeahead-results-container .yui-ac-content ul.hasCategory li.item.yui-ac-highlight{background-color:#DDF0F8}
+#universal-typeahead-results{z-index:1000;width:380px}
+#universal-typeahead-results .yui-ac-content{margin-left:2px;width:380px}
+#universal-typeahead-results.using-typeahead2 .yui-ac-content{margin-left:-106px;margin-top:6px}
+#universal-typeahead-results .yui-ac-content{-moz-box-shadow:0 3px 10px #888;-webkit-box-shadow:0 3px 10px #888;box-shadow:0 3px 10px #888}
+#universal-typeahead-results .yui-ac-content{-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px}
+#universal-typeahead-results ul{border-top:none;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px}
+#universal-typeahead-results li.item.bottom{-moz-border-radius-bottomright:5px;-webkit-border-bottom-right-radius:5px;border-bottom-right-radius:5px}
+#universal-typeahead-results li.category{-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;border-bottom-left-radius:5px}
+#universal-typeahead-results li.item h4 .separator{color:#858585;padding:0 3px}
+#universal-typeahead-results li.item h4 .typeahead-degree{color:#069}
+#universal-typeahead-results li.item h4 .typeahead-degree sup{font-weight:normal;font-size:0.7em;vertical-align:top}
+#universal-typeahead-results li.item.yui-ac-highlight{background-color:#008DB1}
+#universal-typeahead-results li.item.yui-ac-highlight h4,#universal-typeahead-results li.item.yui-ac-highlight h4 strong,#universal-typeahead-results li.item.yui-ac-highlight p,#universal-typeahead-results li.item.yui-ac-highlight h4 .typeahead-degree,#universal-typeahead-results li.item.yui-ac-highlight h4 .separator{color:#FFF}
+#universal-typeahead-results li.item h4{font-weight:bold;color:#181818}
+#universal-typeahead-results li.item h4 strong{color:#858585}
+#universal-typeahead-results li.item.poll.yui-ac-highlight{background-color:#DDF0F8}
+#universal-typeahead-results li.item.poll.yui-ac-highlight h4{color:#181818}
+#universal-typeahead-results li.item.poll.yui-ac-highlight h4 strong{color:#858585}
+
+
+
+/* scss/base/layout.css */
+
+body.basic #content{width:600px;margin:0 auto}
+.grid-a #content{float:left;width:58.3%}
+.grid-a #extra{float:right;width:39.6%}
+.grid-b #sidebar{float:left;width:20.8%}
+.grid-b #content{float:right;width:77.1%}
+.grid-c #sidebar{float:left;width:20.8%;margin-right:20px}
+.grid-c #content{float:left;width:646px}
+.grid-c #extra{float:right;width:318px}
+.grid-d #content{float:left;width:81.35%}
+.grid-d #extra{float:right;width:16.7%}
+.grid-e #content{float:left;width:77%}
+.grid-e #extra{float:right;width:20.85%}
+.grid-f #content{float:left;width:66.5%}
+.grid-f #extra{float:right;width:31.25%}
+
+
+
+/* scss/modules/modules.css */
+
+.leo-module{margin-bottom:20px;padding:0;width:100%}
+.leo-module .header{-moz-border-radius-topleft:6px;-moz-border-radius-topright:6px;-webkit-border-top-left-radius:6px;-webkit-border-top-right-radius:6px;border-top-left-radius:6px;border-top-right-radius:6px;padding:5px 10px}
+.leo-module .header h1,.leo-module .header h2,.leo-module .header h3,.leo-module .header h4,.leo-module .header h5{margin:0;font-size:13px;font-weight:bold}
+.leo-module .content{background:#fff;border:1px solid #ddd;border-width:0 1px 1px;-moz-border-radius-bottomleft:6px;-moz-border-radius-bottomright:6px;-webkit-border-bottom-left-radius:6px;-webkit-border-bottom-right-radius:6px;border-bottom-left-radius:6px;border-bottom-right-radius:6px;padding:6px 10px 8px 10px;zoom:1}
+.mod-simple{border:1px solid #ddd;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;margin-bottom:20px;padding:10px;font-size:13px}
+.leo-module.mod-basic .header{background:#A4A4A4;background:-moz-linear-gradient(top, #bdbdbd 0, #a4a4a4 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #bdbdbd), color-stop(100%, #a4a4a4));background:linear-gradient(top, #bdbdbd 0%,#a4a4a4 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#BDBDBD', endColorstr='#A4A4A4',GradientType=0 );color:#fff}
+.leo-module.mod-feat .header{background:#4393BB;background:-moz-linear-gradient(top, #73b8db 0, #4393bb 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #73b8db), color-stop(100%, #4393bb));background:linear-gradient(top, #73b8db 0%,#4393bb 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#73B8DB', endColorstr='#4393BB',GradientType=0 );color:#fff}
+.leo-module.mod-util .header{background:#E8E8E8;background:-moz-linear-gradient(top, #f9f9f9 0, #e8e8e8 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(100%, #e8e8e8));background:linear-gradient(top, #f9f9f9 0%,#e8e8e8 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F9F9F9', endColorstr='#E8E8E8',GradientType=0 );border:1px solid #ddd;border-bottom-width:0;color:#666}
+.leo-module.mod-action{background:#DDF0F8;border:1px solid #9acce6;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;padding:0}
+.leo-module.mod-action .header{margin:0;padding:5px 10px;color:#069}
+.leo-module.mod-action .content{background:#DDF0F8;border:none;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;color:#333;overflow:hidden;padding:0 15px 20px 15px;*padding-bottom:10px;zoom:1}
+.leo-module.mod-info{background:#DDF0F8;background:-moz-linear-gradient(top, #ddf0f8 0, #fff 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #ddf0f8), color-stop(100%, #fff));background:linear-gradient(top, #ddf0f8 0%,#ffffff 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#DDF0F8', endColorstr='#FFFFFF',GradientType=0 );border:1px solid #9acce6;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;padding:0}
+.leo-module.mod-info .header{margin:0;padding:10px 10px 0}
+.leo-module.mod-info .header strong{background:url('../images/pics1/img/icon/icon_lightbulb_10x17.gif') no-repeat;display:block;min-height:17px;padding-left:17px}
+.leo-module.mod-info .content{background:transparent;border:none;margin-left:0}
+.leo-module.mod-custom{margin-bottom:10px}
+.leo-module.mod-custom .header{position:relative;cursor:normal;padding-right:25px}
+.leo-module.mod-custom .header ul,.leo-module.mod-custom ul.control{position:absolute;right:10px;top:0;list-style-type:none;cursor:default;zoom:1}
+.leo-module.mod-custom .header ul:after,.leo-module.mod-custom ul.control:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.leo-module.mod-custom ul li.edit,.leo-module.mod-custom ul li.close{float:left;font-size:11px;line-height:24px;clear:none}
+.leo-module.mod-custom .edit a{border-right:1px solid #fff;padding-right:7px;margin-right:7px}
+.leo-module.mod-custom .close{height:18px;width:14px}
+.leo-module.mod-custom .close a{width:100%;height:100%;float:left;background:url('../images/pics1/img/sprite/sprite_global_v6.png') 5px -1392px no-repeat;cursor:pointer;text-indent:-12345px}
+.leo-module.mod-custom.mod-util .close a{background-position:5px -1492px}
+.leo-module.mod-custom .content{padding:10px;background:none}
+
+
+
+/* scss/modules/dialog.css */
+
+#body .dialog-container{display:none}
+body.dialog-mask-active select{_visibility:hidden}
+body.dialog-mask-active .dialog-window select{_visibility:visible}
+#dialog-wrapper{position:absolute;top:0;left:0;width:100%;height:100%;z-index:10000}
+#dialog-wrapper.auto-size{width:auto;height:auto}
+.dialog-mask{background:url('../images/pics1/img/bg/bg_dialog_modeless_mask.png') repeat top left;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/bg/bg_dialog_modeless_mask.png', sizingMethod='scale');-moz-border-radius:5px;-webkit-border-radius:5px;padding:15px}
+.dialog-window iframe{position:absolute;width:100%}
+.dialog-title{background:#787878 url('../images/pics1/img/sprite/sprite_global_v6.png') repeat-x left -230px;padding:8px 12px;-moz-border-radius:5px 5px 0 0;-webkit-border-top-right-radius:5px;-webkit-border-top-left-radius:5px;border-radius:5px 5px 0 0;border:1px solid #939393;border-width:1px 1px 0 1px}
+.dialog-title .title{margin:0 18px 0 0;font-size:140%;font-weight:normal;color:#FFF;letter-spacing:0.06em;_font-weight:bold;_letter-spacing:0;clear:none}
+.dialog-title button{height:16px;width:16px;background:url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 4px -1396px;border:0;padding:0;float:right;margin-right:-4px;_position:relative}
+.dialog-body{background-color:#FFF;border:1px solid #939393;border-width:0 1px 1px;padding:14px 19px 15px 19px;-moz-border-radius:0 0 5px 5px;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px}
+.dialog-body-clone{position:absolute;top:0;left:0;visibility:hidden}
+.dialog-body-loading{background:#fff url('../images/pics1/img/anim/anim_loading_40x40.gif') no-repeat 50% 50%;height:60px}
+.the-wiz{background-image:url('../images/pics2/img/pic/pic_li_feedback_253x117.png');background-position:right bottom;background-repeat:no-repeat}
+.dialog-object{display:none;padding:9px 10px 10px;margin:-14px -19px 0;background-color:#EFEFEF;overflow:auto}
+.dialog-object img{margin:1px 10px 0 0;float:left}
+.dialog-object p.object-title{margin:0;font-size:130%;font-weight:bold}
+.dialog-object p.object-info{margin:0;font-size:110%;color:#666}
+.dialog-object-hidden{display:none}
+.dialog-message{background:#e1f8d6 url('../images/pics1/img/icon/icon_status_success_26x26.gif') no-repeat;background-position:10px 11px;margin:1px -9px 0;font-size:130%;color:#333;padding:16px 10px 12px 47px}
+.dialog-message p{font-weight:bold;margin:0 0 2px}
+.dialog-actions{margin-top:21px;line-height:2;font-size:120%}
+.dialog-actions span{color:#069}
+.dialog-actions span:hover{text-decoration:underline}
+.dialog-actions input.btn-primary,.dialog-actions input.primary{font-size:100%;margin-right:4px;vertical-align:middle}
+.dialog-actions .dialog-cancel{cursor:pointer}
+.dialog-close{cursor:pointer}
+p.dialog-close{color:#069;margin:15px 0 0}
+p.dialog-close:hover{text-decoration:underline}
+.dialog-task-modeless,.dialog-task-modeless-secondary{position:static}
+
+.dialog-task-modeless .dialog-window,.dialog-task-modeless-secondary .dialog-window{position:relative;_filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+.dialog-task-modeless .dialog-title,.dialog-task-modeless-secondary .dialog-title{cursor:move}
+.dialog-task-modeless-secondary .dialog-title{background-position:left -230px;background-color:#787878}
+.dialog-success-plus{position:static}
+.dialog-success-plus .dialog-window{position:relative;_filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+.dialog-success-plus .dialog-title{cursor:move}
+.dialog-success-plus,.dialog-success-timeout{left:50%}
+.dialog-task-modeless,.dialog-task-modeless-secondary,.dialog-success-plus,.dialog-success-timeout,.dialog-no-header{_width:1%}
+.dialog-interrupt,.dialog-task-modal,.dialog-noheader-modal{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;background-image:url('../images/pics2/img/bg/bg_dialog_modal_mask.png');_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/bg/bg_dialog_modal_mask.png', sizingMethod='scale')}
+.dialog-interrupt,.dialog-task-modal,.dialog-noheader-modal{position:fixed;top:0;left:0;width:100%;height:100%;padding:0;overflow-y:scroll;_overflow-y:hidden}
+.dialog-interrupt .dialog-window,.dialog-task-modal .dialog-window,.dialog-noheader-modal .dialog-window{position:absolute;left:50%;top:120px}
+.dialog-interrupt .dialog-body,.dialog-task-modal .dialog-body,.dialog-noheader-modal .dialog-body{margin-bottom:20px}
+.dialog-interrupt .dialog-title{background-position:left -230px;background-color:#787878}
+.dialog-interrupt .dialog-message{background-color:#FEF5CC;background-image:url('../images/pics1/img/icon/icon_status_info_26x26.png')}
+.dialog-interrupt .dialog-actions{text-align:center}
+.dialog-no-header{position:static}
+.dialog-no-header .dialog-window{position:relative;_filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100)}
+.dialog-no-header .dialog-title,.dialog-noheader-modal .dialog-title{background:none;background-color:#fff;padding:0;cursor:move;border:0}
+.dialog-no-header .dialog-body,.dialog-noheader-modal .dialog-body{border-style:none;padding:5px 0 0 0;-moz-border-radius:4px;-webkit-border-radius:4px}
+.dialog-no-header .dialog-title button,.dialog-noheader-modal .dialog-title button{background:transparent url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 1px -1300px;margin:8px 8px;position:relative}
+.dialog-no-header .dialog-title .title,.dialog-noheader-modal .dialog-title .title{display:none;border:0}
+.interrupt .alert{font-size:13px}
+.interrupt .actions{text-align:center;line-height:1.2;font-size:13px;margin:20px 0 10px 0}
+.interrupt .actions a.btn-primary{font-size:13px;padding:4px 8px 3px 8px;color:#fff !important;vertical-align:middle}
+.interrupt .actions input.btn-primary,.interrupt .actions input.btn-secondary{font-size:13px;vertical-align:middle}
+.interrupt .actions a:hover.btn-primary{text-decoration:none}
+.interrupt .actions a:visited.btn-primary{color:#fff !important}
+.interrupt p,.interrupt li{font-size:13px}
+.interrupt .note{font-size:11px;color:#666}
+
+
+
+/* scss/base/buttons.css */
+
+.btn-primary,.btn-new-primary,.btn-secondary,.btn-new-secondary,.btn-tertiary,.btn-ternary,.btn-quaternary,.btn-action{border-width:1px;border-style:solid;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;cursor:pointer;font-size:12px;line-height:1.35;margin:0;overflow:visible;padding:3px 10px 2px;*padding:2px 10px 1px;text-decoration:none !important;vertical-align:top;width:auto}
+.btn-primary.mini,.btn-new-primary.mini,.btn-secondary.mini,.btn-new-secondary.mini,.btn-tertiary.mini,.btn-ternary.mini,.btn-quaternary.mini,.btn-action.mini{font-size:11px}
+a.btn-primary,a.btn-new-primary,a.btn-secondary,a.btn-new-secondary,a.btn-tertiary,a.btn-ternary,a.btn-quaternary,a.btn-action{display:inline-block !important;*padding:3px 10px}
+a.btn-primary:hover,a.btn-new-primary:hover,a.btn-secondary:hover,a.btn-new-secondary:hover,a.btn-tertiary:hover,a.btn-ternary:hover,a.btn-quaternary:hover,a.btn-action:hover{text-decoration:none !important}
+input[disabled],.disabled{cursor:default}
+.toggle-btn{background:url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat 4px -1925px;display:inline-block !important;margin-top:10px;width:15px;height:3px}
+.btn-primary,.btn-menu-open.btn-primary,.btn-split.btn-primary:hover{background:#0571A6;background:-moz-linear-gradient(top, #73aec9 0, #73aec9 1px, #338ab0 1px, #0571a6 100%);background:-o-linear-gradient(top, #73aec9 0, #73aec9 1px, #338ab0 1px, #0571a6 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #73aec9), color-stop(5%, #73aec9), color-stop(5%, #338ab0), color-stop(100%, #0571a6));background:linear-gradient(top, #73aec9 0%,#73aec9 1px,#338ab0 1px,#0571a6 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#338AB0', endColorstr='#0571A6',GradientType=0 );border-color:#045a8b;color:#fff !important}
+.btn-primary:hover,.btn-split-toggle-hover.btn-primary:hover{background:#04608E;background:-moz-linear-gradient(top, #69a0b6 0, #69a0b6 1px, #277696 1px, #04608e 100%);background:-o-linear-gradient(top, #69a0b6 0, #69a0b6 1px, #277696 1px, #04608e 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #69a0b6), color-stop(5%, #69a0b6), color-stop(5%, #277696), color-stop(100%, #04608e));background:linear-gradient(top, #69a0b6 0%,#69a0b6 1px,#277696 1px,#04608e 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#277696', endColorstr='#04608E',GradientType=0 );border-color:#004a73}
+.btn-split-toggle-hover .btn-primary{border-right-color:#004a73}
+.btn-primary:active,.btn-split-toggle-hover.btn-primary:active{background:#267696;background:-moz-linear-gradient(top, #025f8d 0, #267696 100%);background:-o-linear-gradient(top, #025f8d 0, #267696 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #025f8d), color-stop(100%, #267696));background:linear-gradient(top, #025f8d 0%,#267696 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#025F8D', endColorstr='#267696',GradientType=0 );border-color:#004a73}
+.btn-primary[disabled],.btn-primary.disabled{background:#82B8D3;background:-moz-linear-gradient(top, #b9d6e4 0, #b9d6e4 1px, #99c4d7 1px, #82b8d2 100%);background:-o-linear-gradient(top, #b9d6e4 0, #b9d6e4 1px, #99c4d7 1px, #82b8d2 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #b9d6e4), color-stop(5%, #b9d6e4), color-stop(5%, #99c4d7), color-stop(100%, #82b8d2));background:linear-gradient(top, #b9d6e4 0%,#b9d6e4 1px,#99c4d7 1px,#82b8d2 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#99C4D7', endColorstr='#82B8D2',GradientType=0 );border-color:#81acc5;color:#ddebf2 !important}
+.btn-primary .toggle-btn{background-position:4px -1925px}
+.btn-ternary,.btn-menu-open.btn-ternary,.btn-split.btn-ternary:hover{background:#CDE5F0;background:-moz-linear-gradient(top, #eef7fa 0, #eef7fa 1px, #dcedf5 1px, #cde5f0 100%);background:-o-linear-gradient(top, #eef7fa 0, #eef7fa 1px, #dcedf5 1px, #cde5f0 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #eef7fa), color-stop(5%, #eef7fa), color-stop(5%, #dcedf5), color-stop(100%, #cde5f0));background:linear-gradient(top, #eef7fa 0%,#eef7fa 1px,#dcedf5 1px,#cde5f0 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#DCEDF5', endColorstr='#CDE5F0',GradientType=0 );border-color:#a3cfe4;color:#069 !important}
+.btn-ternary:hover,.btn-split-toggle-hover.btn-ternary:hover{background:#AED6E9;background:-moz-linear-gradient(top, #e2f2f9 0, #e2f2f9 1px, #c3e5f2 1px, #aed6e9 100%);background:-o-linear-gradient(top, #e2f2f9 0, #e2f2f9 1px, #c3e5f2 1px, #aed6e9 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #e2f2f9), color-stop(5%, #e2f2f9), color-stop(5%, #c3e5f2), color-stop(100%, #aed6e9));background:linear-gradient(top, #e2f2f9 0%,#e2f2f9 1px,#c3e5f2 1px,#aed6e9 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#C3E5F2', endColorstr='#AED6E9',GradientType=0 );border-color:#64b0d4}
+.btn-split-toggle-hover .btn-ternary{border-right-color:#64b0d4}
+.btn-ternary:active,.btn-split-toggle-hover.btn-ternary:active{background:#DCEDF5;background:-moz-linear-gradient(top, #b4d8e9 0, #dcedf5 100%);background:-o-linear-gradient(top, #b4d8e9 0, #dcedf5 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #b4d8e9), color-stop(100%, #dcedf5));background:linear-gradient(top, #b4d8e9 0%,#dcedf5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#B4D8E9', endColorstr='#DCEDF5',GradientType=0 );border-color:#64b0d4}
+.btn-ternary[disabled],.btn-ternary.disabled{background:#E6F2F7;background:-moz-linear-gradient(top, #f6fbfc 0, #f6fbfc 1px, #edf6fa 1px, #e6f2f7 100%);background:-o-linear-gradient(top, #f6fbfc 0, #f6fbfc 1px, #edf6fa 1px, #e6f2f7 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #f6fbfc), color-stop(5%, #f6fbfc), color-stop(5%, #edf6fa), color-stop(100%, #e6f2f7));background:linear-gradient(top, #f6fbfc 0%,#f6fbfc 1px,#edf6fa 1px,#e6f2f7 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#EDF6FA', endColorstr='#E6F2F7',GradientType=0 );border-color:#d1e7f1;color:#81b4c3 !important}
+.btn-ternary .toggle-btn{background-position:4px -1768px}
+.btn-quaternary,.btn-menu-open.btn-quaternary,.btn-split.btn-quaternary:hover{background:#ECECEC;background:-moz-linear-gradient(top, #fff 0, #ececec 100%);background:-o-linear-gradient(top, #fff 0, #ececec 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(100%, #ececec));background:linear-gradient(top, #ffffff 0%,#ececec 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#ECECEC',GradientType=0 );border-color:#ccc;color:#585858 !important}
+.btn-quaternary:hover,.btn-split-toggle-hover.btn-quaternary:hover{background:#D7D7D7;background:-moz-linear-gradient(top, #f0f0f0 0, #d7d7d7 100%);background:-o-linear-gradient(top, #f0f0f0 0, #d7d7d7 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #f0f0f0), color-stop(100%, #d7d7d7));background:linear-gradient(top, #f0f0f0 0%,#d7d7d7 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#D7D7D7',GradientType=0 );border-color:#b3b3b3}
+.btn-quaternary-toggle-hover .btn-ternary{border-right-color:#b3b3b3}
+.btn-quaternary:active,.btn-split-toggle-hover.btn-quaternary:active{background:#F7F7F7;background:-moz-linear-gradient(top, #dfdfdf 0, #f7f7f7 100%);background:-o-linear-gradient(top, #dfdfdf 0, #f7f7f7 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #dfdfdf), color-stop(100%, #f7f7f7));background:linear-gradient(top, #dfdfdf 0%,#f7f7f7 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#DFDFDF', endColorstr='#F7F7F7',GradientType=0 );border-color:#b3b3b3}
+.btn-quaternary[disabled],.btn-quaternary.disabled{background:#F5F5F5;background:-moz-linear-gradient(top, #fff 0, #f5f5f5 100%);background:-o-linear-gradient(top, #fff 0, #f5f5f5 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(100%, #f5f5f5));background:linear-gradient(top, #ffffff 0%,#f5f5f5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F5F5F5',GradientType=0 );color:#BDBDBD !important}
+.btn-quaternary .toggle-btn{background-position:4px -1609px}
+.btn-secondary,.btn-menu-open.btn-secondary:hover{background:#CECECE;background:-moz-linear-gradient(top, #f2f2f2 0, #f2f2f2 1px, #e4e4e4 1px, #cecece 100%);background:-o-linear-gradient(top, #f2f2f2 0, #f2f2f2 1px, #e4e4e4 1px, #cecece 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #f2f2f2), color-stop(5%, #f2f2f2), color-stop(5%, #e4e4e4), color-stop(100%, #cecece));background:linear-gradient(top, #f2f2f2 0%,#f2f2f2 1px,#e4e4e4 1px,#cecece 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#E4E4E4', endColorstr='#CECECE',GradientType=0 );border-color:#999;color:#666 !important}
+.btn-secondary:hover{background:#B7B7B7;background:-moz-linear-gradient(top, #e4e4e4 0, #e4e4e4 1px, #c8c8c8 1px, #b7b7b7 100%);background:-o-linear-gradient(top, #e4e4e4 0, #e4e4e4 1px, #c8c8c8 1px, #b7b7b7 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #e4e4e4), color-stop(5%, #e4e4e4), color-stop(5%, #c8c8c8), color-stop(100%, #b7b7b7));background:linear-gradient(top, #e4e4e4 0%,#e4e4e4 1px,#c8c8c8 1px,#b7b7b7 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#C8C8C8', endColorstr='#B7B7B7',GradientType=0 )}
+.btn-secondary:active,.btn-split-toggle-hover.btn-secondary:active{background:#C9C9C9;background:-moz-linear-gradient(top, #b6b6b6 0, #c9c9c9 100%);background:-o-linear-gradient(top, #b6b6b6 0, #c9c9c9 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #b6b6b6), color-stop(100%, #c9c9c9));background:linear-gradient(top, #b6b6b6 0%,#c9c9c9 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#B6B6B6', endColorstr='#C9C9C9',GradientType=0 )}
+.btn-secondary[disabled],.btn-secondary.disabled{background:#E6E6E6;background:-moz-linear-gradient(top, #f8f8f8 0, #f8f8f8 1px, #f1f1f1 1px, #e6e6e6 100%);background:-o-linear-gradient(top, #f8f8f8 0, #f8f8f8 1px, #f1f1f1 1px, #e6e6e6 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #f8f8f8), color-stop(5%, #f8f8f8), color-stop(5%, #f1f1f1), color-stop(100%, #e6e6e6));background:linear-gradient(top, #f8f8f8 0%,#f8f8f8 1px,#f1f1f1 1px,#e6e6e6 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F1F1F1', endColorstr='#E6E6E6',GradientType=0 );border-color:#ccc;color:#b0b0b0 !important}
+.btn-action{background:#FFCF0B;background:-moz-linear-gradient(top, #fff5bd 0, #fff5bd 1px, #ffe976 1px, #ffcf0b 100%);background:-o-linear-gradient(top, #fff5bd 0, #fff5bd 1px, #ffe976 1px, #ffcf0b 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fff5bd), color-stop(5%, #fff5bd), color-stop(5%, #ffe976), color-stop(100%, #ffcf0b));background:linear-gradient(top, #fff5bd 0%,#fff5bd 1px,#ffe976 1px,#ffcf0b 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE976', endColorstr='#FFCF0B',GradientType=0 );border-color:#e8b463;color:#333 !important;font-weight:bold}
+.btn-action:hover{background:#F6C408;background:-moz-linear-gradient(top, #faeeae 0, #faeeae 1px, #f5db59 1px, #f6c408 100%);background:-o-linear-gradient(top, #faeeae 0, #faeeae 1px, #f5db59 1px, #f6c408 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #faeeae), color-stop(5%, #faeeae), color-stop(5%, #f5db59), color-stop(100%, #f6c408));background:linear-gradient(top, #faeeae 0%,#faeeae 1px,#f5db59 1px,#f6c408 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5DB59', endColorstr='#F6C408',GradientType=0 )}
+.btn-action:active{background:#F5DD61;background:-moz-linear-gradient(top, #f6c202 0, #f5dd61 100%);background:-o-linear-gradient(top, #f6c202 0, #f5dd61 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #f6c202), color-stop(100%, #f5dd61));background:linear-gradient(top, #f6c202 0%,#f5dd61 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6C202', endColorstr='#F5DD61',GradientType=0 )}
+.btn-action[disabled],.btn-action.disabled{background:#FFE785;background:-moz-linear-gradient(top, #fffade 0, #fffade 1px, #fff4ba 1px, #ffe785 100%);background:-o-linear-gradient(top, #fffade 0, #fffade 1px, #fff4ba 1px, #ffe785 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fffade), color-stop(5%, #fffade), color-stop(5%, #fff4ba), color-stop(100%, #ffe785));background:linear-gradient(top, #fffade 0%,#fffade 1px,#fff4ba 1px,#ffe785 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF4BA', endColorstr='#FFE785',GradientType=0 );border-color:#f3d9b1;color:#a4996d !important}
+.btn-tertiary{background:#69A219;background:-moz-linear-gradient(top, #afd47b 0, #afd47b 1px, #8bc03f 1px, #69a219 100%);background:-o-linear-gradient(top, #afd47b 0, #afd47b 1px, #8bc03f 1px, #69a219 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #afd47b), color-stop(5%, #afd47b), color-stop(5%, #8bc03f), color-stop(100%, #69a219));background:linear-gradient(top, #afd47b 0%,#afd47b 1px,#8bc03f 1px,#69a219 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#AFD47B', endColorstr='#69A219',GradientType=0 );border-color:#693;color:#fff !important;font-weight:bold;white-space:nowrap}
+.btn-tertiary:hover{background:#5D8329;background:-moz-linear-gradient(top, #94bd5b 0, #94bd5b 1px, #649f15 1px, #5d8329 100%);background:-o-linear-gradient(top, #94bd5b 0, #94bd5b 1px, #649f15 1px, #5d8329 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #94bd5b), color-stop(5%, #94bd5b), color-stop(5%, #649f15), color-stop(100%, #5d8329));background:linear-gradient(top, #94bd5b 0%,#94bd5b 1px,#649f15 1px,#5d8329 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#94BD5B', endColorstr='#5D8329',GradientType=0 )}
+.btn-tertiary:active{background:#669933;background:-moz-linear-gradient(top, #5d822a 0, #693 100%);background:-o-linear-gradient(top, #5d822a 0, #693 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #5d822a), color-stop(100%, #693));background:linear-gradient(top, #5d822a 0%,#669933 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5D822A', endColorstr='#669933',GradientType=0 )}
+.btn-tertiary[disabled],.btn-tertiary.disabled{background:#B4D08D;background:-moz-linear-gradient(top, #d7eabd 0%, #d7eabd 1px, #c5df9f 1px, #b4d08d 100%);background:-o-linear-gradient(top, #d7eabd 0%, #d7eabd 1px, #c5df9f 1px, #b4d08d 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #d7eabd), color-stop(5%, #d7eabd), color-stop(5%, #c5df9f), color-stop(100%, #b4d08d));background:linear-gradient(top, #d7eabd 0%,#d7eabd 1px,#c5df9f 1px,#b4d08d 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#D7EABD', endColorstr='#B4D08D',GradientType=0 )}
+.btn-new-primary{background:#79adcb;background:-moz-linear-gradient(top, #79adcb 0%, #79adcb 15%, #2373ac 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #79adcb), color-stop(15%, #79adcb), color-stop(100%, #2373ac));background:-webkit-linear-gradient(top, #79adcb 0%, #79adcb 15%, #2373ac 100%);background:-o-linear-gradient(top, #79adcb 0%, #79adcb 15%, #2373ac 100%);background:-ms-linear-gradient(top, #79adcb 0%, #79adcb 15%, #2373ac 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79adcb', endColorstr='#2373ac',GradientType=0 );background:linear-gradient(top, #79adcb 0%,#79adcb 15%,#2373ac 100%);border-color:#2D6FA8;color:#FFF !important;font-weight:normal;white-space:nowrap}
+.btn-new-primary:hover{background:#5A8193;background:-moz-linear-gradient(top, #5a8193 0%, #5a8193 15%, #1e4d72 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #5a8193), color-stop(15%, #5a8193), color-stop(100%, #1e4d72));background:-webkit-linear-gradient(top, #5a8193 0%, #5a8193 15%, #1e4d72 100%);background:-o-linear-gradient(top, #5a8193 0%, #5a8193 15%, #1e4d72 100%);background:-ms-linear-gradient(top, #5a8193 0%, #5a8193 15%, #1e4d72 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5a8193', endColorstr='#1e4d72',GradientType=0 );background:linear-gradient(top, #5a8193 0%,#5a8193 15%,#1e4d72 100%)}
+.btn-new-primary:active{background:#1E4D72;background:-moz-linear-gradient(top, #1e4d72 0%, #5a8193 85%, #5a8193 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e4d72), color-stop(85%, #5a8193), color-stop(100%, #5a8193));background:-webkit-linear-gradient(top, #1e4d72 0%, #5a8193 85%, #5a8193 100%);background:-o-linear-gradient(top, #1e4d72 0%, #5a8193 85%, #5a8193 100%);background:-ms-linear-gradient(top, #1e4d72 0%, #5a8193 85%, #5a8193 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e4d72', endColorstr='#5a8193',GradientType=0 );background:linear-gradient(top, #1e4d72 0%,#5a8193 85%,#5a8193 100%)}
+.btn-new-primary[disabled],.btn-new-primary.disabled{background:#90cfed;background:-moz-linear-gradient(top, #90cfed 0%, #90cfed 15%, #3788cc 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #90cfed), color-stop(15%, #90cfed), color-stop(100%, #3788cc));background:-webkit-linear-gradient(top, #90cfed 0%, #90cfed 15%, #3788cc 100%);background:-o-linear-gradient(top, #90cfed 0%, #90cfed 15%, #3788cc 100%);background:-ms-linear-gradient(top, #90cfed 0%, #90cfed 15%, #3788cc 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#90cfed', endColorstr='#3788cc',GradientType=0 );background:linear-gradient(top, #90cfed 0%,#90cfed 15%,#3788cc 100%)}
+.btn-new-secondary{background:#C8C8C8;background:-moz-linear-gradient(top, #c8c8c8 0%, #c8c8c8 15%, #6a6a6a 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #c8c8c8), color-stop(15%, #c8c8c8), color-stop(100%, #6a6a6a));background:-webkit-linear-gradient(top, #c8c8c8 0%, #c8c8c8 15%, #6a6a6a 100%);background:-o-linear-gradient(top, #c8c8c8 0%, #c8c8c8 15%, #6a6a6a 100%);background:-ms-linear-gradient(top, #c8c8c8 0%, #c8c8c8 15%, #6a6a6a 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#C8C8C8', endColorstr='#6A6A6A',GradientType=0 );background:linear-gradient(top, #c8c8c8 0%,#c8c8c8 15%,#6a6a6a 100%);border-color:#7D7D7D;color:#FFF !important;font-weight:normal;white-space:nowrap}
+.btn-new-secondary:hover{background:#939393;background:-moz-linear-gradient(top, #939393 0%, #939393 15%, #353535 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #939393), color-stop(15%, #939393), color-stop(100%, #353535));background:-webkit-linear-gradient(top, #939393 0%, #939393 15%, #353535 100%);background:-o-linear-gradient(top, #939393 0%, #939393 15%, #353535 100%);background:-ms-linear-gradient(top, #939393 0%, #939393 15%, #353535 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#939393', endColorstr='#353535',GradientType=0 );background:linear-gradient(top, #939393 0%,#939393 15%,#353535 100%)}
+.btn-new-secondary:active{background:#353535;background:-moz-linear-gradient(top, #353535 0%, #939393 85%, #939393 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #353535), color-stop(85%, #939393), color-stop(100%, #939393));background:-webkit-linear-gradient(top, #353535 0%, #939393 85%, #939393 100%);background:-o-linear-gradient(top, #353535 0%, #939393 85%, #939393 100%);background:-ms-linear-gradient(top, #353535 0%, #939393 85%, #939393 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#353535', endColorstr='#939393',GradientType=0 );background:linear-gradient(top, #353535 0%,#939393 85%,#939393 100%)}
+.btn-new-secondary[disabled],.btn-new-secondary.disabled{background:#E6E6E6;background:-moz-linear-gradient(top, #f8f8f8 0%, #f8f8f8 15%, #e6e6e6 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(15%, #f8f8f8), color-stop(100%, #e6e6e6));background:-webkit-linear-gradient(top, #f8f8f8 0%, #f8f8f8 15%, #e6e6e6 100%);background:-o-linear-gradient(top, #f8f8f8 0%, #f8f8f8 15%, #e6e6e6 100%);background:-ms-linear-gradient(top, #f8f8f8 0%, #f8f8f8 15%, #e6e6e6 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#90cfed', endColorstr='#E6E6E6',GradientType=0 );background:linear-gradient(top, #f8f8f8 0%,#f8f8f8 15%,#e6e6e6 100%)}
+.btn-camo{background-color:transparent;background-position:-12345px -12345px;border-color:transparent;_border-color:#fff}
+.btn-menu{cursor:pointer;display:inline-block !important;padding:0 !important;_height:22px;_overflow:hidden}
+.btn-menu .btn{-moz-border-radius-topright:0;-webkit-border-top-right-radius:0;border-top-right-radius:0;-moz-border-radius-bottomright:0;-webkit-border-bottom-right-radius:0;border-bottom-right-radius:0;color:#000;display:inline-block !important;font-size:12px;line-height:1.35;padding:3px 0 2px 10px;*padding:3px 0 3px 10px;*position:relative;*zoom:1}
+.btn-split{*border-left-width:0 !important}
+.btn-split .btn{margin:-1px 0 -1px -1px !important;padding-right:10px}
+.btn-menu .btn:hover{text-decoration:none}
+.btn-menu .btn,.btn-menu .btn-toggle{vertical-align:top}
+.btn-link{background:transparent;border:0;color:#069;cursor:pointer;display:inline-block;margin:0;*overflow:visible;padding:0}
+.btn-link:hover{text-decoration:underline}
+.btn-join{background:#fc0 url('../images/pics2/img/btn/btn_ghome_right_600x33.gif') no-repeat -1px -1px;color:#000000 !important;cursor:pointer;float:none;font-size:124%;margin:0pt auto 10px;text-align:center;text-decoration:none;width:100px;border:1px solid #F6BE68;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;height:25px}
+.btn-toggle{text-align:center}
+.btn-toggle span{display:block}
+.btn-toggle .toggle-undo{height:0;visibility:hidden;_display:none;font-weight:normal}
+.btn-toggle:hover .toggle-undo{height:auto;visibility:visible}
+.btn-toggle:hover .toggle-on{height:0;visibility:hidden;_display:none}
+.btn-toggle.icon{padding-right:10px;padding-left:8px}
+.btn-toggle.icon span{background:url('../images/pics2/img/sprite/sprite_stars_24bit.png') no-repeat 0 -36px;_background-image:url('../images/pics2/img/sprite/sprite_stars_8bit.png');font-weight:bold;padding-left:20px;text-align:left}
+.btn-toggle.icon:hover .toggle-off{background-position:0 0}
+.btn-toggle.icon .toggle-on,.btn-toggle.icon .toggle-undo{font-weight:normal}
+.btn-toggle.icon .toggle-on{background-position:0 0}
+.btn-toggle.mini{padding-right:5px;padding-left:5px}
+.btn-toggle.mini span{font-weight:normal}
+.btn-toggle.mini.btn-secondary .toggle-off,.btn-toggle.mini.btn-ternary .toggle-off,.btn-toggle.mini.btn-quaternary .toggle-on{height:auto;visibility:visible}
+.btn-toggle.mini.btn-secondary .toggle-on,.btn-toggle.mini.btn-ternary .toggle-on,.btn-toggle.mini.btn-quaternary .toggle-off{height:0;visibility:hidden;_display:none}
+.menu-btn{background:#fff !important;font-size:12px;position:absolute;visibility:hidden;width:160px;z-index:9999;padding:5px;border:1px solid #016799 !important;zoom:1}
+.menu-btn li{display:block;float:none;margin:0;zoom:1}
+.menu-btn .border{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x top left;padding-top:1px}
+.menu-btn a{display:block;zoom:1}
+.menu-btn .menu-btn-item-selected a{color:#000;font-weight:bold}
+a.action,span.action{display:block;float:left;margin:0 10px 0 0;padding:0;text-decoration:none !important;color:#000 !important;cursor:pointer;text-align:center}
+a.action span,span.action span{display:block;min-height:16px;padding:3px 20px !important;white-space:normal !important}
+a.action.secondary,span.action.secondary{border-color:#ccc}
+
+
+
+/* scss/modules/dropdown.css */
+
+.droplist{z-index:3}
+.action.open{position:relative}
+.drop{background:#fff;border:1px solid #016799;display:none;min-width:150px;*width:150px;overflow:hidden;padding:5px;position:absolute;right:0;top:2em;-moz-box-shadow:0 6px 10px #888;-webkit-box-shadow:0 6px 10px #888;box-shadow:0 6px 10px #888}
+.open .drop{display:block;z-index:1000}
+.drop li{margin:0;padding:0;white-space:nowrap;width:100%;text-align:left}
+.drop li .title,.drop li a,.drop li div,.drop li strong{outline:none;color:#069;font-size:12px;display:block;margin:0;padding:5px;*min-width:140px}
+.drop li .title{color:#666}
+.drop li a:hover,.drop li.highlighted div{background-color:#016799;color:#fff;text-decoration:none;cursor:pointer}
+.drop li.selected div,.drop li strong{background-color:#fff;color:#000;font-weight:bold}
+.drop li.separator{border-top:1px solid #ccc;margin-top:4px;padding-top:4px}
+.drop li li .title,.drop li li a,.drop li li div,.drop li li strong{padding:5px 10px}
+.menu-dropdown{display:none}
+.menu-dropdown a.action{color:#069 !important;float:none;width:165px}
+.menu-dropdown a.action:hover{text-decoration:none}
+.menu-dropdown a.action span{padding:4px 7px 4px 7px !important;_padding-bottom:3px !important}
+.menu-dropdown a.action span strong{background:url('../images/pics2/img/sprite/sprite_mbox_v2.png') 100% -648px no-repeat;padding-right:22px}
+.menu-dropdown{padding:4px 0 0 0;position:absolute;*width:150px}
+.de .menu-dropdown{*width:180px}
+.menu-dropdown ul{border:1px solid #016799;font-size:12px;margin:0;padding:5px;overflow:hidden;background-color:#fff;-moz-box-shadow:0 6px 10px #888;-webkit-box-shadow:0 6px 10px #888;box-shadow:0 6px 10px #888}
+.menu-dropdown.open{display:block;cursor:pointer;z-index:20}
+.menu-dropdown.open #menu{display:block;right:10px;top:26px}
+.menu-dropdown li{background:#FFF;padding:0;display:block}
+.menu-dropdown li a{display:block;padding:5px;color:#069;font-weight:normal}
+.menu-dropdown li a:hover{background-color:#016799;color:#fff;text-decoration:none}
+.js .styled-dropdown{position:relative;*z-index:200}
+.js .styled-dropdown ul{display:none;position:absolute;z-index:200;background:#fff}
+.js .styled-dropdown select{position:absolute;left:-9999em}
+.js .styled-dropdown iframe{display:none;position:absolute;border:0}
+.js .styled-dropdown.open ul,.js .styled-dropdown.open iframe{display:block;left:auto}
+
+
+
+/* scss/base/icons.css */
+
+.accounticon{background:transparent url('../images/pics1/img/sprite/sprite_global_v6.png') no-repeat;display:inline-block;height:16px;margin-left:5px;outline:none;text-indent:-99999px;vertical-align:top;width:15px}
+.jobseekericon{background-position:-600px 1px}
+.premiumicon{background-position:-500px 1px}
+.openlinkicon{background-position:-700px 0}
+.icon-beta{color:#C60 !important;font-size:11px;font-style:italic;font-weight:bold;vertical-align:top}
+.icon-beta.super{vertical-align:super}
+.icon-new{background-color:#c60;color:#fff;display:inline-block;font-size:9px;font-weight:normal;line-height:1;padding:2px 3px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;text-transform:uppercase}
+.network-degree{background:#fff;background:-webkit-gradient(linear, left top, left bottom, from(#c7ebf6), to(#fff));background:-moz-linear-gradient(top, #c7ebf6, #fff);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7ebf6', endColorstr='#ffffff');border:1px solid #39c;-moz-border-radius:6px;-o-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;color:#39C;display:inline-block;font-size:11px !important;font-style:normal !important;font-weight:bold !important;line-height:12px !important;margin-top:-4px;*margin-top:0;min-width:20px;padding:0 4px !important;*padding:0 4px 2px !important;text-align:center !important;vertical-align:middle}
+.network-degree sup{font-weight:normal !important;vertical-align:bottom !important}
+.v1 .network-degree sup{font-size:11px !important}
+.ja .network-degree sup,.ko .network-degree sup{vertical-align:baseline !important}
+.network-degree.you,.network-degree.group{letter-spacing:-0.5px !important}
+.ayn-badge{font-size:9px;background-color:#fff;border:1px solid #baddee;color:#069;padding:1px 3px;-moz-border-radius:2px;-webkit-border-radius:2px;font-weight:bold;white-space:nowrap;text-decoration:none;line-height:1.6}
+.ayn-badge.ayn-campaign08{border-color:#baddee;color:#069 !important}
+.ayn-badge.ayn-official{border-color:#fbdfb4;color:#C60 !important}
+.ayn-badge.ayn-featured{border-color:#fbdfb4;color:#C60 !important}
+
+
+
+/* scss/modules/ads.css */
+
+.ad-block{padding:0;margin:10px 0;border:0;background:0;clear:both;text-align:center}
+.ad-block .title{position:absolute;left:-12345px}
+.ad-block .title *{text-indent:-12345px}
+.ad-block .content{width:300px;margin:0 auto;padding:0;background:0;position:relative;z-index:2}
+.ad-block.h-730x90{padding:20px 0 5px;border-top:1px solid #ddd;height:1%;font-size:13px}
+.ad-load{display:none}
+.adsense{font-size:12px;text-align:left}
+.adsense h4{margin:0 0 10px;color:#999;text-align:center;font-weight:bold}
+.adsense .adunit{margin-bottom:15px}
+.adsense a:link,.adsense a:visited,.adsense a:hover{text-decoration:none !important;color:#00F}
+.adsense .desc{color:#000;background:none;border:none}
+.adsense .url{color:#008000;font-size:12px}
+.textad{text-align:center;margin-bottom:15px}
+.textad iframe{height:17px;width:960px}
+.textad p a:link,.textad p a:visited{text-decoration:none;color:#000}
+.textad p a:link u{color:#039}
+.textad p a:visited u{color:#339}
+.ad-hdr{margin-bottom:15px;text-align:center;font-size:12px}
+.ad-hdr a,.ad-hdr a:visited{color:#069;text-decoration:none}
+.ad-hdr a:hover{text-decoration:underline !important}
+.ad-hdr .ad-hdr-profile,.ad-hdr .ad-hdr-profile a{color:#666 !important}
+.ad-hdr .ad-hdr-2b a{text-decoration:underline}
+.ad-hdr .ad-hdr-exp-1-1 a,.ad-hdr .ad-hdr-exp-1-1 a:hover,.ad-hdr .ad-hdr-exp-1-1 a:visited{color:#006699;font-weight:bold;text-decoration:underline}
+.ad-hdr .ad-hdr-exp-1-1 .ad-hdr-profile a,.ad-hdr .ad-hdr-exp-1-1 .ad-hdr-profile a:hover,.ad-hdr .ad-hdr-exp-1-1 .ad-hdr-profile a:visited{color:#006699 !important}
+.ad-hdr .ad-hdr-exp-1-1 .ad-hdr-profile,.ad-hdr .ad-hdr-exp-1-2 .ad-hdr-profile{padding-left:8px}
+.ad-hdr .ad-hdr-exp-1-2 a,.ad-hdr .ad-hdr-exp-1-2 a:hover,.ad-hdr .ad-hdr-exp-1-2 a:visited{color:#003399;font-weight:bold;text-decoration:underline}
+.ad-hdr .ad-hdr-exp-1-2 .ad-hdr-profile a,.ad-hdr .ad-hdr-exp-1-2 .ad-hdr-profile a:hover,.ad-hdr .ad-hdr-exp-1-2 .ad-hdr-profile a:visited{color:#666666 !important;font-weight:normal;text-decoration:none}
+.ad-hdr .ad-hdr-exp-1-3 a,.ad-hdr .ad-hdr-exp-1-3 a:hover,.ad-hdr .ad-hdr-exp-1-3 a:visited{color:#006699;font-weight:bold;text-decoration:none}
+.ad-hdr .ad-hdr-exp-1-3 a span.ad-hdr-info,.ad-hdr .ad-hdr-exp-1-3 a:hover span.ad-hdr-info,.ad-hdr .ad-hdr-exp-1-3 a:visited span.ad-hdr-info{color:#666666 !important}
+
+
+
+
+/* scss/apps/profile/profile_edit.css */
+
+#main .alert.attention{zoom:1;background:#fff5cc url('../images/pics2/img/icon/icon_status_info_16x16_v2.png') no-repeat 8px 6px;padding:6px 6px 6px 30px;margin-top:6px;clear:both}
+#main .standard-form .alert.attention{margin-left:195px}
+#main .standard-form.sided .alert.attention{margin-left:120px}
+#main .alert.attention p{padding:0;margin:0}
+p.tip{color:#666}
+.profile-edit h1{font-size:180%;border-bottom:1px solid #ccc;margin:0 0 12px;padding:0 0 6px}
+.profile-edit p.actions.remove{font-size:110%;margin-top:20px;padding-top:12px}
+.profile-edit .helper{font-size:110%}
+.edit-my-profile .edit{padding-left:.5em;font-style:normal}
+.edit-my-profile .add{background:none;font-size:11px;font-weight:normal;padding:0;white-space:nowrap}
+#extra .add{background:url('../images/pics2/img/sprite/sprite_profile_v9.png') 0 -571px no-repeat;font-size:12px;font-weight:bold;padding:2px 0 2px 15px;white-space:nowrap}
+.edit-my-profile p.recommendations{color:#666;font-style:italic}
+dd#pubgroups ul.groups p.hint .org{color:#000}
+.resume .installed-apps{border-bottom:2px solid #DDD}
+#company-callout .newcompany ul{margin-left:0}
+p.errors{height:auto}
+.profile-edit .standard-form .project .status select{max-width:405px;*width:405px}
+.profile-edit #extra #nav-profile-lang{margin-top:0}
+.profile-edit #extra .nav-profile-lang .content{padding:5px}
+.profile-edit #extra .nav-profile-lang h2,.profile-edit #extra .nav-profile-lang p,.profile-edit #extra .nav-profile-lang li{font-size:130%}
+.profile-edit #extra .nav-profile-lang h2{font-weight:bold}
+.profile-edit #extra .nav-profile-lang p{margin:0 0 5px 0;padding:0}
+.profile-edit #extra .mod-util p{margin:0 0 5px 5px}
+.profile-edit #extra .nav-profile-lang ul{margin:0 0 5px 0;padding:0;list-style-type:none}
+.profile-edit #extra .nav-profile-lang li{margin:0;padding:0;zoom:1}
+.profile-edit #extra .nav-profile-lang li a{margin:0;padding:3px;display:block;text-decoration:none;white-space:normal !important}
+.profile-edit #extra .nav-profile-lang li a:hover span.link{text-decoration:underline}
+.profile-edit #extra .nav-profile-lang li a.selected{background-color:#DBEFFB}
+.profile-edit #extra .nav-profile-lang li a span.primary{color:#666;font-size:90%}
+#body .li-editor fieldset{margin:0;padding:0;background:0}
+#body .li-editor fieldset legend{display:none}
+#body .li-editor ul{margin:0;padding:0}
+#body .li-editor{zoom:1;_width:380px;_margin-left:-10px;overflow:hidden}
+#body .li-editor .yui-toolbar-container{background:0}
+#body .li-editor .yui-toolbar-container .yui-toolbar-subcont{padding:0 0 5px 1px;border:0}
+#body .li-editor .yui-editor-container{border:0}
+#body .li-editor .yui-editor-container .yui-editor-editable-container{border:1px solid #666}
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-createalink span.yui-toolbar-icon{background-position:0 -792px;left:5px}
+#body .li-editor .yui-toolbar-container .yui-toolbar-titlebar,#body .li-editor .yui-toolbar-container .collapse,#body .li-editor .yui-toolbar-container .yui-button,#body .li-editor .yui-editor-panel .hd h3,#body .li-editor .yui-editor-panel .hd span.close{background-image:url('../images/pics1/lib/yui/2.8.1/assets/skins/sam/sprite.png')}
+#body .li-editor .yui-toolbar-container .yui-push-button span.yui-toolbar-icon,#body .li-editor .yui-toolbar-container .yui-color-button span.yui-toolbar-icon,#body .li-editor .yui-toolbar-container .yui-menu-button span.yui-toolbar-icon{background-image:url('../images/pics2/lib/yui/2.8.1/assets/skins/sam/editor-sprite.gif')}
+#body .li-editor .yui-toolbar-container .yui-button-selected span.yui-toolbar-icon,#body .li-editor .yui-toolbar-container .yui-button-hover span.yui-toolbar-icon{background-image:url('../images/pics1/lib/yui/2.8.1/assets/skins/sam/editor-sprite-active.gif')}
+.visibility{font-size:13px}
+.visibility .intro{font-size:13px;margin:0 0 0 10px;padding:0}
+.visibility ul{margin:10px 0 10px 10px}
+.visibility li{margin:0 0 5px 0}
+.visibility li label{line-height:1.2;font-weight:bold;color:#333}
+.visibility li input{position:relative;top:2px}
+.visibility li p{font-size:12px;padding-left:23px;margin:4px 0 0}
+.visibility .actions{font-size:13px;margin:15px 0 10px 10px;padding:0}
+.visibility .actions .btn-primary{vertical-align:middle}
+.visibility-settings{display:inline-block;text-indent:-12345px;height:10px;width:10px;background:url('../images/pics2/img/icon/icon_lock_10x30_v2.png') 0 0 no-repeat}
+.visibility-settings:hover{background-position:0 -20px}
+.profile-edit .primary-profile-content{font-size:130%;line-height:1.25em;min-height:1.2em;_height:1.2em;background-color:#ebf6fb;position:relative;padding:3px 3px 3px 17px;clear:both;margin:0 7px 0 195px}
+.profile-edit .primary-profile-content .control{position:absolute;left:5px;top:0;display:block;height:15px;width:9px;background:url('../images/pics1/img/icon/icon_arrow_dwn_9x9.png') no-repeat 0 6px;cursor:pointer}
+.profile-edit .primary-profile-content.collapse-close{height:1.2em;overflow:hidden}
+.profile-edit .primary-profile-content.collapse-close .control{background-image:url('../images/pics2/img/icon/icon_arrow_rt_9x9.png')}
+#row-location,#row-province,#row-school{display:none}
+#row-school-typeahead .selected-school{display:none;font-size:11px}
+#row-school-typeahead .selected-school strong{padding-right:5px;font-weight:bold;font-size:11.5px}
+#row-school-typeahead .selected-school .change-school-cntl{white-space:nowrap}
+#row-school-typeahead .selected input{display:none}
+#row-school-typeahead .selected .selected-school{display:block}
+#row-school select{width:350px}
+#row-grade-typeahead .selected-grade{display:none;font-size:11px}
+#row-grade-typeahead .selected-grade strong{padding-right:5px;font-weight:bold;font-size:11.5px}
+#row-grade-typeahead .selected-grade .change-grade-cntl{white-space:nowrap}
+#location-display-selection{display:none}
+.edit-my-profile .add-sections{overflow:hidden;zoom:1;border-bottom:2px solid #ddd;margin:10px 0;padding:7px 5px 10px;background:#fff url('../images/pics1/img/sprite/sprite_marketing_bubble_v1.gif') 0 -14px repeat-x}
+.edit-my-profile .add-sections .new{float:left;margin:3px 1em 0 0}
+.edit-my-profile .add-sections h2{font-size:13px;font-weight:normal;display:table-cell;*display:inline-block}
+.edit-my-profile .add-sections .add{float:right;font-weight:normal;background:url('../images/pics2/img/sprite/sprite_profile_v9.png') 0 -570px no-repeat;font-size:13px;padding:2px 0 2px 15px;white-space:nowrap;margin-left:2em}
+#add-sections{zoom:1;overflow:hidden}
+#add-sections .sidebar{float:left;width:180px;margin-right:15px}
+#dialog-wrapper #add-sections .sidebar{overflow-y:auto;height:233px;margin-bottom:5px}
+#dialog-wrapper.adding-sections .dialog-body-loading{height:238px}
+#add-sections .navigation h2{font-weight:bold;font-size:110%}
+#add-sections .navigation ul{margin-bottom:10px}
+#add-sections .navigation li ul li{margin:2px 0 2px 2px;padding:2px 8px;font-size:130%}
+#add-sections .navigation li ul li.selected{background-color:#dceefa}
+#add-sections .overview{color:#333}
+#add-sections .overview h1{font-size:180%;color:#555;margin-bottom:8px}
+#add-sections .overview p.instruction{color:#555;font-size:130%}
+#add-sections .overview ul{border:1px solid #ccc;border-width:1px 0;padding:17px 0 10px;margin-top:12px;overflow:hidden;zoom:1}
+#add-sections .overview ul li{width:45%;float:left;margin-right:10px;position:relative}
+#add-sections .overview h2{display:none}
+#add-sections .overview h3{font-size:160%;margin-bottom:8px}
+#add-sections .overview h3,#add-sections .overview ul p{margin-left:75px}
+#add-sections .overview p.description{font-size:130%}
+#add-sections .overview .go-preview{font-size:11px;margin-top:7px}
+#add-sections .overview .actions{font-size:130%;padding:10px 0 0 190px}
+#add-sections .overview .dialog-close{float:right;margin-top:-28px}
+#dialog-wrapper #add-sections .overview .dialog-close{display:block}
+#add-sections .overview .thumbnail{height:64px;width:64px;position:absolute;left:0;top:0;z-index:100}
+#add-sections .overview .thumbnail a{cursor:pointer;display:block;height:100%;width:100%}
+#add-sections .overview .thumbnail img{display:block;margin:2px}
+#add-sections .overview .thumbnail span{background:url('../images/pics2/img/applications/icon_shadow_64x64_v3.png') no-repeat;width:100%;height:100%;position:absolute;left:0;top:0;z-index:105}
+#add-sections .showcase{margin-bottom:-54px;_margin-bottom:-24px;overflow:hidden;width:560px;cursor:default}
+#add-sections .showcase h2{background:#e8e8e8 url('../images/pics2/img/bg/bg_e8e8e8_1x25.gif') 0 0 repeat-x;border:1px solid #ddd;color:#555;font-size:130%;font-weight:bold;line-height:25px;padding:0 0 0 10px}
+#add-sections .showcase #screenshot{border:1px solid #ddd;border-width:0 1px 1px;height:184px;overflow:hidden}
+#add-sections .showcase .preview{border:1px solid #ddd;border-width:0 1px 1px;width:558px;height:184px;overflow:hidden}
+#add-sections .showcase .footer{background:url('../images/pics1/img/bg/bg_wave_mask_v3.png') 0 0 no-repeat;_background:none;width:560px;height:31px;_height:73px;position:relative;left:0;top:-48px;_top:-12px;text-align:right;overflow:hidden;zoom:1;padding-top:42px}
+#add-sections .showcase .footer form{display:inline}
+#add-sections .showcase .footer .alternate{font-size:130%;line-height:1.8}
+#add-sections .showcase .footer .dialog-close{display:none}
+#dialog-wrapper #add-sections .showcase .footer .dialog-close{display:block}
+#dialog-wrapper #add-sections .showcase .footer input.btn-primary{padding:5px 4px 4px}
+#dialog-wrapper #add-sections .showcase .footer a.btn-primary,#dialog-wrapper #add-sections .showcase .footer .btn-secondary{display:block;float:right;margin-left:10px;zoom:1}
+#dialog-wrapper #add-sections a.btn-primary,#dialog-wrapper #add-sections a.btn-secondary{padding:4px 6px 3px;line-height:1.5}
+#add-sections .showcase .preview h3{font-weight:normal;font-size:18px;color:#555;margin:10px}
+#add-sections .showcase .preview ul.skills{margin-left:20px}
+#add-sections .showcase ul.competencies,#add-sections .showcase ul.documents,#add-sections .showcase ul.volunteering{margin:0 10px 0 20px}
+#add-sections .showcase li.competency,#add-sections .showcase li.document,#add-sections .showcase li.experience,#add-sections .showcase li.interests{font-size:13px}
+#add-sections .showcase .linkish{color:#069}
+#add-sections .showcase .preview ul.documents li.organization{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x 0 0 transparent;margin:10px 0 0;padding:10px 0 0}
+#add-sections .showcase .preview ul.documents li.first{background:none;margin:0;padding:0}
+#add-sections .showcase ul.competencies li{list-style-type:disc;list-style-position:inside;margin-bottom:2px}
+#add-sections .showcase ul.competencies h4{display:inline;font-weight:normal}
+#add-sections .showcase ul.competencies .proficiency{color:#666}
+#add-sections .showcase ul.documents h4{font-size:14px;font-weight:bold}
+#add-sections .showcase ul.documents .specifics{font-size:11px;color:#666;margin:4px 0}
+#add-sections .showcase ul.documents li.publication,#add-sections .showcase ul.documents li.certification,#add-sections .showcase ul.documents li.patent{margin:10px 0 0;padding:5px 0 0}
+#add-sections .showcase ul.documents li.first{margin:0;padding:0}
+#add-sections .showcase ul.documents .specifics li{display:inline;*background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') no-repeat 0 7px;padding-right:5px;*padding-left:6px}
+#add-sections .showcase ul.documents .specifics li:before{content:'\007C';padding-right:5px}
+#add-sections .showcase ul.documents .specifics li:first-child{*padding-left:0;*background-image:none}
+#add-sections .showcase ul.documents .specifics li:first-child:before{content:'';padding-right:0}
+#add-sections .showcase ul.documents .attribution{font-size:11px;margin:4px 0}
+#add-sections .showcase ul.documents .summary{margin-top:3px;font-size:13px}
+#add-sections .showcase ul.volunteering h4{display:none}
+#add-sections .showcase ul.volunteering .experience,#add-sections .showcase ul.volunteering .interests{zoom:1}
+#add-sections .showcase ul.volunteering .experience h5{font-size:14px;font-weight:bold}
+#add-sections .showcase ul.volunteering .experience .specifics{font-size:11px;color:#666;margin:4px 0}
+#add-sections .showcase ul.volunteering .experience .specifics li{display:inline;*background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') no-repeat 0 7px;padding-right:5px;*padding-left:6px}
+#add-sections .showcase ul.volunteering .experience .specifics li:before{content:'\00B7';padding-right:5px}
+#add-sections .showcase ul.volunteering .experience .specifics li:first-child{*padding-left:0;*background-image:none}
+#add-sections .showcase ul.volunteering .experience .specifics li:first-child:before{content:'';padding-right:0}
+#add-sections .showcase ul.volunteering .experience .period{font-size:11px;margin:4px 0}
+#add-sections .showcase ul.volunteering .experience .summary{margin-top:3px;font-size:13px}
+#add-sections .showcase ul.volunteering .interests{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x 0 0 transparent;margin:12px 0 0;padding:12px 0 0}
+#add-sections .showcase ul.volunteering .care,#add-sections .showcase ul.volunteering .support{float:left;width:49%}
+#add-sections .showcase ul.volunteering .interests h5{font-weight:bold;margin-bottom:3px}
+#add-sections .showcase ul.volunteering .interests li li{list-style-type:disc;list-style-position:inside}
+.all-sections-added{height:220px;width:100%;background:#fff url('../images/pics2/img/pic/pic_li_wizard_206x191.png') top right no-repeat;color:#555}
+.all-sections-added h1,.all-sections-added p{width:250px;margin-bottom:10px}
+#main .all-sections-added h1,#dialog-wrapper .all-sections-added h1{font-size:180%}
+#main .all-sections-added p,#dialog-wrapper .all-sections-added p{font-size:150%}
+.all-sections-added .feedback{display:block}
+.all-sections-added .action{margin-top:15px;display:none}
+#dialog-wrapper .all-sections-added .actions{display:block}
+#dialog-wrapper .all-sections-added .btn-secondary{zoom:1;*padding-left:5px;*padding-right:5px}
+.from{position:absolute;left:-1234px}
+.to{font-size:130%}
+.start-date,.end-date{float:left}
+.profile-edit .year{width:4em}
+.profile-edit label.month{position:absolute;left:-1234px}
+#row-school select{width:430px}
+.edit-profile-section p.actions .btn-secondary{float:right;*padding-left:5px;*padding-right:5px;margin-top:2px;*margin-top:-25px}
+.edit-profile-section div.note{font-size:110%;color:#666;margin-top:.25em}
+.edit-profile-section .edit-document div.note{margin-left:195px}
+.js .edit-competencies .note,.js .edit-document .note{display:none}
+.edit-profile-section .remove-item{display:block;float:left;margin:4px 0 0 6px;width:15px;height:15px;background:transparent url('../images/pics2/img/sprite/sprite_profile_v9.png') 0 -1543px no-repeat;text-indent:-999em;cursor:pointer;display:none}
+.edit-profile-section .nudge .remove-item{background-position:0 -1609px}
+.edit-profile-section .add-item span{font-size:110%;color:#069;cursor:pointer}
+.edit-profile-section .reached-limit span{font-size:110%;color:#069;cursor:pointer}
+.edit-profile-section .remove-item,.edit-profile-section .add-item{display:none}
+.js.edit-profile-section .remove-item,.js.edit-profile-section .add-item{display:block}
+.edit-profile-section .edit-competencies{margin-top:20px}
+.edit-profile-section .edit-competencies .competency{overflow:visible;zoom:1;margin-bottom:3px;padding:4px 0}
+.edit-profile-section .edit-competencies .competency ul{_margin-left:10px}
+.edit-profile-section .edit-competencies legend,.edit-profile-section .edit-competencies label{display:none}
+.edit-profile-section .edit-competencies .first label{display:block;font-weight:bold;_margin-left:0;position:absolute;top:-22px}
+.edit-profile-section .edit-competencies li ul li{float:left;position:relative}
+.edit-profile-section .add-new{font-size:110%}
+.edit-profile-section .add-status{color:#060}
+.edit-profile-section .edit-competencies .remove-item{position:absolute;right:-21px;bottom:3px}
+.edit-profile-section .edit-competencies .first .remove-item{display:none}
+.edit-profile-section .skills .skill{width:250px;margin-right:10px}
+.edit-profile-section .skills .skill input{width:244px}
+.edit-profile-section .skills .proficiency{width:159px;margin-right:10px}
+.edit-profile-section .skills .proficiency select{width:100%}
+.edit-profile-section .skills .years-experience{width:159px;position:relative}
+.edit-profile-section .skills .years-experience select{width:100%}
+.competencies p.actions{background:none !important;padding-top:0 !important}
+.add-skill-container{display:none}
+.js .add-skill-container{display:block;background-color:#EFEFEF;margin:0 10px;padding:20px 20px 0;position:relative;zoom:1}
+.typeahead-loading-icon{display:none;position:absolute}
+.typeahead-loading-icon.loading{display:block}
+.add-skill-container .typeahead-loading-icon{top:25px;left:330px}
+.edit-skills-ta-results{position:absolute}
+.edit-skills-ta-results .yui-ac-content{width:325px !important;-moz-box-shadow:3px 3px 5px #AAA;-webkit-box-shadow:3px 3px 5px #AAA;box-shadow:0px 1px 2px #AAA}
+#edit-skills-add-ta{width:320px;font-size:13px;padding:2px;margin:0 3px 3px 0;*padding-top:3px}
+p.skills-counter{color:#333;font-size:11px;min-height:13px}
+p.skills-counter.error{background:url('../images/pics2/img/sprite/sprite_global_v5.png') no-repeat scroll 0 -968px transparent;color:#990000 !important;padding:2px 0 2px 15px !important}
+.skills-editor{background-color:#EFEFEF;padding:10px 20px 20px}
+.skills-editor .skills-list{background-color:#FFF;position:relative;min-height:28px;zoom:1}
+.js .skill-jb{display:none}
+.js .post-it.skill-callout{position:absolute;bottom:38px;left:-12345em;background:#FFFCD8;width:200px}
+.skill-jb.show-callout .post-it.skill-callout{left:-20px}
+.post-it.skill-callout .pointer{left:20px}
+.skill-callout .skill-extra-info{margin-left:5px;border:none;padding:0}
+.skill-callout .skill-extra-info li{margin-bottom:5px}
+.skill-extra-info li label{font-weight:normal}
+.edit-profile-section .languages .language{width:30%;margin-right:10px}
+.edit-profile-section .languages .language input{width:97%}
+.edit-profile-section .languages .proficiency{width:30%;margin-right:10px;position:relative}
+.edit-profile-section .languages .proficiency select{width:100%}
+.competencies .add-item span.reached-limit{display:none}
+.competencies .max .add-item span{display:none;color:#060}
+.competencies .max .add-item span.reached-limit{display:inline;cursor:auto}
+.edit-profile-section .edit-competencies .first.nudge{margin-top:4px}
+.edit-profile-section .competency.nudge{background-color:#e3f3f9}
+.edit-profile-section .edit-competencies .nudge label{top:-29px;left:0}
+.edit-profile-section .edit-competencies .nudge .required label{margin-left:-17px}
+.edit-profile-section .edit-competencies .competency.nudge{padding:7px 0 7px 7px}
+.js.edit-profile-section .edit-competencies .first.nudge .remove-item{display:inline}
+.edit-profile-section .skills .nudge .skill{width:243px}
+.edit-profile-section .skills .nudge .skill input{width:237px}
+.edit-profile-section .nudged{position:relative}
+.edit-profile-section .nudge-explanation{display:none}
+.edit-profile-section .nudged .nudge-explanation{display:block;background:url('../images/pics2/img/bg/bg_left_caret_v1.png') no-repeat 0 50%;position:absolute;top:10px;right:-240px;width:220px;*width:230px;padding-left:9px}
+.edit-profile-section .nudged .nudge-explanation p{padding:8px 20px;line-height:60px;color:#fff;font-size:180%;background:#48a8cd;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6CBAD9', endColorstr='#4B99C1');background:-moz-linear-gradient(top, #6cbad9, #4b99c1);background:-webkit-gradient(linear, left top, left bottom, from(#6cbad9), to(#4b99c1));-moz-border-radius:6px;-webkit-border-radius:6px;-o-border-radius:6px;border-radius:6px}
+.edit-profile-section .courses .course{width:250px;margin-right:20px}
+.edit-profile-section .courses .course input{width:100%}
+.edit-profile-section .courses .course-num{width:159px;margin-right:20px}
+.edit-profile-section .courses .course-num input{width:100%}
+.edit-profile-section .courses .course-occup{width:159px;position:relative}
+.edit-profile-section .courses .course-occup select{width:100%}
+.edit-profile-section .organization .dates input{width:auto}
+.edit-profile-section .organization .dates label.join{display:inline}
+.edit-profile-section .organization .date{overflow:hidden;zoom:1;margin-top:3px}
+.edit-profile-section .project .dates input{width:auto}
+.edit-profile-section .project .dates label.join{display:inline}
+.edit-profile-section .project .date{overflow:hidden;zoom:1;margin-top:3px}
+#end-date-toggle{display:inline}
+#end-date-range label,#end-date-to-present{font-size:13px;color:#333}
+.js #end-date-range,.js #end-date-to-present{display:none}
+#end-date-range .join{margin-right:5px}
+.edit-profile-section .edit-document input,.edit-profile-section .edit-document textarea{width:400px}
+.edit-profile-section .edit-document .date label{display:none}
+.edit-profile-section .edit-document .date select{margin-right:.5em}
+.edit-profile-section .edit-document legend{line-height:1.2}
+.edit-profile-section .edit-document .attribution ul{zoom:1}
+.edit-profile-section .edit-document .attribution li{padding-bottom:8px;overflow:hidden;zoom:1}
+.edit-profile-section .edit-document .attribution ul li input{float:left}
+.edit-profile-section .edit-document .attribution .default{font-size:130%}
+.edit-profile-section .edit-document .attribution label{display:none}
+.attribution .add-item span.reached-limit{display:none}
+.js .attribution .min li.item{display:none}
+.attribution .max .add-item span{display:none;color:#060}
+.attribution .max .add-item span.reached-limit{display:inline;cursor:auto}
+.edit-profile-section .patent .status input{width:auto}
+.edit-profile-section .patent .status li{display:inline;float:left}
+.edit-profile-section .certification .dates input{width:auto}
+.edit-profile-section .certification .dates label.join{display:inline}
+.edit-profile-section .certification .date{overflow:hidden;zoom:1}
+.edit-profile-section .certification #certification-start-date,.edit-profile-section .certification #certification-end-date{float:left}
+.edit-profile-section .volunteering .optional{font-size:13px}
+.edit-profile-section .volunteering .interests legend{font-size:13px;font-weight:bold;margin-bottom:1em}
+.edit-profile-section .volunteering .care{padding-left:195px;overflow:visible;zoom:1}
+.edit-profile-section .volunteering .care .list{margin-left:0;width:49%;float:left}
+.edit-profile-section .volunteering .care li{padding-left:23px;position:relative;padding-bottom:9px}
+.edit-profile-section .volunteering .care input{position:absolute;top:0;left:0;margin-top:0}
+.edit-profile-section .volunteering .care label{display:inline}
+.edit-profile-section .volunteering .care .error{margin-left:0}
+.edit-profile-section .volunteering .orgs{margin-left:195px}
+.edit-profile-section .volunteering .orgs p{margin:0 0 15px 0}
+.edit-profile-section .volunteering .orgs legend{margin-bottom:3px}
+.edit-profile-section .volunteering-interests form.volunteering{margin-left:-60px}
+.edit-profile-section .volunteering #other-causes,.edit-profile-section .volunteering #other-causes ul{margin:0;padding:0}
+.edit-profile-section .volunteering #other-causes li{padding:4px 0}
+.edit-profile-section .volunteering #other-causes label{display:none}
+.edit-profile-section .volunteering #other-causes .other-cause input{position:relative;width:145px}
+.edit-profile-section .volunteering .remove-item{position:absolute;bottom:9px;left:150px}
+.edit-profile-section .volunteering .first .remove-item{display:none}
+.edit-profile-section .volunteering .add-item span.reached-limit{display:none}
+.edit-profile-section .volunteering .max .add-item span{display:none;color:#060}
+.edit-profile-section .volunteering .max .add-item span.reached-limit{display:inline;cursor:auto}
+.edit-profile-section .volunteering .exp-org,.edit-profile-section .volunteering .exp-role{zoom:1}
+.edit-profile-section .volunteering .exp-org input,.edit-profile-section .volunteering .exp-role input{width:300px}
+.edit-profile-section .volunteering .duration .start-date,.edit-profile-section .volunteering .duration .end-date,.edit-profile-section .volunteering .duration .to{display:inline}
+.edit-profile-section .volunteering .duration .to,.edit-profile-section .volunteering .duration #to-present{margin:0 .3em;font-size:13px}
+.edit-profile-section .volunteering .duration .from,.edit-profile-section .volunteering .duration .month,.edit-profile-section .volunteering .duration .year,.edit-profile-section .volunteering #to-present{display:none}
+.edit-profile-section .volunteering .is-current #to-present{display:inline}
+.edit-profile-section .volunteering .is-current .end-date{display:none}
+.remove-confirmation form .actions{text-align:center}
+.remove-confirmation form .btn-primary{vertical-align:middle}
+.remove-confirmation form .alternate{line-height:2;font-size:13px}
+.remove-confirmation form .confirmation{margin-bottom:1em}
+#dialog-wrapper .remove-confirmation h1{display:none}
+.edit-my-profile .add-and-remove{position:absolute;top:2px;right:0;text-align:right}
+.edit-my-profile .add-and-remove .add{right:27px}
+.edit-my-profile .remove-section{display:block;text-indent:-999em;text-align:left;width:17px;height:17px;background:transparent url('../images/pics1/img/sprite/sprite_globalnav_v9.png') -6px -262px no-repeat;border-left:1px solid #ccc}
+.profile-edit .display-name li{margin-bottom:5px}
+.de.edit-my-profile #profile-volunteering h2{width:auto;text-indent:0;padding:0 250px 0 20px}
+.ru.edit-my-profile #profile-volunteering h2{width:auto;text-indent:0;padding:0 225px 0 20px}
+
+
+
+/* scss/modules/forms.css */
+
+.standard-form ul{margin:0;padding-top:10px;list-style-type:none}
+.standard-form ul ul,.standard-form .fieldgroup{margin:0 0 0 195px;_margin-left:198px;padding:0}
+.standard-form fieldset.details ul{margin:0}
+.standard-form li,.standard-form fieldset.details li{margin-bottom:10px}
+.standard-form li:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.standard-form li li,.standard-form fieldset.details li li{margin-bottom:0}
+.standard-form fieldset.details li input,.standard-form fieldset.details li select{margin-left:20px}
+#main .standard-form .last{margin-bottom:0;background-image:none}
+.standard-form{margin:20px 40px}
+.standard-form fieldset{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') 0 0 repeat-x;*background-position:0 1em}
+.standard-form li fieldset{background:none;border:none;margin:0;padding:0}
+.standard-form fieldset.details{background:#ebebeb;padding:10px 10px 1px 10px;margin:10px 0 0 195px;_margin-left:198px}
+.standard-form fieldset fieldset.details,.standard-form .fieldgroup fieldset.details{margin-left:0}
+.standard-form fieldset.details fieldset{margin:0;padding:0}
+.standard-form legend{font-size:180%;color:#333;background-color:#fff;padding-right:10px;*margin-left:-10px;_margin-left:-7px}
+.standard-form label,.standard-form li fieldset legend span,.standard-form li fieldset.details fieldset legend{font-size:13px;color:#333;background-color:transparent;font-weight:bold;display:block;float:left;text-align:right;width:185px;margin-right:10px}
+.standard-form li fieldset legend{position:relative;line-height:1.5;padding:0;margin:0}
+.standard-form li fieldset legend span{font-size:13px;position:absolute;*left:-7px;white-space:normal}
+.standard-form .optional label em,.standard-form .optional legend em{font-weight:normal;display:block}
+.standard-form .required label em,.standard-form .required legend em{color:#900}
+.standard-form li fieldset.details legend{display:none}
+.standard-form li fieldset.details fieldset legend{float:none;text-align:left;*margin-left:-10px;_margin-left:-7px}
+.standard-form .fieldgroup.checkbox input{float:left}
+.standard-form .fieldgroup.checkbox p{padding-left:23px;_margin-top:.5em}
+.standard-form .fieldgroup.checkbox .details{margin-left:23px}
+.standard-form .fieldgroup.checkbox label,.standard-form label.checkbox{font-weight:normal;padding:0;width:auto;display:inline;float:none;line-height:1;vertical-align:2px;text-align:left}
+.standard-form .fieldgroup.checkbox label{display:block;padding:4px 0 0 23px;*padding-top:0;_padding-left:20px;*padding-bottom:3px}
+.standard-form li fieldset label,.standard-form li fieldset.details fieldset label{font-weight:normal;float:none;text-align:left;line-height:1;width:auto;margin-bottom:0}
+.standard-form li fieldset.details label,.standard-form li fieldset.details label,.standard-form li .checkbox fieldset.details label{font-weight:bold;margin-bottom:5px;padding:0}
+.standard-form li fieldset.details li.checkbox{display:block;padding:0}
+.standard-form li fieldset.details li.checkbox input{margin-left:0}
+.standard-form li fieldset.details li.checkbox label{margin-left:0;padding:4px 0 0 20px;font-weight:normal}
+.standard-form li fieldset.details li.checkbox .subchoice{padding:9px 0 0 34px;margin:-8px 0 -3px}
+.standard-form li fieldset.details li .info{font-size:13px;padding:0 0 1px 20px;background:url('../images/pics1/img/icon/icon_info_yellow_16x16.png') no-repeat}
+.standard-form input,.standard-form select,.standard-form textarea{font-size:13px}
+.standard-form p{margin-left:195px;_margin-left:200px;margin-top:.25em;color:#333}
+.standard-form p.instructions{font-size:13px;margin-bottom:5px}
+.standard-form p.attention{font-size:13px;background:#fff5cc url('../images/pics2/img/icon/icon_status_info_16x16_v2.png') no-repeat 8px 6px;padding:6px 6px 6px 30px}
+.standard-form p.example,.standard-form p.tip,.standard-form p.note{font-size:11px;color:#666}
+.standard-form p.actions{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') 0 0 repeat-x;padding-top:20px;margin-top:20px;font-size:13px}
+.standard-form p.actions input{font-size:inherit;*font-size:100%;vertical-align:middle}
+.standard-form p.actions .alternate{line-height:2}
+.standard-form p.key{font-size:11px;color:#666;margin-top:15px}
+.standard-form p.key strong{vertical-align:top;color:#900;font-size:13px}
+.standard-form .error{font-size:12px;color:#900;font-weight:bold}
+.standard-form.sided{margin:20px 10px}
+.standard-form.sided ul ul,.standard-form.sided .fieldgroup{margin-left:120px;_margin-left:117px}
+.standard-form.sided .fieldgroup{_margin-left:123px}
+.standard-form.sided p{margin-left:120px}
+.standard-form.sided fieldset.details{margin-left:120px}
+.standard-form.sided fieldset.details ul label{width:auto}
+.standard-form.sided label,.standard-form.sided li fieldset legend span,.standard-form.sided li fieldset.details fieldset legend{width:110px}
+.standard-form.sided fieldset.details,.standard-form.sided fieldset.details ul{margin-left:0}
+.standard-form.simple{margin-top:0}
+.standard-form.simple .checkbox label{display:inline;padding:0;vertical-align:middle}
+.standard-form.simple .checkbox label input{float:none;display:inline}
+.standard-form.stacked{margin:0 10px}
+.standard-form.stacked label,.standard-form.stacked li fieldset legend span{float:none;text-align:left;line-height:1.5}
+.standard-form.stacked li.required{_padding-left:10px;_margin-left:-10px}
+.standard-form.stacked li.required label,.standard-form.stacked li.required fieldset legend span{margin-left:-10px}
+.standard-form.stacked li.required fieldset label{margin-left:inherit;*margin-left:0}
+.standard-form.stacked li fieldset legend span{position:static;*position:relative;*left:-7px}
+.standard-form.stacked li.required input{_margin-left:0}
+.standard-form.stacked li fieldset input{*margin-left:0}
+.standard-form.stacked ul ul,.standard-form.stacked .fieldgroup,.standard-form.stacked fieldset.details,.standard-form.stacked p,.standard-form .fieldgroup p,.standard-form fieldset.details p{margin-left:0}
+.standard-form .screen,.ajax-form .screen{position:relative;display:block;filter:alpha(opacity=0);opacity:0;z-index:2;zoom:1;_margin-left:-20px}
+.standard-form .progress-indicator,.ajax-form .progress-indicator{display:none}
+.standard-form.form-submit-processing .hidden,.ajax-form.form-submit-processing .hidden{width:1px;visibility:hidden;overflow:hidden}
+.standard-form.form-submit-processing .progress-indicator,.ajax-form.form-submit-processing .progress-indicator{display:inline;padding-left:21px;background:url('../images/pics1/img/anim/anim_loading_16x16.gif') no-repeat 5px center;zoom:1}
+
+
+
+
+/* lib/yui/2.8.1/editor/assets/editor-core.css */
+
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.1
+*/
+/* Set the cursor to busy when we are doing something */
+.yui-busy {
+    cursor: wait !important;
+}
+
+.yui-toolbar-container fieldset,
+.yui-editor-container fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.yui-toolbar-container legend {
+    display: none;
+}
+
+.yui-skin-sam .yui-toolbar-container .yui-button button,
+.yui-skin-sam .yui-toolbar-container .yui-button a,
+.yui-skin-sam .yui-toolbar-container .yui-button a:visited {
+    font-size: 0px;
+}
+
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-select button,
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-select a,
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-select a:visited,
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton button,
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a,
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a:visited {
+    font-size: 12px;
+}
+
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a.up,
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a.down {
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+}
+
+
+/* Setup the container with some padding and zoom it for IE's hasLayout */
+.yui-toolbar-container .yui-toolbar-subcont {
+    padding: .25em 0;
+    zoom: 1;
+}
+
+/* When collapsed set the toolbars container to display none */
+.yui-toolbar-container-collapsed .yui-toolbar-subcont {
+    display: none;
+}
+
+/* Setup the :after so that compliant browsers don't loose the bounding box */
+.yui-toolbar-container .yui-toolbar-subcont:after { display: block; clear: both; visibility: hidden; content: '.'; height: 0;}
+
+
+/* Drag handle for the toolbar's draggable property */
+.yui-toolbar-container span.yui-toolbar-draghandle {
+    cursor: move;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    overflow: hidden;
+    text-indent: 77777px;
+    width: 2px;
+    height: 20px;
+    display: block;
+    clear: none;
+    float: left;
+    margin: 0 0 0 .2em;
+}
+
+/* If the titlebar is draggable, the set the cursor */
+.yui-toolbar-container .yui-toolbar-titlebar.draggable {
+    cursor: move;
+}
+
+/* Set the titlebar to relative so we can position the collapse button */
+.yui-toolbar-container .yui-toolbar-titlebar {
+    position: relative;
+}
+
+/* Toolbar's titlebar styles */
+.yui-toolbar-container .yui-toolbar-titlebar h2 {
+    font-weight: bold;
+    letter-spacing: 0;
+    border: none;
+    color: #000;
+    margin: 0;
+    padding: .2em;
+}
+
+.yui-toolbar-container .yui-toolbar-titlebar h2 a {
+    text-decoration: none;
+    color: #000;
+    cursor: default;
+}
+
+/* If the toolbar is grouped the draghandle needs to be bigger */
+.yui-toolbar-container.yui-toolbar-grouped span.yui-toolbar-draghandle {
+    height: 40px;
+}
+
+
+/* Float the groups so they position nicely and zoom them for IE */
+.yui-toolbar-container .yui-toolbar-group {
+    float: left;
+    margin-right: .5em;
+    zoom: 1;
+}
+
+/* Setup the :after so that compliant browsers don't loose the bounding box */
+.yui-toolbar-container .yui-toolbar-group:after { display: block; clear: both; visibility: hidden; content: '.'; height: 0;}
+
+/* Grouped title styles */
+.yui-toolbar-container .yui-toolbar-group h3 {
+    font-size: 75%;
+    padding: 0 0 0 .25em;
+    margin: 0;
+}
+
+/* Style the separators with a left border */
+.yui-toolbar-container span.yui-toolbar-separator {
+    width: 2px;
+    padding: 0;
+    height: 18px;
+    margin: .2em 0 .2em .1em;
+    display: none;
+    float: left;
+
+}
+
+/* Set the height of a grouped separator to a little bit bigger */
+.yui-toolbar-container.yui-toolbar-grouped span.yui-toolbar-separator {
+    height: 45px;
+    *height: 50px;
+}
+
+
+/* Reset the height of a separator inside of a group */
+.yui-toolbar-container.yui-toolbar-grouped .yui-toolbar-group span.yui-toolbar-separator {
+    height: 18px;
+    display: block;
+}
+
+
+/* Kill the default styles of the list */
+.yui-toolbar-container ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Hide the group labels when the .yui-toolbar-nogrouplabels class is applied */
+.yui-toolbar-container .yui-toolbar-nogrouplabels h3 {
+    display: none;
+}
+
+
+/* Setup the default style of a button in the toolbar */
+.yui-toolbar-container .yui-push-button,
+.yui-toolbar-container .yui-color-button,
+.yui-toolbar-container .yui-menu-button {
+/*.yui-toolbar-container .yui-button {*/
+    position: relative;
+    cursor: pointer;
+}
+
+
+/* setup the default style of the A inside of the toolbar button */
+.yui-toolbar-container .yui-button .first-child, .yui-toolbar-container .yui-button .first-child a {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-size: 0px;
+}
+
+
+/* Setup the disabled state of a button */
+.yui-toolbar-container .yui-button-disabled {
+    cursor: default;
+}
+
+/* Disable the icon too */
+.yui-toolbar-container .yui-button-disabled .yui-toolbar-icon {
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+/*Disabled Spin button arrows*/
+.yui-toolbar-container .yui-button-disabled .up,
+.yui-toolbar-container .yui-button-disabled .down {
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+/* remove any padding from the A */
+.yui-toolbar-container .yui-button a {
+    overflow: hidden;
+}
+
+
+/* Override the default Button style for select menu*/
+.yui-toolbar-container .yui-toolbar-select .first-child a {
+    cursor: pointer;
+}
+
+
+/* Font Family Menu Style - This styles the menu items and the selected menu item */
+.yui-toolbar-fontname-arial { font-family: Arial; }
+
+.yui-toolbar-fontname-arial-black { font-family: Arial Black; }
+
+.yui-toolbar-fontname-comic-sans-ms { font-family: Comic Sans MS; }
+
+.yui-toolbar-fontname-courier-new { font-family: Courier New; }
+
+.yui-toolbar-fontname-times-new-roman { font-family: Times New Roman; }
+
+.yui-toolbar-fontname-verdana { font-family: Verdana; }
+
+.yui-toolbar-fontname-impact { font-family: Impact; }
+
+.yui-toolbar-fontname-lucida-console { font-family: Lucida Console; }
+
+.yui-toolbar-fontname-tahoma { font-family: Tahoma; }
+
+.yui-toolbar-fontname-trebuchet-ms { font-family: Trebuchet MS; }
+
+
+/* Spin Button */
+.yui-toolbar-container .yui-toolbar-spinbutton {
+    position: relative;
+}
+
+
+/* Setup the default style for the A */
+.yui-toolbar-container .yui-toolbar-spinbutton .first-child a {
+    z-index: 0;
+    opacity: 1;
+}
+
+
+/* Setup the position and style for the up and down arrows */
+.yui-toolbar-container .yui-toolbar-spinbutton a.up, .yui-toolbar-container .yui-toolbar-spinbutton a.down {
+    position: absolute;
+    display: block;
+    right: 0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
+/* Position all panels/overlays as absolute by default */
+.yui-toolbar-container .yui-overlay {
+    position: absolute;
+}
+
+/* Smash the default style for lists */
+.yui-toolbar-container .yui-overlay ul li {
+    margin: 0;
+    list-style-type: none;
+}
+
+
+/* Reset the z-index of the toolbar container so that menu's appear over the iframe in IE and Safari */
+.yui-toolbar-container {
+    z-index: 1;
+}
+
+
+/* The div around the iFrame */
+.yui-editor-container .yui-editor-editable-container {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+}
+
+/* The disbled state of the Editor */
+.yui-editor-container .yui-editor-masked {
+    background-color: #CCC;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+/* Style the editable iframe to hide it */
+.yui-editor-container iframe {
+    border: 0px;
+    padding: 0;
+    margin: 0;
+    zoom: 1;
+    display: block;
+}
+
+/* Reset some padding on the editable iframes container */
+.yui-editor-container .yui-editor-editable {
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the dom path box at the bottom of the editor */
+.yui-editor-container .dompath {
+    font-size: 85%;
+}
+
+/* Header styles for the Property Editor */
+.yui-editor-panel .hd {
+    text-align: left;
+    position: relative;
+}
+
+/* Setup some padding around the h3 */
+.yui-editor-panel .hd h3 {
+    font-weight: bold;
+    padding: 0.25em 0pt 0.25em 0.25em;
+    margin: 0;
+}
+
+
+/* set it to relative so we can position the close button - Zoom it for IE */
+.yui-editor-panel .bd {
+    width: 100%;
+    zoom: 1;
+    position: relative;
+}
+
+/* Setup some padding for the body container - Zoom it for IE */
+.yui-editor-panel .bd div.yui-editor-body-cont {
+    padding: .25em .1em;
+    zoom: 1;
+}
+
+/* Get the caret back in Geckp */
+.yui-editor-panel .bd .gecko form {
+    overflow: auto;
+}
+
+
+/* Setup the :after so that compliant browsers don't loose the bounding box */
+.yui-editor-panel .bd div.yui-editor-body-cont:after { display: block; clear: both; visibility: hidden; content: '.'; height: 0;}
+
+
+/* style the footer of the property editor */
+.yui-editor-panel .ft {
+    text-align: right;
+    width: 99%;
+    float: left;
+    clear: both;
+}
+
+
+/* Style the "tip" icon */
+.yui-editor-panel .ft span.tip {
+    display: block;
+    position: relative;
+    padding: .5em .5em .5em 23px;
+    text-align:left;
+    zoom: 1;
+}
+
+
+
+/* setup some form fields */
+.yui-editor-panel label {
+    clear: both;
+    float: left;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    zoom: 1;
+}
+
+/* This fixes the caret issue in Firefox */
+.yui-editor-panel .gecko label {
+    overflow: auto; 
+}
+
+/* more form fields */
+.yui-editor-panel label strong {
+    float: left;
+    width: 6em;
+}
+
+
+/* The remove link in the Link Property Editor */
+.yui-editor-panel .removeLink {
+    width: 80%;
+    text-align: right;
+}
+
+
+/* More form styling */
+.yui-editor-panel label input {
+    margin-left: .25em;
+    float: left;
+}
+
+
+.yui-editor-panel .yui-toolbar-group {
+    margin-bottom: 0.75em;
+}
+
+
+/* Image Padding in the Property Editor */
+.yui-editor-panel .yui-toolbar-group-padding {
+}
+
+
+/* Image Border in the Property Editor */
+.yui-editor-panel .yui-toolbar-group-border {
+}
+
+
+/* Image Text Flow in the Property Editor */
+.yui-editor-panel .yui-toolbar-group-textflow {
+}
+
+
+/* Image Height/Width in the Property Editor */
+.yui-editor-panel .height-width {
+    float: left;
+}
+
+/* Image Height/Width title */
+.yui-editor-panel .height-width h3 {
+}
+
+/* Image Height/Width container */
+.yui-editor-panel .height-width span {
+    font-style: italic;
+    display: block;
+    float: left;
+    overflow: visible;
+}
+
+/* Image Height/Width original info container */
+.yui-editor-panel .height-width span.info {
+    font-size: 70%;
+    margin-top: 3px;
+    float: none;
+}
+
+
+/* Border Size/Type button widths */
+.yui-editor-panel .yui-toolbar-bordersize, .yui-editor-panel .yui-toolbar-bordertype {
+    font-size: 75%;
+}
+
+
+/* Kill the separators in the Property Editor */
+.yui-editor-panel .yui-toolbar-container span.yui-toolbar-separator {
+    border: none;
+}
+
+
+/* Border Type solid */
+.yui-editor-panel .yui-toolbar-bordersize span a span,
+.yui-editor-panel .yui-toolbar-bordertype span a span {
+    display: block;
+    height: 8px;
+    left: 4px;
+    position: absolute;
+    top: 3px;
+    _top: -5px;
+    width: 24px;
+    text-indent: 52px;
+    font-size: 0%;
+}
+
+/* Border Type solid */
+.yui-editor-panel .yui-toolbar-bordertype span a span.yui-toolbar-bordertype-solid {
+    border-bottom: 1px solid black;
+}
+
+/* Border Type dotted */
+.yui-editor-panel .yui-toolbar-bordertype span a span.yui-toolbar-bordertype-dotted {
+    border-bottom: 1px dotted black;
+}
+
+/* Border Type dashed */
+.yui-editor-panel .yui-toolbar-bordertype span a span.yui-toolbar-bordertype-dashed {
+    border-bottom: 1px dashed black;
+}
+
+/* Border Size 0 */
+.yui-editor-panel .yui-toolbar-bordersize span a span.yui-toolbar-bordersize-0 {
+    *top: 0px;
+    text-indent: 0px;
+    font-size: 75%;
+}
+
+/* Border Size 1 */
+.yui-editor-panel .yui-toolbar-bordersize span a span.yui-toolbar-bordersize-1 {
+    border-bottom: 1px solid black;
+}
+
+/* Border Size 2 */
+.yui-editor-panel .yui-toolbar-bordersize span a span.yui-toolbar-bordersize-2 {
+    border-bottom: 2px solid black;
+}
+
+/* Border Size 3 */
+.yui-editor-panel .yui-toolbar-bordersize span a span.yui-toolbar-bordersize-3 {
+    top: 2px;
+    *top: -5px;
+    border-bottom: 3px solid black;
+}
+
+/* Border Size 4 */
+.yui-editor-panel .yui-toolbar-bordersize span a span.yui-toolbar-bordersize-4 {
+    top: 1px;
+    *top: -5px;
+    border-bottom: 4px solid black;
+}
+
+/* Border Size 5 */
+.yui-editor-panel .yui-toolbar-bordersize span a span.yui-toolbar-bordersize-5 {
+    top: 1px;
+    *top: -5px;
+    border-bottom: 5px solid black;
+}
+
+
+/* Border Size menu size */
+.yui-toolbar-container .yui-toolbar-bordersize-menu,
+.yui-toolbar-container .yui-toolbar-bordertype-menu {
+    width: 95px !important;
+}
+
+/* Border Size menu styles */
+.yui-toolbar-bordersize-menu .yuimenuitemlabel, .yui-toolbar-bordertype-menu .yuimenuitemlabel, 
+.yui-toolbar-bordersize-menu .yuimenuitemlabel, .yui-toolbar-bordertype-menu .yuimenuitemlabel:hover {
+    margin:0px 3px 7px 17px;
+}
+
+/* Border Size menu styles - Checked */
+.yui-toolbar-bordersize-menu .yuimenuitemlabel .checkedindicator, .yui-toolbar-bordertype-menu .yuimenuitemlabel .checkedindicator {
+    position: absolute;
+    left: -12px;
+    *top: 14px;
+    *left: 0px;
+}
+
+
+/* Border Size 1 - Menu Item */
+.yui-toolbar-bordersize-menu li.yui-toolbar-bordersize-1 a {
+    border-bottom: 1px solid black;
+    height: 14px;
+}
+
+/* Border Size 2 - Menu Item */
+.yui-toolbar-bordersize-menu li.yui-toolbar-bordersize-2 a {
+    border-bottom: 2px solid black;
+    height: 14px;
+}
+
+/* Border Size 3 - Menu Item */
+.yui-toolbar-bordersize-menu li.yui-toolbar-bordersize-3 a {
+    border-bottom: 3px solid black;
+    height: 14px;
+}
+
+/* Border Size 4 - Menu Item */
+.yui-toolbar-bordersize-menu li.yui-toolbar-bordersize-4 a {
+    border-bottom: 4px solid black;
+    height: 14px;
+}
+
+/* Border Size 5 - Menu Item */
+.yui-toolbar-bordersize-menu li.yui-toolbar-bordersize-5 a {
+    border-bottom: 5px solid black;
+    height: 14px;
+}
+
+
+
+/* Border Type Solid - Menu Item */
+.yui-toolbar-bordertype-menu li.yui-toolbar-bordertype-solid a {
+    border-bottom: 1px solid black;
+    height: 14px;
+}
+
+/* Border Type Dashed - Menu Item */
+.yui-toolbar-bordertype-menu li.yui-toolbar-bordertype-dashed a {
+    border-bottom: 1px dashed black;
+    height: 14px;
+}
+
+/* Border Type Dotted - Menu Item */
+.yui-toolbar-bordertype-menu li.yui-toolbar-bordertype-dotted a {
+    border-bottom: 1px dotted black;
+    height: 14px;
+}
+
+
+/* Hidden Headers for Accessibility */
+h2.yui-editor-skipheader, h3.yui-editor-skipheader {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+/* Setup the default look of a color menu and Zoom it for IE */
+.yui-toolbar-colors {
+    width: 133px;
+    zoom: 1;
+    display: none;
+    z-index: 100;
+    overflow: hidden;
+}
+
+
+/* Setup the :after so that compliant browsers don't loose the bounding box */
+.yui-toolbar-colors:after { display: block; clear: both; visibility: hidden; content: '.'; height: 0;}
+
+/* Style all of the A's so the float properly */
+.yui-toolbar-colors a {
+    height: 9px;
+    width: 9px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    text-indent: 999px;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid #F6F7EE;
+}
+
+/* Put a little border around one that is hovered over */
+.yui-toolbar-colors a:hover {
+    border: 1px solid black;
+}
+
+
+/* Smash the inhertited Menu style */
+.yui-color-button-menu {
+    overflow: visible;
+    background-color: transparent;
+}
+
+
+/* This is the preview box at the bottom of the menu - Zoom it for IE */
+.yui-toolbar-colors span {
+    position: relative;
+    display: block;
+    padding: 3px;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    zoom: 1;
+}
+
+/* Setup the :after so that compliant browsers don't loose the bounding box */
+.yui-toolbar-colors span:after { display: block; clear: both; visibility: hidden; content: '.'; height: 0;}
+
+
+/* This is the box with the color preview in it */
+.yui-toolbar-colors span em {
+    height: 35px;
+    width: 30px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    text-indent: 999px;
+    margin: 0.75px;
+    border: 1px solid black;
+}
+
+
+/* The container for the name and hex code */
+.yui-toolbar-colors span strong {
+    font-weight: normal;
+    padding-left: 3px;
+    display: block;
+    font-size: 85%;
+    float: left;
+    width: 65%;
+}
+
+
+
+.yui-toolbar-group-undoredo h3,
+.yui-toolbar-group-insertitem h3,
+.yui-toolbar-group-indentlist h3 {
+    width: 68px;
+}
+
+.yui-toolbar-group-indentlist2 h3 {
+    width: 122px;
+}
+
+.yui-toolbar-group-alignment h3 {
+    width: 130px;
+}
+
+
+
+
+/* lib/yui/2.8.1/editor/assets/skins/sam/editor-skin.css */
+
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.1
+*/
+/* Place the border around the editor */
+.yui-skin-sam .yui-editor-container {
+    border: 1px solid #808080;
+}
+
+/* Color the border of the container */
+.yui-skin-sam .yui-toolbar-container {
+    zoom: 1;
+}
+
+/* Load the background image on the Toolbars titlebar */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-titlebar {
+    background: url(../../../../assets/skins/sam/sprite.png) repeat-x 0 -200px;
+    position: relative;
+}
+
+.yui-skin-sam .yui-editor-container .draggable .yui-toolbar-titlebar {
+    cursor: move;
+}
+
+
+/* Give the titlebar some color and padding */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-titlebar h2 {
+    color: #000000;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.3em 1em;
+    font-size: 100%;
+    text-align: left;
+}
+
+
+/* Give the toolbars groups titles some color and padding */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-group h3 {
+    color: #808080;
+    font-size: 75%;
+    margin: 1em 0 0;
+    padding-bottom: 0;
+    padding-left: 0.25em;
+    text-align: left;
+}
+
+
+/* Hide all of the sepatators borders */
+.yui-toolbar-container span.yui-toolbar-separator {
+    border: none;
+    text-indent: 33px;
+    overflow: hidden;
+    margin: 0 .25em;
+}
+
+
+/* Background color of the toolbar */
+.yui-skin-sam .yui-toolbar-container {
+    background-color: #F2F2F2;
+}
+
+
+/* Add some padding to the toolbars sub container */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-subcont {
+    padding: 0 1em 0.35em;
+    border-bottom:1px solid #808080;
+}
+
+/* When the collapsed class is added, add a border to the bottom of the titlebar (since the toolbar itself is display none) */
+.yui-skin-sam .yui-toolbar-container-collapsed .yui-toolbar-titlebar {
+    border-bottom:1px solid #808080;
+}
+
+
+/* Remove the shadows from the menus in the toolbar - Menu.css override */
+.yui-skin-sam .yui-editor-container .visible .yui-menu-shadow,
+.yui-skin-sam .yui-editor-panel .visible .yui-menu-shadow {
+    display: none;
+}
+
+
+/* Remove padding/margin from lists */
+.yui-skin-sam .yui-editor-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove padding/margin from list items */
+.yui-skin-sam .yui-editor-container ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Float the LI's that wrap the buttons */
+.yui-skin-sam .yui-toolbar-group ul li.yui-toolbar-groupitem {
+    float: left;
+}
+
+
+/* Set the color and the border of the dompath container at the bottom of the editor */
+.yui-skin-sam .yui-editor-container .dompath {
+    background-color: #F2F2F2;
+    border-top:1px solid #808080;
+    color: #999;
+    text-align: left;
+    padding: 0.25em;
+}
+
+
+/* Set the image for the collapse button on the toolbar */
+.yui-skin-sam .yui-toolbar-container .collapse {
+    background: url(../../../../assets/skins/sam/sprite.png) no-repeat 0 -400px;
+}
+
+/* Set the image for the collapse button on the toolbar */
+.yui-skin-sam .yui-toolbar-container .collapsed {
+    background: url(../../../../assets/skins/sam/sprite.png) no-repeat 0 -350px;
+}
+
+/* Position the image and the container */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-titlebar span.collapse {
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    display: block;
+    overflow: hidden;
+    height: 15px;
+    width: 15px;
+    text-indent: 9999px;
+}
+
+
+/* Set the default styles for the buttons */
+.yui-skin-sam .yui-toolbar-container .yui-push-button,
+.yui-skin-sam .yui-toolbar-container .yui-color-button,
+.yui-skin-sam .yui-toolbar-container .yui-menu-button {
+    background: url(../../../../assets/skins/sam/sprite.png) repeat-x 0 0;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+    _font-size: 0;
+    margin: 0;
+    border-color: #808080;
+    color: #f2f2f2;
+    border-style: solid;
+    border-width: 1px 0;
+    zoom: 1;
+}
+
+/* Set the height of the buttons and pad them on the left for the icon */
+.yui-skin-sam .yui-toolbar-container .yui-push-button a,
+.yui-skin-sam .yui-toolbar-container .yui-color-button a,
+.yui-skin-sam .yui-toolbar-container .yui-menu-button a {
+    padding-left: 35px;
+    height: 20px;
+    text-decoration: none;
+    font-size: 0px;
+    line-height: 2;
+    display: block;
+    color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a,
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-select a {
+    font-size: 12px;
+}
+
+/* Set the height of the buttons and pad them on the left for the icon */
+.yui-skin-sam .yui-toolbar-container .yui-push-button .first-child,
+.yui-skin-sam .yui-toolbar-container .yui-color-button .first-child,
+.yui-skin-sam .yui-toolbar-container .yui-menu-button .first-child {
+    border-color: #808080;
+    border-style: solid;
+    border-width: 0 1px;
+    margin: 0 -1px;
+    display: block;
+    position: relative;
+}
+
+.yui-skin-sam .yui-toolbar-container .yui-push-button-disabled .first-child,
+.yui-skin-sam .yui-toolbar-container .yui-color-button-disabled .first-child,
+.yui-skin-sam .yui-toolbar-container .yui-menu-button-disabled .first-child {
+    border-color: #ccc;
+}
+
+.yui-skin-sam .yui-toolbar-container .yui-push-button-disabled a,
+.yui-skin-sam .yui-toolbar-container .yui-color-button-disabled a,
+.yui-skin-sam .yui-toolbar-container .yui-menu-button-disabled a {
+    color: #A6A6A6;
+    cursor: default;
+}
+
+.yui-skin-sam .yui-toolbar-container .yui-push-button-disabled,
+.yui-skin-sam .yui-toolbar-container .yui-color-button-disabled,
+.yui-skin-sam .yui-toolbar-container .yui-menu-button-disabled {
+    border-color: #ccc;
+}
+
+/* IE needs a little help positioning the first child */
+.yui-skin-sam .yui-toolbar-container .yui-button .first-child {
+    *left: 0px;
+}
+
+
+/* Font Family Drop Down */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-fontname {
+    width: 135px;
+}
+
+
+/* Header Drop Down */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-heading {
+    width: 92px;
+}
+
+
+/* Handle the hover state of the buttons */
+.yui-skin-sam .yui-toolbar-container .yui-button-hover {
+    background:url(../../../../assets/skins/sam/sprite.png) repeat-x 0 -1300px;
+    border-color: #808080;
+}
+
+
+/* Handle the selected state of the buttons */
+.yui-skin-sam .yui-toolbar-container .yui-button-selected {
+    background: url(../../../../assets/skins/sam/sprite.png) repeat-x 0 -1700px;
+    border-color: #808080;
+}
+
+/* When the nogrouplabels class is applied, set the h3's to display none */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-nogrouplabels h3 {
+    display: none;
+}
+
+/* When not showing the h3 group labels, add some margin to make up for them*/
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-nogrouplabels .yui-toolbar-group {
+	margin-top: .75em;
+}
+
+
+
+/* Handle the icon placeholder for the buttons
+    This is very important - position of this must be absolute.
+    If it is not positioned absolute, IE will place it over the a in the Toolbar
+    Doing this will cause the editor to loose focus and loose the selection.
+*/
+.yui-skin-sam .yui-toolbar-container .yui-push-button span.yui-toolbar-icon,
+.yui-skin-sam .yui-toolbar-container .yui-color-button span.yui-toolbar-icon,
+.yui-skin-sam .yui-toolbar-container .yui-menu-button span.yui-toolbar-icon {
+    display: block;
+    position: absolute;
+    top: 2px;
+    height: 18px;
+    width: 18px;
+    overflow: hidden;
+    background: url(editor-sprite.gif) no-repeat 30px 30px;
+}
+
+
+/* Swap out the image to an active image */
+.yui-skin-sam .yui-toolbar-container .yui-button-selected span.yui-toolbar-icon, .yui-skin-sam .yui-toolbar-container .yui-button-hover span.yui-toolbar-icon {
+    background-image: url(editor-sprite-active.gif);
+}
+
+/* Change the defaults to make them look more like the editor */
+.yui-skin-sam .yui-toolbar-container .visible .yuimenuitemlabel {
+    cursor: pointer;
+    color: #000;
+    *position: relative;
+}
+
+
+/* Set the background color of all menu containers */
+.yui-skin-sam .yui-toolbar-container .yui-button-menu {
+    background-color: #fff;
+}
+
+/* Adding this style to Menu's allows the scrolled menu to work in IE */
+.yui-skin-sam .yui-toolbar-container .yui-button-menu .yui-menu-body-scrolled {
+    position: relative;
+}
+
+/* Set the background of all menu items that are selected */
+.yui-skin-sam div.yuimenu li.selected {
+    background-color: #B3D4FF;
+}
+
+/* Set the color of the hrefs in a selected menu item */
+.yui-skin-sam div.yuimenu li.selected a.selected {
+    color: #000;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-bold span.yui-toolbar-icon {
+    background-position: 0 0;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-strikethrough span.yui-toolbar-icon {
+    background-position: 0 -108px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-italic span.yui-toolbar-icon {
+    background-position: 0 -36px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-undo span.yui-toolbar-icon {
+    background-position: 0 -1326px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-redo span.yui-toolbar-icon {
+    background-position: 0 -1355px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-underline span.yui-toolbar-icon {
+    background-position: 0 -72px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-subscript span.yui-toolbar-icon {
+    background-position: 0 -180px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-superscript span.yui-toolbar-icon {
+    background-position: 0 -144px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-forecolor span.yui-toolbar-icon {
+    background-position: 0 -216px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-backcolor span.yui-toolbar-icon {
+    background-position: 0 -288px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-justifyleft span.yui-toolbar-icon {
+    background-position: 0 -324px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-justifycenter span.yui-toolbar-icon {
+    background-position: 0 -360px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-justifyright span.yui-toolbar-icon {
+    background-position: 0 -396px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-justifyfull span.yui-toolbar-icon {
+    background-position: 0 -432px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-indent span.yui-toolbar-icon {
+    background-position: 0 -720px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-outdent span.yui-toolbar-icon {
+    background-position: 0 -684px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-createlink span.yui-toolbar-icon {
+    background-position: 0 -792px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-insertimage span.yui-toolbar-icon {
+    background-position: 1px -756px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-left span.yui-toolbar-icon {
+    background-position: 0 -972px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-right span.yui-toolbar-icon {
+    background-position: 0 -936px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-inline span.yui-toolbar-icon {
+    background-position: 0 -900px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-block span.yui-toolbar-icon {
+    background-position: 0 -864px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-bordercolor span.yui-toolbar-icon {
+    background-position: 0 -252px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-removeformat span.yui-toolbar-icon {
+    background-position: 0 -1080px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-hiddenelements span.yui-toolbar-icon {
+    background-position: 0 -1044px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-insertunorderedlist span.yui-toolbar-icon {
+    background-position: 0 -468px;
+    left: 5px;
+}
+
+/* Setting the background position of the sprite */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-insertorderedlist span.yui-toolbar-icon {
+    background-position: 0 -504px;
+    left: 5px;
+}
+
+/* Set the width of the spin buttons */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton,
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton .first-child {
+    width: 35px;
+}
+
+/* Pad the first child */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton .first-child a {
+    padding-left: 2px;
+    text-align: left;    
+}
+
+
+/* Spin Buttons - Remove the icon holder, they don't need it */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton span.yui-toolbar-icon {
+    display: none;
+}
+
+
+/* Spin Buttons - Prep the arrows */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a.up,
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a.down {
+    right: 2px;
+    background: url(editor-sprite.gif) no-repeat 0 -1222px;
+    overflow: hidden;
+    height: 6px;
+    width: 7px;
+    min-height: 0;
+    padding: 0;
+}
+
+/* Spin Buttons - The up arrow */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a.up {
+    top: 2px;
+    background-position: 0 -1222px;
+}
+
+/* Spin Buttons - The down arrow */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-spinbutton a.down {
+    bottom: 2px;
+    background-position: 0 -1187px;
+}
+
+/* Handle plain Select Elements */
+.yui-skin-sam .yui-toolbar-container select {
+    height: 22px;
+    border: 1px solid #808080;
+}
+
+/* Pad and align the Select Menus */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-select .first-child a {
+    padding-left: 5px;
+    text-align: left;    
+}
+
+/* Set the icon of the select menu for the drop down arrow */
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-select span.yui-toolbar-icon {
+    background: url( editor-sprite.gif ) no-repeat 0 -1144px;
+    overflow: hidden;
+    right: -2px;
+    top: 0px;
+    height: 20px;
+}
+
+/* Fix the color menu background if it's inside a Property Editor */
+.yui-skin-sam .yui-editor-panel .yui-color-button-menu .bd {
+    background-color: transparent;
+    border: none;
+    width: 135px;
+}
+
+
+/* Place a border around the color menu */
+.yui-skin-sam .yui-color-button-menu .yui-toolbar-colors {
+    border: 1px solid #808080;
+}
+
+
+
+/* Property Editor Panel styles */
+.yui-skin-sam .yui-editor-panel {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    overflow: visible;
+    position: absolute;
+}
+
+
+/* Margins on the header of the Property Editor */
+.yui-skin-sam .yui-editor-panel .hd {
+    margin: 10px 0 0;
+    padding: 0;
+    border: none;
+}
+
+/* Setup the background image on the title bar
+    We are styling the h3 instead if the div so we can make room
+    for the "knob" that floats on the top of the window.
+*/
+.yui-skin-sam .yui-editor-panel .hd h3 {
+    color: #000;
+    border: 1px solid #808080;
+    background: url(../../../../assets/skins/sam/sprite.png) repeat-x 0 -200px;
+    width: 99%;
+    position: relative;
+    margin: 0;
+    padding: 3px 0 0 0;
+    font-size: 93%;
+    text-indent: 5px;
+    height: 20px;
+}
+
+/* Style the body of the Property Editor */
+.yui-skin-sam .yui-editor-panel .bd {
+    background-color: #F2F2F2;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    width: 99%;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+/* Remove the padding/margin on lists in the Property Editor */
+.yui-skin-sam .yui-editor-panel ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Remove the padding/margin on list items in the Property Editor */
+.yui-skin-sam .yui-editor-panel ul li {
+    margin: 0;
+    padding: 0;
+}
+
+/* IE is havig trouble with our menu sizes here */
+.yui-skin-sam .yui-editor-panel .yuimenu {
+    /**width: 90px !important;*/
+}
+
+/* Remove the border from the toolbar's container and add some margin to it */
+.yui-skin-sam .yui-editor-panel .yui-toolbar-container .yui-toolbar-subcont {
+    padding: 0;
+    border: none;
+    margin-top: 0.35em;
+}
+
+/* Set the width of the bordersize and bordertype menu buttons */
+.yui-skin-sam .yui-editor-panel .yui-toolbar-bordersize, .yui-skin-sam .yui-editor-panel .yui-toolbar-bordertype {
+    width: 50px;
+}
+
+
+/* Form styling */
+.yui-skin-sam .yui-editor-panel label {
+    display: block;
+    float: none;
+    padding: 4px 0;
+    margin-bottom: 7px;
+}
+
+/* Form styling */
+.yui-skin-sam .yui-editor-panel label strong {
+    font-weight: normal;
+    font-size: 93%;
+    text-align: right;
+    padding-top: 2px;
+}
+
+
+/* Form styling */
+.yui-skin-sam .yui-editor-panel label input {
+    width: 75%;
+}
+
+/* Form styling */
+.yui-skin-sam .yui-editor-panel .createlink_target,
+.yui-skin-sam .yui-editor-panel .insertimage_target {
+    width: auto;
+    margin-right: 5px;
+}
+
+
+/* Form styling */
+.yui-skin-sam .yui-editor-panel .removeLink {
+    width: 98%;
+}
+
+/* Color the input yellow if it has the warning class applied */
+.yui-skin-sam .yui-editor-panel label input.warning {
+    background-color: #FFEE69;
+}
+
+
+/* Style the titles of the toolbar groups */
+.yui-skin-sam .yui-editor-panel .yui-toolbar-group h3 {
+    color: #000;
+    float: left;
+    font-weight: normal;
+
+    font-size: 93%;
+    margin: 5px 0 0 0;
+    padding: 0 3px 0 0;
+    text-align: right;
+}
+
+/* Style the header for the Height and Width boxes */
+.yui-skin-sam .yui-editor-panel .height-width h3 {
+    margin: 3px 0 0 10px;
+}
+
+/* Style the height and width container */
+.yui-skin-sam .yui-editor-panel .height-width {
+    margin: 3px 0 0 35px;
+    *margin-left: 14px;
+    width: 42%;
+    *width: 44%;
+}
+
+/* Give the border group a width */
+.yui-skin-sam .yui-editor-panel .yui-toolbar-group-border {
+    width: 190px;
+}
+
+.yui-skin-sam .yui-editor-panel .no-button .yui-toolbar-group-border {
+    width: 210px;
+}
+
+/* Give the padding group a width */
+.yui-skin-sam .yui-editor-panel .yui-toolbar-group-padding {
+    width: 203px;
+    _width: 198px;
+}
+
+.yui-skin-sam .yui-editor-panel .no-button .yui-toolbar-group-padding {
+    width: 172px;
+}
+
+/* Fix some margins for the H3's */
+.yui-skin-sam .yui-editor-panel .yui-toolbar-group-padding h3 {
+    margin-left: 25px;
+    *margin-left: 12px;
+}
+
+/* Image Properties - Text flow container size */
+.yui-skin-sam .yui-editor-panel .yui-toolbar-group-textflow {
+    width: 182px;
+}
+
+
+/* Remove the background image set in Panel.css */
+.yui-skin-sam .yui-editor-panel .hd {
+    background: none;
+}
+
+
+/* Give the footer som color and a border */
+.yui-skin-sam .yui-editor-panel .ft {
+    background-color: #F2F2F2;
+    border: 1px solid #808080;
+    border-top: none;
+    padding: 0;
+    margin: 0 0 2px 0;
+}
+
+
+/* Style the close button in the Property Editor */
+.yui-skin-sam .yui-editor-panel .hd span.close {
+    background:url(../../../../assets/skins/sam/sprite.png) no-repeat 0 -300px;
+    cursor:pointer;
+    display:block;
+    height:16px;
+    overflow:hidden;
+    position:absolute;
+    right:5px;
+    text-indent:500px;
+    top:2px;
+    width:26px;
+}
+
+/* Style the tip in the footer */
+.yui-skin-sam .yui-editor-panel .ft span.tip {
+    background-color: #EDF5FF;
+    border-top: 1px solid #808080;
+    font-size: 85%;
+}
+
+/* Style the tip in the footer */
+.yui-skin-sam .yui-editor-panel .ft span.tip strong {
+    display: block;
+    float: left;
+    margin: 0 2px 8px 0;
+}
+
+
+
+/* Setup the icon for a tip */
+.yui-skin-sam .yui-editor-panel .ft span.tip span.icon {
+    background: url( editor-sprite.gif ) no-repeat 0 -1260px;
+    display: block;
+    height: 20px;
+    left: 2px;
+    position: absolute;
+    top: 8px;
+    width: 20px;
+}
+
+/* Setup the background image for an info icon */
+.yui-skin-sam .yui-editor-panel .ft span.tip span.icon-info {
+    background-position: 2px -1260px;
+}
+
+/* Setup the background image for a warning icon */
+.yui-skin-sam .yui-editor-panel .ft span.tip span.icon-warn {
+    background-position: 2px -1296px;
+}
+
+
+/* Handle the knob that floats on top of the panel */
+.yui-skin-sam .yui-editor-panel .hd span.knob {
+    position: absolute;
+    height: 10px;
+    width: 28px;
+    top: -10px;
+    left: 25px;
+    text-indent: 9999px;
+    overflow: hidden;
+    background: url( editor-knob.gif ) no-repeat 0 0;
+}
+
+/* Reset some styles from the editor toolbar, when a toolbar is inside the Property Editor */
+.yui-skin-sam .yui-editor-panel .yui-toolbar-container {
+    float: left;
+    width: 100%;
+    background-image: none;
+    border: none;
+}
+
+/* Reset styles for menu buttons inside the Property Editor */
+.yui-skin-sam .yui-editor-panel .yui-toolbar-container .bd {
+    background-color: #ffffff;
+}
+
+
+/* This image is the one used to place the blankimage placeholder into the editor when you click on Insert an Image */
+.yui-editor-blankimage {
+    background-image: url( blankimage.png );
+}
+
+
+.yui-skin-sam .yui-editor-container .yui-resize-handle-br {
+    /* Make the handle a little bigger than the default */
+    height: 11px;
+    width: 11px;
+    /* Resposition the image */
+    background-position: -20px -60px;
+    /* Kill the hover on the handle */
+    background-color: transparent;
+}

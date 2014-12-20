@@ -1,0 +1,374 @@
+
+
+/* scss/apps/profile/profile_edit.css */
+
+#main .alert.attention{zoom:1;background:#fff5cc url('../images/pics2/img/icon/icon_status_info_16x16_v2.png') no-repeat 8px 6px;padding:6px 6px 6px 30px;margin-top:6px;clear:both}
+#main .standard-form .alert.attention{margin-left:195px}
+#main .standard-form.sided .alert.attention{margin-left:120px}
+#main .alert.attention p{padding:0;margin:0}
+p.tip{color:#666}
+.profile-edit h1{font-size:180%;border-bottom:1px solid #ccc;margin:0 0 12px;padding:0 0 6px}
+.profile-edit p.actions.remove{font-size:110%;margin-top:20px;padding-top:12px}
+.profile-edit .helper{font-size:110%}
+.edit-my-profile .edit{padding-left:.5em;font-style:normal}
+.edit-my-profile .add{background:none;font-size:11px;font-weight:normal;padding:0;white-space:nowrap}
+#extra .add{background:url('../images/pics2/img/sprite/sprite_profile_v9.png') 0 -571px no-repeat;font-size:12px;font-weight:bold;padding:2px 0 2px 15px;white-space:nowrap}
+.edit-my-profile p.recommendations{color:#666;font-style:italic}
+dd#pubgroups ul.groups p.hint .org{color:#000}
+.resume .installed-apps{border-bottom:2px solid #DDD}
+#company-callout .newcompany ul{margin-left:0}
+p.errors{height:auto}
+.profile-edit .standard-form .project .status select{max-width:405px;*width:405px}
+.profile-edit #extra #nav-profile-lang{margin-top:0}
+.profile-edit #extra .nav-profile-lang .content{padding:5px}
+.profile-edit #extra .nav-profile-lang h2,.profile-edit #extra .nav-profile-lang p,.profile-edit #extra .nav-profile-lang li{font-size:130%}
+.profile-edit #extra .nav-profile-lang h2{font-weight:bold}
+.profile-edit #extra .nav-profile-lang p{margin:0 0 5px 0;padding:0}
+.profile-edit #extra .mod-util p{margin:0 0 5px 5px}
+.profile-edit #extra .nav-profile-lang ul{margin:0 0 5px 0;padding:0;list-style-type:none}
+.profile-edit #extra .nav-profile-lang li{margin:0;padding:0;zoom:1}
+.profile-edit #extra .nav-profile-lang li a{margin:0;padding:3px;display:block;text-decoration:none;white-space:normal !important}
+.profile-edit #extra .nav-profile-lang li a:hover span.link{text-decoration:underline}
+.profile-edit #extra .nav-profile-lang li a.selected{background-color:#DBEFFB}
+.profile-edit #extra .nav-profile-lang li a span.primary{color:#666;font-size:90%}
+#body .li-editor fieldset{margin:0;padding:0;background:0}
+#body .li-editor fieldset legend{display:none}
+#body .li-editor ul{margin:0;padding:0}
+#body .li-editor{zoom:1;_width:380px;_margin-left:-10px;overflow:hidden}
+#body .li-editor .yui-toolbar-container{background:0}
+#body .li-editor .yui-toolbar-container .yui-toolbar-subcont{padding:0 0 5px 1px;border:0}
+#body .li-editor .yui-editor-container{border:0}
+#body .li-editor .yui-editor-container .yui-editor-editable-container{border:1px solid #666}
+.yui-skin-sam .yui-toolbar-container .yui-toolbar-createalink span.yui-toolbar-icon{background-position:0 -792px;left:5px}
+#body .li-editor .yui-toolbar-container .yui-toolbar-titlebar,#body .li-editor .yui-toolbar-container .collapse,#body .li-editor .yui-toolbar-container .yui-button,#body .li-editor .yui-editor-panel .hd h3,#body .li-editor .yui-editor-panel .hd span.close{background-image:url('../images/pics1/lib/yui/2.8.1/assets/skins/sam/sprite.png')}
+#body .li-editor .yui-toolbar-container .yui-push-button span.yui-toolbar-icon,#body .li-editor .yui-toolbar-container .yui-color-button span.yui-toolbar-icon,#body .li-editor .yui-toolbar-container .yui-menu-button span.yui-toolbar-icon{background-image:url('../images/pics2/lib/yui/2.8.1/assets/skins/sam/editor-sprite.gif')}
+#body .li-editor .yui-toolbar-container .yui-button-selected span.yui-toolbar-icon,#body .li-editor .yui-toolbar-container .yui-button-hover span.yui-toolbar-icon{background-image:url('../images/pics1/lib/yui/2.8.1/assets/skins/sam/editor-sprite-active.gif')}
+.visibility{font-size:13px}
+.visibility .intro{font-size:13px;margin:0 0 0 10px;padding:0}
+.visibility ul{margin:10px 0 10px 10px}
+.visibility li{margin:0 0 5px 0}
+.visibility li label{line-height:1.2;font-weight:bold;color:#333}
+.visibility li input{position:relative;top:2px}
+.visibility li p{font-size:12px;padding-left:23px;margin:4px 0 0}
+.visibility .actions{font-size:13px;margin:15px 0 10px 10px;padding:0}
+.visibility .actions .btn-primary{vertical-align:middle}
+.visibility-settings{display:inline-block;text-indent:-12345px;height:10px;width:10px;background:url('../images/pics2/img/icon/icon_lock_10x30_v2.png') 0 0 no-repeat}
+.visibility-settings:hover{background-position:0 -20px}
+.profile-edit .primary-profile-content{font-size:130%;line-height:1.25em;min-height:1.2em;_height:1.2em;background-color:#ebf6fb;position:relative;padding:3px 3px 3px 17px;clear:both;margin:0 7px 0 195px}
+.profile-edit .primary-profile-content .control{position:absolute;left:5px;top:0;display:block;height:15px;width:9px;background:url('../images/pics1/img/icon/icon_arrow_dwn_9x9.png') no-repeat 0 6px;cursor:pointer}
+.profile-edit .primary-profile-content.collapse-close{height:1.2em;overflow:hidden}
+.profile-edit .primary-profile-content.collapse-close .control{background-image:url('../images/pics2/img/icon/icon_arrow_rt_9x9.png')}
+#row-location,#row-province,#row-school{display:none}
+#row-school-typeahead .selected-school{display:none;font-size:11px}
+#row-school-typeahead .selected-school strong{padding-right:5px;font-weight:bold;font-size:11.5px}
+#row-school-typeahead .selected-school .change-school-cntl{white-space:nowrap}
+#row-school-typeahead .selected input{display:none}
+#row-school-typeahead .selected .selected-school{display:block}
+#row-school select{width:350px}
+#row-grade-typeahead .selected-grade{display:none;font-size:11px}
+#row-grade-typeahead .selected-grade strong{padding-right:5px;font-weight:bold;font-size:11.5px}
+#row-grade-typeahead .selected-grade .change-grade-cntl{white-space:nowrap}
+#location-display-selection{display:none}
+.edit-my-profile .add-sections{overflow:hidden;zoom:1;border-bottom:2px solid #ddd;margin:10px 0;padding:7px 5px 10px;background:#fff url('../images/pics1/img/sprite/sprite_marketing_bubble_v1.gif') 0 -14px repeat-x}
+.edit-my-profile .add-sections .new{float:left;margin:3px 1em 0 0}
+.edit-my-profile .add-sections h2{font-size:13px;font-weight:normal;display:table-cell;*display:inline-block}
+.edit-my-profile .add-sections .add{float:right;font-weight:normal;background:url('../images/pics2/img/sprite/sprite_profile_v9.png') 0 -570px no-repeat;font-size:13px;padding:2px 0 2px 15px;white-space:nowrap;margin-left:2em}
+#add-sections{zoom:1;overflow:hidden}
+#add-sections .sidebar{float:left;width:180px;margin-right:15px}
+#dialog-wrapper #add-sections .sidebar{overflow-y:auto;height:233px;margin-bottom:5px}
+#dialog-wrapper.adding-sections .dialog-body-loading{height:238px}
+#add-sections .navigation h2{font-weight:bold;font-size:110%}
+#add-sections .navigation ul{margin-bottom:10px}
+#add-sections .navigation li ul li{margin:2px 0 2px 2px;padding:2px 8px;font-size:130%}
+#add-sections .navigation li ul li.selected{background-color:#dceefa}
+#add-sections .overview{color:#333}
+#add-sections .overview h1{font-size:180%;color:#555;margin-bottom:8px}
+#add-sections .overview p.instruction{color:#555;font-size:130%}
+#add-sections .overview ul{border:1px solid #ccc;border-width:1px 0;padding:17px 0 10px;margin-top:12px;overflow:hidden;zoom:1}
+#add-sections .overview ul li{width:45%;float:left;margin-right:10px;position:relative}
+#add-sections .overview h2{display:none}
+#add-sections .overview h3{font-size:160%;margin-bottom:8px}
+#add-sections .overview h3,#add-sections .overview ul p{margin-left:75px}
+#add-sections .overview p.description{font-size:130%}
+#add-sections .overview .go-preview{font-size:11px;margin-top:7px}
+#add-sections .overview .actions{font-size:130%;padding:10px 0 0 190px}
+#add-sections .overview .dialog-close{float:right;margin-top:-28px}
+#dialog-wrapper #add-sections .overview .dialog-close{display:block}
+#add-sections .overview .thumbnail{height:64px;width:64px;position:absolute;left:0;top:0;z-index:100}
+#add-sections .overview .thumbnail a{cursor:pointer;display:block;height:100%;width:100%}
+#add-sections .overview .thumbnail img{display:block;margin:2px}
+#add-sections .overview .thumbnail span{background:url('../images/pics2/img/applications/icon_shadow_64x64_v3.png') no-repeat;width:100%;height:100%;position:absolute;left:0;top:0;z-index:105}
+#add-sections .showcase{margin-bottom:-54px;_margin-bottom:-24px;overflow:hidden;width:560px;cursor:default}
+#add-sections .showcase h2{background:#e8e8e8 url('../images/pics2/img/bg/bg_e8e8e8_1x25.gif') 0 0 repeat-x;border:1px solid #ddd;color:#555;font-size:130%;font-weight:bold;line-height:25px;padding:0 0 0 10px}
+#add-sections .showcase #screenshot{border:1px solid #ddd;border-width:0 1px 1px;height:184px;overflow:hidden}
+#add-sections .showcase .preview{border:1px solid #ddd;border-width:0 1px 1px;width:558px;height:184px;overflow:hidden}
+#add-sections .showcase .footer{background:url('../images/pics1/img/bg/bg_wave_mask_v3.png') 0 0 no-repeat;_background:none;width:560px;height:31px;_height:73px;position:relative;left:0;top:-48px;_top:-12px;text-align:right;overflow:hidden;zoom:1;padding-top:42px}
+#add-sections .showcase .footer form{display:inline}
+#add-sections .showcase .footer .alternate{font-size:130%;line-height:1.8}
+#add-sections .showcase .footer .dialog-close{display:none}
+#dialog-wrapper #add-sections .showcase .footer .dialog-close{display:block}
+#dialog-wrapper #add-sections .showcase .footer input.btn-primary{padding:5px 4px 4px}
+#dialog-wrapper #add-sections .showcase .footer a.btn-primary,#dialog-wrapper #add-sections .showcase .footer .btn-secondary{display:block;float:right;margin-left:10px;zoom:1}
+#dialog-wrapper #add-sections a.btn-primary,#dialog-wrapper #add-sections a.btn-secondary{padding:4px 6px 3px;line-height:1.5}
+#add-sections .showcase .preview h3{font-weight:normal;font-size:18px;color:#555;margin:10px}
+#add-sections .showcase .preview ul.skills{margin-left:20px}
+#add-sections .showcase ul.competencies,#add-sections .showcase ul.documents,#add-sections .showcase ul.volunteering{margin:0 10px 0 20px}
+#add-sections .showcase li.competency,#add-sections .showcase li.document,#add-sections .showcase li.experience,#add-sections .showcase li.interests{font-size:13px}
+#add-sections .showcase .linkish{color:#069}
+#add-sections .showcase .preview ul.documents li.organization{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x 0 0 transparent;margin:10px 0 0;padding:10px 0 0}
+#add-sections .showcase .preview ul.documents li.first{background:none;margin:0;padding:0}
+#add-sections .showcase ul.competencies li{list-style-type:disc;list-style-position:inside;margin-bottom:2px}
+#add-sections .showcase ul.competencies h4{display:inline;font-weight:normal}
+#add-sections .showcase ul.competencies .proficiency{color:#666}
+#add-sections .showcase ul.documents h4{font-size:14px;font-weight:bold}
+#add-sections .showcase ul.documents .specifics{font-size:11px;color:#666;margin:4px 0}
+#add-sections .showcase ul.documents li.publication,#add-sections .showcase ul.documents li.certification,#add-sections .showcase ul.documents li.patent{margin:10px 0 0;padding:5px 0 0}
+#add-sections .showcase ul.documents li.first{margin:0;padding:0}
+#add-sections .showcase ul.documents .specifics li{display:inline;*background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') no-repeat 0 7px;padding-right:5px;*padding-left:6px}
+#add-sections .showcase ul.documents .specifics li:before{content:'\007C';padding-right:5px}
+#add-sections .showcase ul.documents .specifics li:first-child{*padding-left:0;*background-image:none}
+#add-sections .showcase ul.documents .specifics li:first-child:before{content:'';padding-right:0}
+#add-sections .showcase ul.documents .attribution{font-size:11px;margin:4px 0}
+#add-sections .showcase ul.documents .summary{margin-top:3px;font-size:13px}
+#add-sections .showcase ul.volunteering h4{display:none}
+#add-sections .showcase ul.volunteering .experience,#add-sections .showcase ul.volunteering .interests{zoom:1}
+#add-sections .showcase ul.volunteering .experience h5{font-size:14px;font-weight:bold}
+#add-sections .showcase ul.volunteering .experience .specifics{font-size:11px;color:#666;margin:4px 0}
+#add-sections .showcase ul.volunteering .experience .specifics li{display:inline;*background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') no-repeat 0 7px;padding-right:5px;*padding-left:6px}
+#add-sections .showcase ul.volunteering .experience .specifics li:before{content:'\00B7';padding-right:5px}
+#add-sections .showcase ul.volunteering .experience .specifics li:first-child{*padding-left:0;*background-image:none}
+#add-sections .showcase ul.volunteering .experience .specifics li:first-child:before{content:'';padding-right:0}
+#add-sections .showcase ul.volunteering .experience .period{font-size:11px;margin:4px 0}
+#add-sections .showcase ul.volunteering .experience .summary{margin-top:3px;font-size:13px}
+#add-sections .showcase ul.volunteering .interests{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') repeat-x 0 0 transparent;margin:12px 0 0;padding:12px 0 0}
+#add-sections .showcase ul.volunteering .care,#add-sections .showcase ul.volunteering .support{float:left;width:49%}
+#add-sections .showcase ul.volunteering .interests h5{font-weight:bold;margin-bottom:3px}
+#add-sections .showcase ul.volunteering .interests li li{list-style-type:disc;list-style-position:inside}
+.all-sections-added{height:220px;width:100%;background:#fff url('../images/pics2/img/pic/pic_li_wizard_206x191.png') top right no-repeat;color:#555}
+.all-sections-added h1,.all-sections-added p{width:250px;margin-bottom:10px}
+#main .all-sections-added h1,#dialog-wrapper .all-sections-added h1{font-size:180%}
+#main .all-sections-added p,#dialog-wrapper .all-sections-added p{font-size:150%}
+.all-sections-added .feedback{display:block}
+.all-sections-added .action{margin-top:15px;display:none}
+#dialog-wrapper .all-sections-added .actions{display:block}
+#dialog-wrapper .all-sections-added .btn-secondary{zoom:1;*padding-left:5px;*padding-right:5px}
+.from{position:absolute;left:-1234px}
+.to{font-size:130%}
+.start-date,.end-date{float:left}
+.profile-edit .year{width:4em}
+.profile-edit label.month{position:absolute;left:-1234px}
+#row-school select{width:430px}
+.edit-profile-section p.actions .btn-secondary{float:right;*padding-left:5px;*padding-right:5px;margin-top:2px;*margin-top:-25px}
+.edit-profile-section div.note{font-size:110%;color:#666;margin-top:.25em}
+.edit-profile-section .edit-document div.note{margin-left:195px}
+.js .edit-competencies .note,.js .edit-document .note{display:none}
+.edit-profile-section .remove-item{display:block;float:left;margin:4px 0 0 6px;width:15px;height:15px;background:transparent url('../images/pics2/img/sprite/sprite_profile_v9.png') 0 -1543px no-repeat;text-indent:-999em;cursor:pointer;display:none}
+.edit-profile-section .nudge .remove-item{background-position:0 -1609px}
+.edit-profile-section .add-item span{font-size:110%;color:#069;cursor:pointer}
+.edit-profile-section .reached-limit span{font-size:110%;color:#069;cursor:pointer}
+.edit-profile-section .remove-item,.edit-profile-section .add-item{display:none}
+.js.edit-profile-section .remove-item,.js.edit-profile-section .add-item{display:block}
+.edit-profile-section .edit-competencies{margin-top:20px}
+.edit-profile-section .edit-competencies .competency{overflow:visible;zoom:1;margin-bottom:3px;padding:4px 0}
+.edit-profile-section .edit-competencies .competency ul{_margin-left:10px}
+.edit-profile-section .edit-competencies legend,.edit-profile-section .edit-competencies label{display:none}
+.edit-profile-section .edit-competencies .first label{display:block;font-weight:bold;_margin-left:0;position:absolute;top:-22px}
+.edit-profile-section .edit-competencies li ul li{float:left;position:relative}
+.edit-profile-section .add-new{font-size:110%}
+.edit-profile-section .add-status{color:#060}
+.edit-profile-section .edit-competencies .remove-item{position:absolute;right:-21px;bottom:3px}
+.edit-profile-section .edit-competencies .first .remove-item{display:none}
+.edit-profile-section .skills .skill{width:250px;margin-right:10px}
+.edit-profile-section .skills .skill input{width:244px}
+.edit-profile-section .skills .proficiency{width:159px;margin-right:10px}
+.edit-profile-section .skills .proficiency select{width:100%}
+.edit-profile-section .skills .years-experience{width:159px;position:relative}
+.edit-profile-section .skills .years-experience select{width:100%}
+.competencies p.actions{background:none !important;padding-top:0 !important}
+.add-skill-container{display:none}
+.js .add-skill-container{display:block;background-color:#EFEFEF;margin:0 10px;padding:20px 20px 0;position:relative;zoom:1}
+.typeahead-loading-icon{display:none;position:absolute}
+.typeahead-loading-icon.loading{display:block}
+.add-skill-container .typeahead-loading-icon{top:25px;left:330px}
+.edit-skills-ta-results{position:absolute}
+.edit-skills-ta-results .yui-ac-content{width:325px !important;-moz-box-shadow:3px 3px 5px #AAA;-webkit-box-shadow:3px 3px 5px #AAA;box-shadow:0px 1px 2px #AAA}
+#edit-skills-add-ta{width:320px;font-size:13px;padding:2px;margin:0 3px 3px 0;*padding-top:3px}
+p.skills-counter{color:#333;font-size:11px;min-height:13px}
+p.skills-counter.error{background:url('../images/pics2/img/sprite/sprite_global_v5.png') no-repeat scroll 0 -968px transparent;color:#990000 !important;padding:2px 0 2px 15px !important}
+.skills-editor{background-color:#EFEFEF;padding:10px 20px 20px}
+.skills-editor .skills-list{background-color:#FFF;position:relative;min-height:28px;zoom:1}
+.js .skill-jb{display:none}
+.js .post-it.skill-callout{position:absolute;bottom:38px;left:-12345em;background:#FFFCD8;width:200px}
+.skill-jb.show-callout .post-it.skill-callout{left:-20px}
+.post-it.skill-callout .pointer{left:20px}
+.skill-callout .skill-extra-info{margin-left:5px;border:none;padding:0}
+.skill-callout .skill-extra-info li{margin-bottom:5px}
+.skill-extra-info li label{font-weight:normal}
+.edit-profile-section .languages .language{width:30%;margin-right:10px}
+.edit-profile-section .languages .language input{width:97%}
+.edit-profile-section .languages .proficiency{width:30%;margin-right:10px;position:relative}
+.edit-profile-section .languages .proficiency select{width:100%}
+.competencies .add-item span.reached-limit{display:none}
+.competencies .max .add-item span{display:none;color:#060}
+.competencies .max .add-item span.reached-limit{display:inline;cursor:auto}
+.edit-profile-section .edit-competencies .first.nudge{margin-top:4px}
+.edit-profile-section .competency.nudge{background-color:#e3f3f9}
+.edit-profile-section .edit-competencies .nudge label{top:-29px;left:0}
+.edit-profile-section .edit-competencies .nudge .required label{margin-left:-17px}
+.edit-profile-section .edit-competencies .competency.nudge{padding:7px 0 7px 7px}
+.js.edit-profile-section .edit-competencies .first.nudge .remove-item{display:inline}
+.edit-profile-section .skills .nudge .skill{width:243px}
+.edit-profile-section .skills .nudge .skill input{width:237px}
+.edit-profile-section .nudged{position:relative}
+.edit-profile-section .nudge-explanation{display:none}
+.edit-profile-section .nudged .nudge-explanation{display:block;background:url('../images/pics2/img/bg/bg_left_caret_v1.png') no-repeat 0 50%;position:absolute;top:10px;right:-240px;width:220px;*width:230px;padding-left:9px}
+.edit-profile-section .nudged .nudge-explanation p{padding:8px 20px;line-height:60px;color:#fff;font-size:180%;background:#48a8cd;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6CBAD9', endColorstr='#4B99C1');background:-moz-linear-gradient(top, #6cbad9, #4b99c1);background:-webkit-gradient(linear, left top, left bottom, from(#6cbad9), to(#4b99c1));-moz-border-radius:6px;-webkit-border-radius:6px;-o-border-radius:6px;border-radius:6px}
+.edit-profile-section .courses .course{width:250px;margin-right:20px}
+.edit-profile-section .courses .course input{width:100%}
+.edit-profile-section .courses .course-num{width:159px;margin-right:20px}
+.edit-profile-section .courses .course-num input{width:100%}
+.edit-profile-section .courses .course-occup{width:159px;position:relative}
+.edit-profile-section .courses .course-occup select{width:100%}
+.edit-profile-section .organization .dates input{width:auto}
+.edit-profile-section .organization .dates label.join{display:inline}
+.edit-profile-section .organization .date{overflow:hidden;zoom:1;margin-top:3px}
+.edit-profile-section .project .dates input{width:auto}
+.edit-profile-section .project .dates label.join{display:inline}
+.edit-profile-section .project .date{overflow:hidden;zoom:1;margin-top:3px}
+#end-date-toggle{display:inline}
+#end-date-range label,#end-date-to-present{font-size:13px;color:#333}
+.js #end-date-range,.js #end-date-to-present{display:none}
+#end-date-range .join{margin-right:5px}
+.edit-profile-section .edit-document input,.edit-profile-section .edit-document textarea{width:400px}
+.edit-profile-section .edit-document .date label{display:none}
+.edit-profile-section .edit-document .date select{margin-right:.5em}
+.edit-profile-section .edit-document legend{line-height:1.2}
+.edit-profile-section .edit-document .attribution ul{zoom:1}
+.edit-profile-section .edit-document .attribution li{padding-bottom:8px;overflow:hidden;zoom:1}
+.edit-profile-section .edit-document .attribution ul li input{float:left}
+.edit-profile-section .edit-document .attribution .default{font-size:130%}
+.edit-profile-section .edit-document .attribution label{display:none}
+.attribution .add-item span.reached-limit{display:none}
+.js .attribution .min li.item{display:none}
+.attribution .max .add-item span{display:none;color:#060}
+.attribution .max .add-item span.reached-limit{display:inline;cursor:auto}
+.edit-profile-section .patent .status input{width:auto}
+.edit-profile-section .patent .status li{display:inline;float:left}
+.edit-profile-section .certification .dates input{width:auto}
+.edit-profile-section .certification .dates label.join{display:inline}
+.edit-profile-section .certification .date{overflow:hidden;zoom:1}
+.edit-profile-section .certification #certification-start-date,.edit-profile-section .certification #certification-end-date{float:left}
+.edit-profile-section .volunteering .optional{font-size:13px}
+.edit-profile-section .volunteering .interests legend{font-size:13px;font-weight:bold;margin-bottom:1em}
+.edit-profile-section .volunteering .care{padding-left:195px;overflow:visible;zoom:1}
+.edit-profile-section .volunteering .care .list{margin-left:0;width:49%;float:left}
+.edit-profile-section .volunteering .care li{padding-left:23px;position:relative;padding-bottom:9px}
+.edit-profile-section .volunteering .care input{position:absolute;top:0;left:0;margin-top:0}
+.edit-profile-section .volunteering .care label{display:inline}
+.edit-profile-section .volunteering .care .error{margin-left:0}
+.edit-profile-section .volunteering .orgs{margin-left:195px}
+.edit-profile-section .volunteering .orgs p{margin:0 0 15px 0}
+.edit-profile-section .volunteering .orgs legend{margin-bottom:3px}
+.edit-profile-section .volunteering-interests form.volunteering{margin-left:-60px}
+.edit-profile-section .volunteering #other-causes,.edit-profile-section .volunteering #other-causes ul{margin:0;padding:0}
+.edit-profile-section .volunteering #other-causes li{padding:4px 0}
+.edit-profile-section .volunteering #other-causes label{display:none}
+.edit-profile-section .volunteering #other-causes .other-cause input{position:relative;width:145px}
+.edit-profile-section .volunteering .remove-item{position:absolute;bottom:9px;left:150px}
+.edit-profile-section .volunteering .first .remove-item{display:none}
+.edit-profile-section .volunteering .add-item span.reached-limit{display:none}
+.edit-profile-section .volunteering .max .add-item span{display:none;color:#060}
+.edit-profile-section .volunteering .max .add-item span.reached-limit{display:inline;cursor:auto}
+.edit-profile-section .volunteering .exp-org,.edit-profile-section .volunteering .exp-role{zoom:1}
+.edit-profile-section .volunteering .exp-org input,.edit-profile-section .volunteering .exp-role input{width:300px}
+.edit-profile-section .volunteering .duration .start-date,.edit-profile-section .volunteering .duration .end-date,.edit-profile-section .volunteering .duration .to{display:inline}
+.edit-profile-section .volunteering .duration .to,.edit-profile-section .volunteering .duration #to-present{margin:0 .3em;font-size:13px}
+.edit-profile-section .volunteering .duration .from,.edit-profile-section .volunteering .duration .month,.edit-profile-section .volunteering .duration .year,.edit-profile-section .volunteering #to-present{display:none}
+.edit-profile-section .volunteering .is-current #to-present{display:inline}
+.edit-profile-section .volunteering .is-current .end-date{display:none}
+.remove-confirmation form .actions{text-align:center}
+.remove-confirmation form .btn-primary{vertical-align:middle}
+.remove-confirmation form .alternate{line-height:2;font-size:13px}
+.remove-confirmation form .confirmation{margin-bottom:1em}
+#dialog-wrapper .remove-confirmation h1{display:none}
+.edit-my-profile .add-and-remove{position:absolute;top:2px;right:0;text-align:right}
+.edit-my-profile .add-and-remove .add{right:27px}
+.edit-my-profile .remove-section{display:block;text-indent:-999em;text-align:left;width:17px;height:17px;background:transparent url('../images/pics1/img/sprite/sprite_globalnav_v9.png') -6px -262px no-repeat;border-left:1px solid #ccc}
+.profile-edit .display-name li{margin-bottom:5px}
+.de.edit-my-profile #profile-volunteering h2{width:auto;text-indent:0;padding:0 250px 0 20px}
+.ru.edit-my-profile #profile-volunteering h2{width:auto;text-indent:0;padding:0 225px 0 20px}
+
+
+
+/* scss/modules/forms.css */
+
+.standard-form ul{margin:0;padding-top:10px;list-style-type:none}
+.standard-form ul ul,.standard-form .fieldgroup{margin:0 0 0 195px;_margin-left:198px;padding:0}
+.standard-form fieldset.details ul{margin:0}
+.standard-form li,.standard-form fieldset.details li{margin-bottom:10px}
+.standard-form li:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.standard-form li li,.standard-form fieldset.details li li{margin-bottom:0}
+.standard-form fieldset.details li input,.standard-form fieldset.details li select{margin-left:20px}
+#main .standard-form .last{margin-bottom:0;background-image:none}
+.standard-form{margin:20px 40px}
+.standard-form fieldset{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') 0 0 repeat-x;*background-position:0 1em}
+.standard-form li fieldset{background:none;border:none;margin:0;padding:0}
+.standard-form fieldset.details{background:#ebebeb;padding:10px 10px 1px 10px;margin:10px 0 0 195px;_margin-left:198px}
+.standard-form fieldset fieldset.details,.standard-form .fieldgroup fieldset.details{margin-left:0}
+.standard-form fieldset.details fieldset{margin:0;padding:0}
+.standard-form legend{font-size:180%;color:#333;background-color:#fff;padding-right:10px;*margin-left:-10px;_margin-left:-7px}
+.standard-form label,.standard-form li fieldset legend span,.standard-form li fieldset.details fieldset legend{font-size:13px;color:#333;background-color:transparent;font-weight:bold;display:block;float:left;text-align:right;width:185px;margin-right:10px}
+.standard-form li fieldset legend{position:relative;line-height:1.5;padding:0;margin:0}
+.standard-form li fieldset legend span{font-size:13px;position:absolute;*left:-7px;white-space:normal}
+.standard-form .optional label em,.standard-form .optional legend em{font-weight:normal;display:block}
+.standard-form .required label em,.standard-form .required legend em{color:#900}
+.standard-form li fieldset.details legend{display:none}
+.standard-form li fieldset.details fieldset legend{float:none;text-align:left;*margin-left:-10px;_margin-left:-7px}
+.standard-form .fieldgroup.checkbox input{float:left}
+.standard-form .fieldgroup.checkbox p{padding-left:23px;_margin-top:.5em}
+.standard-form .fieldgroup.checkbox .details{margin-left:23px}
+.standard-form .fieldgroup.checkbox label,.standard-form label.checkbox{font-weight:normal;padding:0;width:auto;display:inline;float:none;line-height:1;vertical-align:2px;text-align:left}
+.standard-form .fieldgroup.checkbox label{display:block;padding:4px 0 0 23px;*padding-top:0;_padding-left:20px;*padding-bottom:3px}
+.standard-form li fieldset label,.standard-form li fieldset.details fieldset label{font-weight:normal;float:none;text-align:left;line-height:1;width:auto;margin-bottom:0}
+.standard-form li fieldset.details label,.standard-form li fieldset.details label,.standard-form li .checkbox fieldset.details label{font-weight:bold;margin-bottom:5px;padding:0}
+.standard-form li fieldset.details li.checkbox{display:block;padding:0}
+.standard-form li fieldset.details li.checkbox input{margin-left:0}
+.standard-form li fieldset.details li.checkbox label{margin-left:0;padding:4px 0 0 20px;font-weight:normal}
+.standard-form li fieldset.details li.checkbox .subchoice{padding:9px 0 0 34px;margin:-8px 0 -3px}
+.standard-form li fieldset.details li .info{font-size:13px;padding:0 0 1px 20px;background:url('../images/pics1/img/icon/icon_info_yellow_16x16.png') no-repeat}
+.standard-form input,.standard-form select,.standard-form textarea{font-size:13px}
+.standard-form p{margin-left:195px;_margin-left:200px;margin-top:.25em;color:#333}
+.standard-form p.instructions{font-size:13px;margin-bottom:5px}
+.standard-form p.attention{font-size:13px;background:#fff5cc url('../images/pics2/img/icon/icon_status_info_16x16_v2.png') no-repeat 8px 6px;padding:6px 6px 6px 30px}
+.standard-form p.example,.standard-form p.tip,.standard-form p.note{font-size:11px;color:#666}
+.standard-form p.actions{background:url('../images/pics2/img/bg/bg_grey_dotted_h-line_3x1.png') 0 0 repeat-x;padding-top:20px;margin-top:20px;font-size:13px}
+.standard-form p.actions input{font-size:inherit;*font-size:100%;vertical-align:middle}
+.standard-form p.actions .alternate{line-height:2}
+.standard-form p.key{font-size:11px;color:#666;margin-top:15px}
+.standard-form p.key strong{vertical-align:top;color:#900;font-size:13px}
+.standard-form .error{font-size:12px;color:#900;font-weight:bold}
+.standard-form.sided{margin:20px 10px}
+.standard-form.sided ul ul,.standard-form.sided .fieldgroup{margin-left:120px;_margin-left:117px}
+.standard-form.sided .fieldgroup{_margin-left:123px}
+.standard-form.sided p{margin-left:120px}
+.standard-form.sided fieldset.details{margin-left:120px}
+.standard-form.sided fieldset.details ul label{width:auto}
+.standard-form.sided label,.standard-form.sided li fieldset legend span,.standard-form.sided li fieldset.details fieldset legend{width:110px}
+.standard-form.sided fieldset.details,.standard-form.sided fieldset.details ul{margin-left:0}
+.standard-form.simple{margin-top:0}
+.standard-form.simple .checkbox label{display:inline;padding:0;vertical-align:middle}
+.standard-form.simple .checkbox label input{float:none;display:inline}
+.standard-form.stacked{margin:0 10px}
+.standard-form.stacked label,.standard-form.stacked li fieldset legend span{float:none;text-align:left;line-height:1.5}
+.standard-form.stacked li.required{_padding-left:10px;_margin-left:-10px}
+.standard-form.stacked li.required label,.standard-form.stacked li.required fieldset legend span{margin-left:-10px}
+.standard-form.stacked li.required fieldset label{margin-left:inherit;*margin-left:0}
+.standard-form.stacked li fieldset legend span{position:static;*position:relative;*left:-7px}
+.standard-form.stacked li.required input{_margin-left:0}
+.standard-form.stacked li fieldset input{*margin-left:0}
+.standard-form.stacked ul ul,.standard-form.stacked .fieldgroup,.standard-form.stacked fieldset.details,.standard-form.stacked p,.standard-form .fieldgroup p,.standard-form fieldset.details p{margin-left:0}
+.standard-form .screen,.ajax-form .screen{position:relative;display:block;filter:alpha(opacity=0);opacity:0;z-index:2;zoom:1;_margin-left:-20px}
+.standard-form .progress-indicator,.ajax-form .progress-indicator{display:none}
+.standard-form.form-submit-processing .hidden,.ajax-form.form-submit-processing .hidden{width:1px;visibility:hidden;overflow:hidden}
+.standard-form.form-submit-processing .progress-indicator,.ajax-form.form-submit-processing .progress-indicator{display:inline;padding-left:21px;background:url('../images/pics1/img/anim/anim_loading_16x16.gif') no-repeat 5px center;zoom:1}
+

@@ -1,0 +1,143 @@
+
+
+/* scss/modules/forms.css */
+
+.standard-form ul{margin:0;padding-top:10px;list-style-type:none}
+.standard-form ul ul,.standard-form .fieldgroup{margin:0 0 0 195px;_margin-left:198px;padding:0}
+.standard-form fieldset.details ul{margin:0}
+.standard-form li,.standard-form fieldset.details li{margin-bottom:10px}
+.standard-form li:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.standard-form li li,.standard-form fieldset.details li li{margin-bottom:0}
+.standard-form fieldset.details li input,.standard-form fieldset.details li select{margin-left:20px}
+#main .standard-form .last{margin-bottom:0;background-image:none}
+.standard-form{margin:20px 40px}
+.standard-form fieldset{background:url('../images/bg/bg_grey_dotted_h-line_3x1.png') 0 0 repeat-x;*background-position:0 1em}
+.standard-form li fieldset{background:none;border:none;margin:0;padding:0}
+.standard-form fieldset.details{background:#ebebeb;padding:10px 10px 1px 10px;margin:10px 0 0 195px;_margin-left:198px}
+.standard-form fieldset fieldset.details,.standard-form .fieldgroup fieldset.details{margin-left:0}
+.standard-form fieldset.details fieldset{margin:0;padding:0}
+.standard-form legend{font-size:180%;color:#333;background-color:#fff;padding-right:10px;*margin-left:-10px;_margin-left:-7px}
+.standard-form label,.standard-form li fieldset legend span,.standard-form li fieldset.details fieldset legend{font-size:13px;color:#333;background-color:transparent;font-weight:bold;display:block;float:left;text-align:right;width:185px;margin-right:10px}
+.standard-form li fieldset legend{position:relative;line-height:1.5;padding:0;margin:0}
+.standard-form li fieldset legend span{font-size:13px;position:absolute;*left:-7px;white-space:normal}
+.standard-form .optional label em,.standard-form .optional legend em{font-weight:normal;display:block}
+.standard-form .required label em,.standard-form .required legend em{color:#900}
+.standard-form li fieldset.details legend{display:none}
+.standard-form li fieldset.details fieldset legend{float:none;text-align:left;*margin-left:-10px;_margin-left:-7px}
+.standard-form .fieldgroup.checkbox input{float:left}
+.standard-form .fieldgroup.checkbox p{padding-left:23px;_margin-top:.5em}
+.standard-form .fieldgroup.checkbox .details{margin-left:23px}
+.standard-form .fieldgroup.checkbox label,.standard-form label.checkbox{font-weight:normal;padding:0;width:auto;display:inline;float:none;line-height:1;vertical-align:2px;text-align:left}
+.standard-form .fieldgroup.checkbox label{display:block;padding:4px 0 0 23px;*padding-top:0;_padding-left:20px;*padding-bottom:3px}
+.standard-form li fieldset label,.standard-form li fieldset.details fieldset label{font-weight:normal;float:none;text-align:left;line-height:1;width:auto;margin-bottom:0}
+.standard-form li fieldset.details label,.standard-form li fieldset.details label,.standard-form li .checkbox fieldset.details label{font-weight:bold;margin-bottom:5px;padding:0}
+.standard-form li fieldset.details li.checkbox{display:block;padding:0}
+.standard-form li fieldset.details li.checkbox input{margin-left:0}
+.standard-form li fieldset.details li.checkbox label{margin-left:0;padding:4px 0 0 20px;font-weight:normal}
+.standard-form li fieldset.details li.checkbox .subchoice{padding:9px 0 0 34px;margin:-8px 0 -3px}
+.standard-form li fieldset.details li .info{font-size:13px;padding:0 0 1px 20px;background:url('../images/icon/icon_info_yellow_16x16.png') no-repeat}
+.standard-form input,.standard-form select,.standard-form textarea{font-size:13px}
+.standard-form p{margin-left:195px;_margin-left:200px;margin-top:.25em;color:#333}
+.standard-form p.instructions{font-size:13px;margin-bottom:5px}
+.standard-form p.attention{font-size:13px;background:#fff5cc url('../images/icon/icon_status_info_16x16_v2.png') no-repeat 8px 6px;padding:6px 6px 6px 30px}
+.standard-form p.example,.standard-form p.tip,.standard-form p.note{font-size:11px;color:#666}
+.standard-form p.actions{background:url('../images/bg/bg_grey_dotted_h-line_3x1.png') 0 0 repeat-x;padding-top:20px;margin-top:20px;font-size:13px}
+.standard-form p.actions input{font-size:inherit;*font-size:100%;vertical-align:middle}
+.standard-form p.actions .alternate{line-height:2}
+.standard-form p.key{font-size:11px;color:#666;margin-top:15px}
+.standard-form p.key strong{vertical-align:top;color:#900;font-size:13px}
+.standard-form .error{font-size:12px;color:#900;font-weight:bold}
+.standard-form.sided{margin:20px 10px}
+.standard-form.sided ul ul,.standard-form.sided .fieldgroup{margin-left:120px;_margin-left:117px}
+.standard-form.sided .fieldgroup{_margin-left:123px}
+.standard-form.sided p{margin-left:120px}
+.standard-form.sided fieldset.details{margin-left:120px}
+.standard-form.sided fieldset.details ul label{width:auto}
+.standard-form.sided label,.standard-form.sided li fieldset legend span,.standard-form.sided li fieldset.details fieldset legend{width:110px}
+.standard-form.sided fieldset.details,.standard-form.sided fieldset.details ul{margin-left:0}
+.standard-form.simple{margin-top:0}
+.standard-form.simple .checkbox label{display:inline;padding:0;vertical-align:middle}
+.standard-form.simple .checkbox label input{float:none;display:inline}
+.standard-form.stacked{margin:0 10px}
+.standard-form.stacked label,.standard-form.stacked li fieldset legend span{float:none;text-align:left;line-height:1.5}
+.standard-form.stacked li.required{_padding-left:10px;_margin-left:-10px}
+.standard-form.stacked li.required label,.standard-form.stacked li.required fieldset legend span{margin-left:-10px}
+.standard-form.stacked li.required fieldset label{margin-left:inherit;*margin-left:0}
+.standard-form.stacked li fieldset legend span{position:static;*position:relative;*left:-7px}
+.standard-form.stacked li.required input{_margin-left:0}
+.standard-form.stacked li fieldset input{*margin-left:0}
+.standard-form.stacked ul ul,.standard-form.stacked .fieldgroup,.standard-form.stacked fieldset.details,.standard-form.stacked p,.standard-form .fieldgroup p,.standard-form fieldset.details p{margin-left:0}
+.standard-form .screen,.ajax-form .screen{position:relative;display:block;filter:alpha(opacity=0);opacity:0;z-index:2;zoom:1;_margin-left:-20px}
+.standard-form .progress-indicator,.ajax-form .progress-indicator{display:none}
+.standard-form.form-submit-processing .hidden,.ajax-form.form-submit-processing .hidden{width:1px;visibility:hidden;overflow:hidden}
+.standard-form.form-submit-processing .progress-indicator,.ajax-form.form-submit-processing .progress-indicator{display:inline;padding-left:21px;background:url('../images/anim/anim_loading_16x16.gif') no-repeat 5px center;zoom:1}
+
+
+
+/* scss/modules/login.css */
+
+.signin{margin-bottom:10px}
+.signin p,.signin #cookieDisabled{text-align:center;margin-bottom:15px;font-size:13px}
+.signin .alert p{text-align:left;font-weight:bold}
+.signin ul{-moz-border-radius:5px;-webkit-border-radius:5px;border:1px solid #ccc;width:605px;_width:615px;margin:0 auto;padding:30px 20px 30px 20px;_padding-right:0}
+.signin span.error{font-size:12px;display:block;margin-bottom:2px}
+.signin li{overflow:hidden;margin-bottom:4px;zoom:1}
+.signin label{font-size:13px;color:#333;display:block;float:left;text-align:right;padding-right:8px;width:210px;font-weight:bold;line-height:33px;*line-height:29px}
+.signin .fieldgroup{float:left;width:385px;padding:3px 0}
+.signin .fieldgroup input{font-size:16px;width:220px}
+.signin .fieldgroup a{font-size:11px;padding-left:5px}
+.signin .button{margin:10px 0 0 218px;*margin-left:109px;width:410px}
+.signin .button input{vertical-align:middle}
+.signin .button span{font-size:12px;vertical-align:middle}
+.signin div.alert{margin:0 0 29px}
+.en .signin ul{width:470px;_width:480px}
+.en .signin .fieldgroup{width:350px}
+.en .signin label{width:110px}
+.en .signin .button{margin-left:117px;*margin-left:59px}
+.login{margin:15px 0 25px}
+.login h1{font-size:160%}
+.login .loginform h3{font-size:180%;margin-bottom:10px;color:#666}
+.login .loginform h4{font-size:130%;margin-bottom:15px}
+.login .loginform p{margin-bottom:6px;font-size:120%}
+.login .loginform p.action{padding-left:94px;_padding-left:98px}
+.login .loginform p label{display:block;width:90px;float:left;text-align:right;line-height:1.5;margin-right:4px}
+.login .loginform p .input{font-size:100%;width:150px}
+.login .loginform p .btn-primary{font-size:100%}
+.login .form-guest .loginform{width:310px;margin:35px 30px 0 0;background:#EEE;float:right;-moz-border-radius:5px;-webkit-border-radius:5px;padding:15px 10px 10px;*padding-top:20px;_margin-right:15px}
+.login .form-guest .forgotpwd{font-size:110%;text-align:right}
+.login .guest-msg{width:350px;float:left}
+.login .guest-msg h2{color:#C60;font-weight:bold;font-size:240%;margin-bottom:15px}
+.login .guest-msg li{margin:0 0 10px 20px;padding:2px 0 5px 0;list-style:disc;font-size:130%}
+.login .guest-msg .copy{font-size:130%;margin:0 0 15px 15px}
+.login .form-member{margin:45px 0;padding-left:230px;width:325px}
+.login .form-member .forgotpwd{width:325px;font-size:110%;text-align:right}
+.login .not-registered{clear:both;font-size:130%;text-align:center;padding-top:30px;*padding-top:10px}
+.es .login .loginform p.action{padding-left:0}
+.es .login .loginform label{display:block;width:auto;float:none;text-align:left;line-height:1}
+.js .recaptcha{margin-left:110px}
+.captcha h1{font-size:2.2em;margin:10px 0 15px 0;padding:3px 0 7px;border-bottom:1px solid #ccc;text-align:left;font-weight:bold}
+.captcha h2{font-size:1.3em;margin-bottom:20px}
+.captcha h3{font-size:1.3em;color:#333;font-weight:bold;float:left}
+.captcha label{font-size:1.3em}
+.captcha .noscript{font-size:13px}
+.captcha p{margin:0 0 7px 110px;font-size:1.3em}
+.captcha.recaptcha p{margin:7px 0}
+.captcha .captcha-form{border:1px solid #ccc;padding:26px;margin:26px 78px 75px 100px;-moz-border-radius:9px;-webkit-border-radius:9px}
+.captcha .captcha-clear{overflow:hidden;width:80%;padding-bottom:15px}
+.captcha .captcha-audio{background:url('../images/icon/icon_audio_14x13.gif') no-repeat;height:14px;width:15px;text-indent:-123456px;display:block;float:left;margin-left:10px}
+.captcha .captcha-img{float:left;border:1px solid #e6e6e6;padding:2px;display:block}
+.captcha .captcha-input{width:250px}
+.captcha #captcha-get-new{display:none}
+.js .captcha #captcha-get-new{display:inline}
+.captcha .intro,.captcha .instructions{display:none}
+.js .captcha .intro,.js .captcha .instructions{display:block}
+.captcha .btn-primary{margin-left:112px;margin-top:7px}
+.captcha.recaptcha .btn-primary{margin-left:0}
+.captcha .type{padding-left:33px}
+.signin.challenge ul{width:420px;padding-left:50px;margin:0 auto;padding-top:10px}
+.signin.challenge ul{margin:0 auto;padding-top:10px}
+.signin.challenge ul label{width:auto;margin-top:10px}
+.signin.challenge p{font-size:13px;color:#666;text-align:left}
+.signin.challenge p.note{font-size:11px;margin:4px 0 0 0;padding:0}
+.signin.challenge p.actions{background:none;margin-bottom:0;padding-top:0;*padding-top:20px;*overflow:visible}
+
